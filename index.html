@@ -35,6 +35,8 @@
     .top-actions { display: flex; gap: 9px; align-items: center; }
     .status { color: var(--green); display: flex; align-items: center; gap: 7px; margin-right: 8px; }
     .status i { width: 7px; height: 7px; background: var(--green); border-radius: 50%; box-shadow: 0 0 11px var(--green); }
+    .status.demo { color: var(--orange); }
+    .status.demo i { background: var(--orange); box-shadow: 0 0 11px var(--orange); }
     .btn { border: 1px solid var(--line); background: rgba(18, 38, 41, .8); padding: 8px 13px; border-radius: 6px; cursor: pointer; }
     .btn:hover, .btn.active { border-color: rgba(115,226,177,.55); color: var(--green); }
     .layout { display: grid; grid-template-columns: 220px minmax(560px, 1fr) 285px; gap: 14px; }
@@ -127,7 +129,7 @@
   <main class="app">
     <header class="topbar">
       <div><div class="eyebrow">开放情报 / 实时监测</div><h1>战区脉搏 <span>实时热点态势</span></h1></div>
-      <div class="top-actions"><div class="status"><i></i> 数据流正常 · 00:00:04</div><button class="btn" id="refresh">↻ 刷新数据</button><button class="btn" id="layer">图层管理</button></div>
+      <div class="top-actions"><div class="status" id="connectionStatus"><i></i> 正在连接公开新闻源…</div><button class="btn" id="refresh">↻ 刷新数据</button><button class="btn" id="layer">图层管理</button></div>
     </header>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <section class="layout">
@@ -141,7 +143,7 @@
         <div class="filter"><h3>数据来源</h3><label class="source-toggle"><button data-source="卫星图像" aria-pressed="true">◉ 卫星图像 <span>已启用</span></button></label><label class="source-toggle"><button data-source="新闻情报" aria-pressed="true">◉ 新闻情报 <span>已启用</span></button></label><label class="source-toggle"><button data-source="社交信号" aria-pressed="true">◉ 社交信号 <span>已启用</span></button></label></div>
       </aside>
       <section class="panel map-panel">
-        <div class="map-head"><div><strong>东欧 · 黑海战区</strong><small>实时活动热度分布 / 更新时间 <span id="updated">17:53:04</span></small></div><div class="coords">49° 12' N &nbsp; 31° 10' E</div></div>
+        <div class="map-head"><div><strong>东欧 · 黑海战区</strong><small id="mapSubtitle">实时活动热度分布 / 等待公开新闻数据</small></div><div class="coords">49° 12' N &nbsp; 31° 10' E</div></div>
         <div class="map" id="map">
           <svg viewBox="0 0 800 590" preserveAspectRatio="none" aria-label="战区示意地图">
             <path d="M0 90L105 67l76 33 80-45 73 46 93-25 69 39 77-12 62 34 104-2 61 45v100l-69 19-44 91-79 20-74 87-87-30-91 37-54-77-100-14-36-94-91-11L0 345Z"/>
@@ -156,7 +158,7 @@
       </section>
       <aside class="panel right">
         <div class="section-title">当前态势概览</div>
-        <div class="metric-grid"><div class="metric danger" data-metric="活跃热点"><small>活跃热点</small><strong id="hotspots">24</strong><em>↑ 12%</em></div><div class="metric" data-metric="过去 24 小时"><small>过去 24 小时</small><strong>186</strong><em>事件</em></div><div class="metric" data-metric="受影响区域"><small>受影响区域</small><strong>17</strong><em>个</em></div><div class="metric" data-metric="置信度"><small>置信度</small><strong>87</strong><em>%</em></div></div>
+        <div class="metric-grid"><div class="metric danger" data-metric="活跃热点"><small>活跃热点</small><strong id="hotspots">6</strong><em>地图</em></div><div class="metric" data-metric="过去 24 小时"><small>过去 24 小时报道</small><strong id="reportCount">—</strong><em>条</em></div><div class="metric" data-metric="受影响区域"><small>报道来源</small><strong id="sourceCount">—</strong><em>个</em></div><div class="metric" data-metric="置信度"><small>数据状态</small><strong id="dataMode">演示</strong><em>模式</em></div></div>
         <div class="activity"><div class="section-title">最新活动</div><div class="feed-status" id="feedStatus">正在连接公开新闻源…</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
       </aside>
       <section class="panel timeline"><div class="timeline-head"><div class="section-title">事件时间轴 / 过去 24 小时</div><span>实时窗口</span></div><div class="track"><i class="event high" data-time="00:20" style="left:14%"><span>00:20</span></i><i class="event" data-time="04:35" style="left:31%"><span>04:35</span></i><i class="event high" data-time="08:10" style="left:47%"><span>08:10</span></i><i class="event" data-time="12:45" style="left:63%"><span>12:45</span></i><i class="event high" data-time="16:08" style="left:77%"><span>16:08</span></i><i class="event" data-time="17:42" style="left:91%"><span>17:42</span></i></div><div class="timeline-labels"><span>24:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>现在</span></div></section>
@@ -252,8 +254,28 @@
         return item;
       }));
     };
+    const setConnectionState = (message, demo = false) => {
+      const connection = document.querySelector('#connectionStatus');
+      connection.classList.toggle('demo', demo);
+      connection.innerHTML = `<i></i> ${message}`;
+    };
+    const updateLiveMetrics = articles => {
+      const domains = new Set(articles.map(article => article.domain).filter(Boolean));
+      document.querySelector('#reportCount').textContent = articles.length;
+      document.querySelector('#sourceCount').textContent = domains.size || '—';
+      document.querySelector('#dataMode').textContent = '实况';
+      document.querySelector('#mapSubtitle').textContent = `公开新闻热度分布 / 最近同步 ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
+    };
+    const showDemoMetrics = () => {
+      document.querySelector('#reportCount').textContent = '—';
+      document.querySelector('#sourceCount').textContent = '—';
+      document.querySelector('#dataMode').textContent = '演示';
+      document.querySelector('#mapSubtitle').textContent = `演示热点分布 / 新闻接口不可用 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
+    };
     const loadLiveNews = async () => {
       const status = document.querySelector('#feedStatus');
+      setConnectionState('正在连接公开新闻源…');
+      status.textContent = '正在请求 GDELT 近 24 小时报道…';
       const endpoint = 'https://api.gdeltproject.org/api/v2/doc/doc?query=war%20OR%20conflict%20OR%20missile%20OR%20airstrike&mode=artlist&format=json&maxrecords=12&sort=HybridRel&timespan=24h';
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 8000);
@@ -264,16 +286,25 @@
         const articles = (data.articles || []).filter(article => article.title && article.url);
         if (!articles.length) throw new Error('新闻源暂无可用结果');
         renderNews(articles);
+        updateLiveMetrics(articles);
         status.textContent = `实况新闻 · GDELT · ${articles.length} 条 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
         status.classList.add('live');
+        setConnectionState(`实况新闻已接入 · ${articles.length} 条报道`);
       } catch (error) {
         status.textContent = '公开新闻源暂时不可用 · 当前显示演示数据';
         status.classList.remove('live');
+        showDemoMetrics();
+        setConnectionState('公开新闻源不可用 · 显示演示数据', true);
       } finally {
         clearTimeout(timeout);
       }
     };
-    document.querySelector('#refresh').addEventListener('click', e => { e.currentTarget.textContent = '✓ 已更新'; document.querySelector('#updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour12:false}); setTimeout(() => e.currentTarget.textContent = '↻ 刷新数据', 1600); });
+    document.querySelector('#refresh').addEventListener('click', async e => {
+      e.currentTarget.textContent = '… 更新中';
+      await loadLiveNews();
+      e.currentTarget.textContent = '✓ 已更新';
+      setTimeout(() => e.currentTarget.textContent = '↻ 刷新数据', 1600);
+    });
     document.querySelector('#layer').addEventListener('click', e => {
       e.currentTarget.classList.toggle('active');
       document.querySelector('.side').classList.toggle('layers-open');
@@ -295,7 +326,6 @@
       map.scrollIntoView({behavior:'smooth', block:'center'});
       toast(firstVisible ? '已定位至当前热点' : '当前筛选条件下暂无热点');
     };
-    setInterval(() => { document.querySelector('#updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour12:false}); }, 5000);
     loadLiveNews();
     setInterval(loadLiveNews, 300000);
     applyFilters();
