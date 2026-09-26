@@ -51,7 +51,7 @@ export default {
     }
 
     const target = new URL(GDELT_ENDPOINT);
-    target.searchParams.set('query', 'war OR conflict OR missile OR airstrike');
+    target.searchParams.set('query', '(war OR conflict OR missile OR airstrike)');
     target.searchParams.set('mode', 'artlist');
     target.searchParams.set('format', 'json');
     target.searchParams.set('maxrecords', '12');
