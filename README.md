@@ -166,7 +166,7 @@ real-time-war-zone-ui/
 
 ## Cloudflare Worker 代理
 
-`worker.js` 提供一个受限的 Cloudflare Worker 示例，只转发固定的 GDELT 冲突新闻查询，并设置 5 分钟缓存与 GitHub Pages CORS 响应头。当前部署地址为 `https://war-zone-news-proxy.fendou986.workers.dev/`，页面已通过该地址请求新闻，从而避免浏览器直接请求 GDELT 时的跨域限制。Worker 不接受任意目标 URL，也不代表新闻内容经过事实核验。GDELT 触发频率限制时，页面会自动回退到演示数据。
+`worker.js` 提供一个受限的 Cloudflare Worker 示例，只转发固定的 GDELT 冲突新闻查询，并设置 10 分钟上游缓存、15 分钟 stale-while-revalidate 和 GitHub Pages CORS 响应头。成功结果会写入 Worker Cache，GDELT 限流或临时异常时优先返回最近一次成功结果。当前部署地址为 `https://war-zone-news-proxy.fendou986.workers.dev/`，页面已通过该地址请求新闻，从而避免浏览器直接请求 GDELT 时的跨域限制。Worker 不接受任意目标 URL，也不代表新闻内容经过事实核验。前端请求已增加并发锁、限流提示和 10 分钟自动刷新，避免重复请求；没有可用缓存时会明确回退到演示数据。
 
 ## 适用场景
 

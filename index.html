@@ -272,7 +272,11 @@
       document.querySelector('#dataMode').textContent = '演示';
       document.querySelector('#mapSubtitle').textContent = `演示热点分布 / 新闻接口不可用 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
     };
+    let newsRequest;
+    let lastLiveAt = 0;
     const loadLiveNews = async () => {
+      if (newsRequest) return newsRequest;
+      newsRequest = (async () => {
       const status = document.querySelector('#feedStatus');
       setConnectionState('正在连接公开新闻源…');
       status.textContent = '正在请求 GDELT 近 24 小时报道…';
@@ -281,23 +285,36 @@
       const timeout = setTimeout(() => controller.abort(), 8000);
       try {
         const response = await fetch(endpoint, { signal: controller.signal });
-        if (!response.ok) throw new Error(`新闻源响应 ${response.status}`);
+        if (!response.ok) {
+          const error = new Error(`新闻源响应 ${response.status}`);
+          error.status = response.status;
+          error.retryAfter = Number(response.headers.get('Retry-After') || 60);
+          throw error;
+        }
         const data = await response.json();
         const articles = (data.articles || []).filter(article => article.title && article.url);
         if (!articles.length) throw new Error('新闻源暂无可用结果');
         renderNews(articles);
         updateLiveMetrics(articles);
-        status.textContent = `实况新闻 · GDELT · ${articles.length} 条 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
+        lastLiveAt = Date.now();
+        const stale = response.headers.get('X-News-Stale') === 'true';
+        status.textContent = `${stale ? '缓存新闻' : '实况新闻'} · GDELT · ${articles.length} 条 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
         status.classList.add('live');
-        setConnectionState(`实况新闻已接入 · ${articles.length} 条报道`);
+        setConnectionState(`${stale ? '缓存新闻' : '实况新闻'}已接入 · ${articles.length} 条报道`);
+        if (stale) toast('新闻源限流，当前显示最近一次成功缓存');
       } catch (error) {
-        status.textContent = '公开新闻源暂时不可用 · 当前显示演示数据';
+        const limited = error.status === 429;
+        const wait = Math.ceil((error.retryAfter || 60) / 60);
+        status.textContent = limited ? `新闻源限流 · ${wait} 分钟后重试` : '公开新闻源暂时不可用 · 当前显示演示数据';
         status.classList.remove('live');
-        showDemoMetrics();
-        setConnectionState('公开新闻源不可用 · 显示演示数据', true);
+        if (!lastLiveAt) showDemoMetrics();
+        setConnectionState(limited ? `新闻源限流 · ${wait} 分钟后重试` : '公开新闻源不可用 · 显示演示数据', true);
       } finally {
         clearTimeout(timeout);
+        newsRequest = null;
       }
+      })();
+      return newsRequest;
     };
     document.querySelector('#refresh').addEventListener('click', async e => {
       e.currentTarget.textContent = '… 更新中';
@@ -327,7 +344,7 @@
       toast(firstVisible ? '已定位至当前热点' : '当前筛选条件下暂无热点');
     };
     loadLiveNews();
-    setInterval(loadLiveNews, 300000);
+    setInterval(loadLiveNews, 600000);
     applyFilters();
   </script>
 </body>
