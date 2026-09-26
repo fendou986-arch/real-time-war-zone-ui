@@ -49,7 +49,9 @@
     .filter label { color: var(--muted); display: block; margin: 9px 0; }
     input[type=range] { accent-color: var(--green); width: 100%; }
     .legend { display: grid; gap: 10px; margin-top: 13px; }
-    .legend div { display: flex; align-items: center; gap: 9px; color: var(--muted); }
+    .legend div { display: flex; align-items: center; gap: 9px; color: var(--muted); cursor: pointer; transition: opacity .2s; }
+    .legend div.disabled { opacity: .3; text-decoration: line-through; }
+    [hidden] { display: none !important; }
     .dot { width: 8px; height: 8px; border-radius: 50%; }
     .dot.red { background: var(--red); box-shadow: 0 0 10px var(--red); }
     .dot.orange { background: var(--orange); box-shadow: 0 0 10px var(--orange); }
@@ -82,6 +84,8 @@
     .map-tools button:hover { color: var(--green); border-color: var(--green); }
     .scale { position: absolute; bottom: 19px; left: 20px; color: var(--muted); font: 10px monospace; }
     .scale:before { content: ""; display: block; width: 85px; height: 4px; border-left: 1px solid var(--muted); border-right: 1px solid var(--muted); border-top: 1px solid var(--muted); margin-bottom: 4px; }
+    .toast { position: fixed; left: 50%; bottom: 26px; transform: translate(-50%, 12px); opacity: 0; pointer-events: none; background: #102a2b; border: 1px solid rgba(115,226,177,.45); color: var(--green); padding: 9px 14px; border-radius: 6px; z-index: 20; transition: opacity .2s, transform .2s; }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
     .right { padding: 15px; }
     .metric-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin: 13px 0 23px; }
     .metric { background: rgba(5,17,19,.7); border: 1px solid var(--line); border-radius: 6px; padding: 11px; }
@@ -113,14 +117,15 @@
       <div><div class="eyebrow">开放情报 / 实时监测</div><h1>战区脉搏 <span>实时热点态势</span></h1></div>
       <div class="top-actions"><div class="status"><i></i> 数据流正常 · 00:00:04</div><button class="btn" id="refresh">↻ 刷新数据</button><button class="btn" id="layer">图层管理</button></div>
     </header>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <section class="layout">
       <aside class="panel side">
         <h3>监测视图</h3>
         <nav class="nav">
-          <button class="selected"><b>01</b>全球态势</button><button><b>02</b>欧洲东部</button><button><b>03</b>中东地区</button><button><b>04</b>非洲之角</button><button><b>05</b>亚太区域</button>
+          <button class="selected" data-region="global"><b>01</b>全球态势</button><button data-region="europe"><b>02</b>欧洲东部</button><button data-region="middle-east"><b>03</b>中东地区</button><button data-region="africa"><b>04</b>非洲之角</button><button data-region="asia-pacific"><b>05</b>亚太区域</button>
         </nav>
         <div class="filter"><h3>筛选条件</h3><label>事件强度 <span id="intensityValue" style="float:right;color:var(--green)">全部</span></label><input id="intensity" type="range" min="0" max="100" value="0" /></div>
-        <div class="filter"><h3>显示图层</h3><div class="legend"><div><span class="dot red"></span>高强度冲突</div><div><span class="dot orange"></span>军事活动</div><div><span class="dot yellow"></span>紧张事件</div></div></div>
+        <div class="filter"><h3>显示图层</h3><div class="legend"><div data-layer="red"><span class="dot red"></span>高强度冲突</div><div data-layer="orange"><span class="dot orange"></span>军事活动</div><div data-layer="yellow"><span class="dot yellow"></span>紧张事件</div></div></div>
         <div class="filter"><h3>数据来源</h3><label>◉ 卫星图像 <span style="float:right;color:var(--green)">已启用</span></label><label>◉ 新闻情报 <span style="float:right;color:var(--green)">已启用</span></label><label>◉ 社交信号 <span style="float:right;color:var(--green)">已启用</span></label></div>
       </aside>
       <section class="panel map-panel">
@@ -133,7 +138,7 @@
             <path class="border" d="M160 75c-14 106 51 139 21 224s66 157 14 259M413 69c-42 113 22 184-15 252s51 156 2 258M663 104c-56 66-19 125-49 202s21 136-20 226"/>
           </svg>
           <div class="map-label" style="left:13%;top:23%">波兰</div><div class="map-label" style="left:41%;top:15%">白俄罗斯</div><div class="map-label" style="left:55%;top:45%">乌克兰</div><div class="map-label" style="left:71%;top:74%">黑海</div><div class="map-label" style="left:28%;top:70%">摩尔多瓦</div>
-          <div class="marker red" style="left:58%;top:49%"><span class="tip">顿涅茨克 · 高强度活动</span></div><div class="marker red" style="left:62%;top:57%"><span class="tip">马里乌波尔 · 交火热点</span></div><div class="marker orange" style="left:51%;top:38%"><span class="tip">基辅 · 空袭警报</span></div><div class="marker orange" style="left:68%;top:38%"><span class="tip">卢甘斯克 · 部队调动</span></div><div class="marker yellow" style="left:42%;top:53%"><span class="tip">敖德萨 · 港口活动</span></div><div class="marker yellow" style="left:76%;top:67%"><span class="tip">克里米亚 · 海上活动</span></div>
+          <div class="marker red" data-level="90" data-region="europe" style="left:58%;top:49%"><span class="tip">顿涅茨克 · 高强度活动</span></div><div class="marker red" data-level="88" data-region="europe" style="left:62%;top:57%"><span class="tip">马里乌波尔 · 交火热点</span></div><div class="marker orange" data-level="65" data-region="europe" style="left:51%;top:38%"><span class="tip">基辅 · 空袭警报</span></div><div class="marker orange" data-level="62" data-region="europe" style="left:68%;top:38%"><span class="tip">卢甘斯克 · 部队调动</span></div><div class="marker yellow" data-level="35" data-region="europe" style="left:42%;top:53%"><span class="tip">敖德萨 · 港口活动</span></div><div class="marker yellow" data-level="30" data-region="europe" style="left:76%;top:67%"><span class="tip">克里米亚 · 海上活动</span></div>
           <div class="map-tools"><button id="zoomIn" aria-label="放大地图">+</button><button id="zoomOut" aria-label="缩小地图">−</button><button id="locate" aria-label="定位当前位置">⌖</button></div><div class="scale">50 公里</div>
         </div>
       </section>
@@ -147,11 +152,52 @@
   </main>
   <script>
     const intensity = document.querySelector('#intensity');
-    intensity.addEventListener('input', e => document.querySelector('#intensityValue').textContent = e.target.value == 0 ? '全部' : `${e.target.value}+`);
+    const state = { region: 'global', minLevel: 0, layers: new Set(['red', 'orange', 'yellow']) };
+    const markers = [...document.querySelectorAll('.marker')];
+    const activityItems = [...document.querySelectorAll('.activity-item')];
+    const applyFilters = () => {
+      markers.forEach(marker => {
+        const visible = (state.region === 'global' || marker.dataset.region === state.region) &&
+          Number(marker.dataset.level) >= state.minLevel && state.layers.has([...marker.classList].find(c => ['red', 'orange', 'yellow'].includes(c)));
+        marker.hidden = !visible;
+      });
+      activityItems.forEach(item => {
+        const level = item.querySelector('.dot')?.classList;
+        const color = level && ['red', 'orange', 'yellow'].find(name => level.contains(name));
+        item.hidden = !state.layers.has(color);
+      });
+      document.querySelector('#hotspots').textContent = markers.filter(marker => !marker.hidden).length;
+    };
+    intensity.addEventListener('input', e => { state.minLevel = Number(e.target.value); document.querySelector('#intensityValue').textContent = state.minLevel === 0 ? '全部' : `${state.minLevel}+`; applyFilters(); });
+    const regionNames = { global: '全球态势', europe: '欧洲东部', 'middle-east': '中东地区', africa: '非洲之角', 'asia-pacific': '亚太区域' };
+    const toast = message => { const element = document.querySelector('#toast'); element.textContent = message; element.classList.add('show'); clearTimeout(window.toastTimer); window.toastTimer = setTimeout(() => element.classList.remove('show'), 1800); };
+    document.querySelectorAll('.nav button').forEach(button => button.addEventListener('click', () => {
+      document.querySelector('.nav .selected')?.classList.remove('selected');
+      button.classList.add('selected');
+      state.region = button.dataset.region;
+      document.querySelector('.map-head strong').textContent = `${regionNames[state.region]} · 实时战区`;
+      applyFilters();
+      toast(`已切换至${regionNames[state.region]}`);
+    }));
+    document.querySelectorAll('.legend [data-layer]').forEach(layer => layer.addEventListener('click', () => { const name = layer.dataset.layer; state.layers.has(name) ? state.layers.delete(name) : state.layers.add(name); layer.classList.toggle('disabled'); applyFilters(); }));
     document.querySelector('#refresh').addEventListener('click', e => { e.currentTarget.textContent = '✓ 已更新'; document.querySelector('#updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour12:false}); setTimeout(() => e.currentTarget.textContent = '↻ 刷新数据', 1600); });
-    document.querySelector('#layer').addEventListener('click', e => e.currentTarget.classList.toggle('active'));
-    let scale = 1; const map = document.querySelector('#map'); document.querySelector('#zoomIn').onclick = () => { scale = Math.min(1.25, scale + .1); map.style.transform = `scale(${scale})`; }; document.querySelector('#zoomOut').onclick = () => { scale = Math.max(1, scale - .1); map.style.transform = `scale(${scale})`; }; document.querySelector('#locate').onclick = () => map.scrollIntoView({behavior:'smooth'});
+    document.querySelector('#layer').addEventListener('click', e => {
+      e.currentTarget.classList.toggle('active');
+      document.querySelector('.side').classList.toggle('layers-open');
+      toast(e.currentTarget.classList.contains('active') ? '图层管理已展开' : '图层管理已收起');
+    });
+    let scale = 1;
+    const map = document.querySelector('#map');
+    document.querySelector('#zoomIn').onclick = () => { scale = Math.min(1.25, scale + .1); map.style.transform = `scale(${scale})`; toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
+    document.querySelector('#zoomOut').onclick = () => { scale = Math.max(1, scale - .1); map.style.transform = `scale(${scale})`; toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
+    document.querySelector('#locate').onclick = () => {
+      const firstVisible = markers.find(marker => !marker.hidden);
+      firstVisible?.animate([{filter:'brightness(2)'}, {filter:'brightness(1)'}], {duration:800, iterations:2});
+      map.scrollIntoView({behavior:'smooth', block:'center'});
+      toast(firstVisible ? '已定位至当前热点' : '当前筛选条件下暂无热点');
+    };
     setInterval(() => { const count = document.querySelector('#hotspots'); count.textContent = 24 + Math.floor(Math.random() * 3); }, 5000);
+    applyFilters();
   </script>
 </body>
 </html>
