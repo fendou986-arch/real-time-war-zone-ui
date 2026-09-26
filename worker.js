@@ -8,7 +8,7 @@ const RSS_FEEDS = [
 ];
 
 const decodeXml = value => value
-  .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+  .split('<![CDATA[').join('').split(']]>').join('')
   .replace(/&amp;/g, '&').replace(/&quot;/g, '"')
   .replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const tag = (xml, name) => {
