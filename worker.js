@@ -1,6 +1,35 @@
 const GDELT_ENDPOINT = 'https://api.gdeltproject.org/api/v2/doc/doc';
 const ALLOWED_ORIGIN = 'https://fendou986-arch.github.io';
 const CACHE_KEY = new Request('https://war-zone-news-proxy.internal/news');
+const RSS_FEEDS = [
+  ['BBC', 'https://feeds.bbci.co.uk/news/world/rss.xml'],
+  ['DW', 'https://rss.dw.com/rdf/rss-en-world'],
+  ['Al Jazeera', 'https://www.aljazeera.com/xml/rss/all.xml']
+];
+
+const decodeXml = value => value
+  .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+  .replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+  .replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+const tag = (xml, name) => {
+  const match = xml.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, 'i'));
+  return match ? decodeXml(match[1].replace(/<[^>]+>/g, '').trim()) : '';
+};
+const fetchRssFallback = async () => {
+  const responses = await Promise.allSettled(RSS_FEEDS.map(async ([domain, url]) => {
+    const response = await fetch(url, { headers: { 'User-Agent': 'war-zone-dashboard/1.0' } });
+    if (!response.ok) throw new Error(`${domain} RSS ${response.status}`);
+    const xml = await response.text();
+    return [...xml.matchAll(/<item[\s\S]*?<\/item>/gi)].slice(0, 5).map(item => {
+      const entry = item[0];
+      const title = tag(entry, 'title');
+      const link = tag(entry, 'link') || (entry.match(/<link[^>]*href=["']([^"']+)/i) || [])[1] || '';
+      return title && link ? { title, url: link, domain, seendate: tag(entry, 'pubDate') || new Date().toISOString() } : null;
+    }).filter(Boolean);
+  }));
+  const articles = responses.flatMap(result => result.status === 'fulfilled' ? result.value : []);
+  return { articles: articles.slice(0, 12), source: 'rss' };
+};
 
 export default {
   async fetch(request, env, ctx) {
@@ -44,6 +73,15 @@ export default {
         return cached;
       }
       if (response.status === 429) {
+        const fallback = await fetchRssFallback();
+        if (fallback.articles.length) {
+          const payload = new Response(JSON.stringify(fallback), {
+            status: 200,
+            headers: { ...corsHeaders, 'Content-Type': 'application/json', 'X-News-Source': 'rss-fallback' }
+          });
+          ctx.waitUntil(cache.put(CACHE_KEY, payload.clone()));
+          return payload;
+        }
         const cached = await cache.match(CACHE_KEY);
         if (cached) {
           const headers = new Headers(cached.headers);
