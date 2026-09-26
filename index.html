@@ -319,10 +319,11 @@
       return newsRequest;
     };
     document.querySelector('#refresh').addEventListener('click', async e => {
-      e.currentTarget.textContent = '… 更新中';
+      const refreshButton = e.currentTarget;
+      refreshButton.textContent = '… 更新中';
       await loadLiveNews();
-      e.currentTarget.textContent = '✓ 已更新';
-      setTimeout(() => e.currentTarget.textContent = '↻ 刷新数据', 1600);
+      refreshButton.textContent = '✓ 已更新';
+      setTimeout(() => refreshButton.textContent = '↻ 刷新数据', 1600);
     });
     document.querySelector('#layer').addEventListener('click', e => {
       e.currentTarget.classList.toggle('active');
