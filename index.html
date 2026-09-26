@@ -63,18 +63,19 @@
     .coords { color: var(--green); font-family: monospace; font-size: 11px; }
     .map {
       height: 592px; position: relative; overflow: hidden;
+      contain: layout paint; transform: translateZ(0); transform-origin: center center;
       background-color: #0b2023;
       background-image: linear-gradient(rgba(96, 175, 165,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(96, 175, 165,.08) 1px, transparent 1px), radial-gradient(ellipse at 45% 55%, rgba(37,94,84,.48), transparent 55%);
       background-size: 54px 54px, 54px 54px, auto;
     }
-    .map svg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .72; }
+    .map svg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .72; pointer-events: none; }
     .map svg path { fill: #173a38; stroke: #4c8b7a; stroke-width: 1.4; }
     .map svg .river { fill: none; stroke: #408e94; stroke-width: 2; opacity: .55; }
     .map svg .border { fill: none; stroke: #8ebba4; stroke-dasharray: 6 6; opacity: .38; }
     .map-label { position: absolute; color: rgba(172, 213, 193, .65); font-size: 11px; letter-spacing: .15em; }
-    .marker { position: absolute; width: 20px; height: 20px; transform: translate(-50%, -50%); cursor: pointer; z-index: 2; }
+    .marker { position: absolute; width: 20px; height: 20px; transform: translate(-50%, -50%) translateZ(0); cursor: pointer; z-index: 2; will-change: transform; }
     .marker:before { content: ""; position: absolute; inset: 3px; border-radius: 50%; background: currentColor; box-shadow: 0 0 14px currentColor; }
-    .marker:after { content: ""; position: absolute; inset: -9px; border: 1px solid currentColor; border-radius: 50%; animation: pulse 2s infinite; opacity: .8; }
+    .marker:after { content: ""; position: absolute; inset: -9px; border: 1px solid currentColor; border-radius: 50%; animation: pulse 2s infinite; opacity: .8; will-change: transform, opacity; }
     .marker.red { color: var(--red); } .marker.orange { color: var(--orange); } .marker.yellow { color: var(--yellow); }
     .marker .tip { display: none; position: absolute; left: 22px; top: -15px; white-space: nowrap; background: #071315; border: 1px solid currentColor; padding: 7px 9px; border-radius: 4px; font-size: 11px; color: var(--text); }
     .marker:hover .tip { display: block; }
@@ -107,7 +108,7 @@
     .timeline-head span { color: var(--green); font-family: monospace; font-size: 11px; }
     .track { height: 42px; position: relative; border-top: 1px solid #476563; background: repeating-linear-gradient(90deg, transparent 0, transparent calc(8.33% - 1px), rgba(124,168,169,.12) calc(8.33% - 1px), rgba(124,168,169,.12) 8.33%); }
     .track:before { content: ""; position: absolute; left: 7%; right: 4%; top: -4px; height: 7px; background: var(--green); opacity: .16; border-radius: 5px; }
-    .event { position: absolute; top: -7px; width: 9px; height: 9px; background: var(--orange); border: 2px solid #152d2d; border-radius: 50%; box-shadow: 0 0 8px var(--orange); }
+    .event { position: absolute; top: -7px; width: 9px; height: 9px; background: var(--orange); border: 2px solid #152d2d; border-radius: 50%; box-shadow: 0 0 8px var(--orange); transform: translateZ(0); }
     .event { cursor: pointer; }
     .event.high { background: var(--red); box-shadow: 0 0 8px var(--red); }
     .event span { position: absolute; top: 17px; left: -11px; color: var(--muted); font: 10px monospace; white-space: nowrap; }
@@ -162,7 +163,11 @@
     const state = { region: 'global', minLevel: 0, layers: new Set(['red', 'orange', 'yellow']) };
     const markers = [...document.querySelectorAll('.marker')];
     const activityItems = [...document.querySelectorAll('.activity-item')];
+    let filterFrame = 0;
     const applyFilters = () => {
+      if (filterFrame) return;
+      filterFrame = requestAnimationFrame(() => {
+        filterFrame = 0;
       markers.forEach(marker => {
         const visible = (state.region === 'global' || marker.dataset.region === state.region) &&
           Number(marker.dataset.level) >= state.minLevel && state.layers.has([...marker.classList].find(c => ['red', 'orange', 'yellow'].includes(c)));
@@ -174,6 +179,7 @@
         item.hidden = !state.layers.has(color);
       });
       document.querySelector('#hotspots').textContent = markers.filter(marker => !marker.hidden).length;
+      });
     };
     intensity.addEventListener('input', e => { state.minLevel = Number(e.target.value); document.querySelector('#intensityValue').textContent = state.minLevel === 0 ? '全部' : `${state.minLevel}+`; applyFilters(); });
     const regionNames = { global: '全球态势', europe: '欧洲东部', 'middle-east': '中东地区', africa: '非洲之角', 'asia-pacific': '亚太区域' };
@@ -216,9 +222,15 @@
       toast(e.currentTarget.classList.contains('active') ? '图层管理已展开' : '图层管理已收起');
     });
     let scale = 1;
+    let scaleFrame = 0;
     const map = document.querySelector('#map');
-    document.querySelector('#zoomIn').onclick = () => { scale = Math.min(1.25, scale + .1); map.style.transform = `scale(${scale})`; toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
-    document.querySelector('#zoomOut').onclick = () => { scale = Math.max(1, scale - .1); map.style.transform = `scale(${scale})`; toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
+    const setScale = value => {
+      scale = value;
+      if (scaleFrame) cancelAnimationFrame(scaleFrame);
+      scaleFrame = requestAnimationFrame(() => { map.style.transform = `scale(${scale})`; scaleFrame = 0; });
+    };
+    document.querySelector('#zoomIn').onclick = () => { setScale(Math.min(1.25, scale + .1)); toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
+    document.querySelector('#zoomOut').onclick = () => { setScale(Math.max(1, scale - .1)); toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
     document.querySelector('#locate').onclick = () => {
       const firstVisible = markers.find(marker => !marker.hidden);
       firstVisible?.animate([{filter:'brightness(2)'}, {filter:'brightness(1)'}], {duration:800, iterations:2});
