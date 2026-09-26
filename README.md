@@ -164,6 +164,10 @@ real-time-war-zone-ui/
 - 引入真实数据前的权限控制与审计日志
 - 增加服务端代理，降低浏览器跨域和第三方接口波动影响
 
+## Cloudflare Worker 代理
+
+`worker.js` 提供一个受限的 Cloudflare Worker 示例，只转发固定的 GDELT 冲突新闻查询，并设置 5 分钟缓存与 GitHub Pages CORS 响应头。当前部署地址为 `https://war-zone-news-proxy.fendou986.workers.dev/`，页面已通过该地址请求新闻，从而避免浏览器直接请求 GDELT 时的跨域限制。Worker 不接受任意目标 URL，也不代表新闻内容经过事实核验。GDELT 触发频率限制时，页面会自动回退到演示数据。
+
 ## 适用场景
 
 这个项目适合作为以下方向的界面原型或视觉基础：

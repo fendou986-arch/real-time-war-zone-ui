@@ -276,7 +276,7 @@
       const status = document.querySelector('#feedStatus');
       setConnectionState('正在连接公开新闻源…');
       status.textContent = '正在请求 GDELT 近 24 小时报道…';
-      const endpoint = 'https://api.gdeltproject.org/api/v2/doc/doc?query=war%20OR%20conflict%20OR%20missile%20OR%20airstrike&mode=artlist&format=json&maxrecords=12&sort=HybridRel&timespan=24h';
+      const endpoint = 'https://war-zone-news-proxy.fendou986.workers.dev/';
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 8000);
       try {
