@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>战区脉搏 · 实时热点态势</title>
+  <style>
+    :root {
+      --bg: #071013;
+      --panel: rgba(12, 24, 27, .88);
+      --panel-2: #0d1c20;
+      --line: rgba(124, 168, 169, .16);
+      --muted: #789294;
+      --text: #e4f1ed;
+      --green: #73e2b1;
+      --cyan: #66d9da;
+      --orange: #f5a65b;
+      --red: #f26e62;
+      --yellow: #e6ce74;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background: radial-gradient(circle at 50% -10%, #173337 0%, var(--bg) 48%);
+      font: 13px/1.45 Inter, "PingFang SC", "Microsoft YaHei", sans-serif;
+      min-width: 1080px;
+    }
+    button { font: inherit; color: inherit; }
+    .app { min-height: 100vh; padding: 24px 30px 30px; }
+    .topbar { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 24px; }
+    .eyebrow { color: var(--green); letter-spacing: .18em; font-size: 10px; font-weight: 700; }
+    h1 { margin: 5px 0 0; font-size: 25px; letter-spacing: .03em; }
+    h1 span { color: var(--muted); font-weight: 400; font-size: 14px; margin-left: 11px; }
+    .top-actions { display: flex; gap: 9px; align-items: center; }
+    .status { color: var(--green); display: flex; align-items: center; gap: 7px; margin-right: 8px; }
+    .status i { width: 7px; height: 7px; background: var(--green); border-radius: 50%; box-shadow: 0 0 11px var(--green); }
+    .btn { border: 1px solid var(--line); background: rgba(18, 38, 41, .8); padding: 8px 13px; border-radius: 6px; cursor: pointer; }
+    .btn:hover, .btn.active { border-color: rgba(115,226,177,.55); color: var(--green); }
+    .layout { display: grid; grid-template-columns: 220px minmax(560px, 1fr) 285px; gap: 14px; }
+    .panel { background: linear-gradient(145deg, rgba(18, 36, 39, .93), rgba(8, 20, 23, .9)); border: 1px solid var(--line); border-radius: 9px; box-shadow: 0 18px 50px rgba(0,0,0,.14); }
+    .side { padding: 14px; }
+    .side h3, .section-title { margin: 0; color: #aac3bf; letter-spacing: .12em; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+    .nav { display: grid; gap: 6px; margin: 16px 0 26px; }
+    .nav button { text-align: left; border: 0; background: transparent; color: var(--muted); padding: 10px 11px; border-radius: 6px; cursor: pointer; }
+    .nav button:hover, .nav button.selected { background: rgba(115,226,177,.1); color: var(--green); }
+    .nav button b { display: inline-block; width: 24px; color: #55706f; font-size: 10px; }
+    .filter { padding: 12px 0; border-top: 1px solid var(--line); }
+    .filter label { color: var(--muted); display: block; margin: 9px 0; }
+    input[type=range] { accent-color: var(--green); width: 100%; }
+    .legend { display: grid; gap: 10px; margin-top: 13px; }
+    .legend div { display: flex; align-items: center; gap: 9px; color: var(--muted); }
+    .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .dot.red { background: var(--red); box-shadow: 0 0 10px var(--red); }
+    .dot.orange { background: var(--orange); box-shadow: 0 0 10px var(--orange); }
+    .dot.yellow { background: var(--yellow); box-shadow: 0 0 10px var(--yellow); }
+    .map-panel { min-height: 650px; overflow: hidden; position: relative; }
+    .map-head { height: 58px; padding: 14px 17px; display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); position: relative; z-index: 3; }
+    .map-head strong { font-size: 14px; }
+    .map-head small { color: var(--muted); display: block; margin-top: 2px; }
+    .coords { color: var(--green); font-family: monospace; font-size: 11px; }
+    .map {
+      height: 592px; position: relative; overflow: hidden;
+      background-color: #0b2023;
+      background-image: linear-gradient(rgba(96, 175, 165,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(96, 175, 165,.08) 1px, transparent 1px), radial-gradient(ellipse at 45% 55%, rgba(37,94,84,.48), transparent 55%);
+      background-size: 54px 54px, 54px 54px, auto;
+    }
+    .map svg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .72; }
+    .map svg path { fill: #173a38; stroke: #4c8b7a; stroke-width: 1.4; }
+    .map svg .river { fill: none; stroke: #408e94; stroke-width: 2; opacity: .55; }
+    .map svg .border { fill: none; stroke: #8ebba4; stroke-dasharray: 6 6; opacity: .38; }
+    .map-label { position: absolute; color: rgba(172, 213, 193, .65); font-size: 11px; letter-spacing: .15em; }
+    .marker { position: absolute; width: 20px; height: 20px; transform: translate(-50%, -50%); cursor: pointer; z-index: 2; }
+    .marker:before { content: ""; position: absolute; inset: 3px; border-radius: 50%; background: currentColor; box-shadow: 0 0 14px currentColor; }
+    .marker:after { content: ""; position: absolute; inset: -9px; border: 1px solid currentColor; border-radius: 50%; animation: pulse 2s infinite; opacity: .8; }
+    .marker.red { color: var(--red); } .marker.orange { color: var(--orange); } .marker.yellow { color: var(--yellow); }
+    .marker .tip { display: none; position: absolute; left: 22px; top: -15px; white-space: nowrap; background: #071315; border: 1px solid currentColor; padding: 7px 9px; border-radius: 4px; font-size: 11px; color: var(--text); }
+    .marker:hover .tip { display: block; }
+    @keyframes pulse { 0%,100% { transform: scale(.5); opacity: .8; } 50% { transform: scale(1.5); opacity: .15; } }
+    .map-tools { position: absolute; right: 15px; top: 15px; display: grid; gap: 5px; z-index: 4; }
+    .map-tools button { width: 29px; height: 29px; background: #0a1b1d; border: 1px solid var(--line); border-radius: 4px; cursor: pointer; }
+    .map-tools button:hover { color: var(--green); border-color: var(--green); }
+    .scale { position: absolute; bottom: 19px; left: 20px; color: var(--muted); font: 10px monospace; }
+    .scale:before { content: ""; display: block; width: 85px; height: 4px; border-left: 1px solid var(--muted); border-right: 1px solid var(--muted); border-top: 1px solid var(--muted); margin-bottom: 4px; }
+    .right { padding: 15px; }
+    .metric-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin: 13px 0 23px; }
+    .metric { background: rgba(5,17,19,.7); border: 1px solid var(--line); border-radius: 6px; padding: 11px; }
+    .metric small { color: var(--muted); display: block; margin-bottom: 5px; }
+    .metric strong { font-size: 22px; font-weight: 500; }
+    .metric em { color: var(--green); font-size: 10px; font-style: normal; margin-left: 3px; }
+    .metric.danger strong { color: var(--red); }
+    .activity { border-top: 1px solid var(--line); padding-top: 15px; }
+    .activity-item { display: grid; grid-template-columns: 8px 1fr auto; gap: 9px; padding: 13px 0; border-bottom: 1px solid rgba(124,168,169,.1); }
+    .activity-item .dot { margin-top: 5px; }
+    .activity-item strong { display: block; font-size: 12px; font-weight: 500; }
+    .activity-item span { color: var(--muted); font-size: 11px; }
+    .activity-item time { color: #698382; font: 10px monospace; }
+    .timeline { grid-column: 1 / -1; padding: 15px 18px 18px; }
+    .timeline-head { display: flex; justify-content: space-between; margin-bottom: 15px; }
+    .timeline-head span { color: var(--green); font-family: monospace; font-size: 11px; }
+    .track { height: 42px; position: relative; border-top: 1px solid #476563; background: repeating-linear-gradient(90deg, transparent 0, transparent calc(8.33% - 1px), rgba(124,168,169,.12) calc(8.33% - 1px), rgba(124,168,169,.12) 8.33%); }
+    .track:before { content: ""; position: absolute; left: 7%; right: 4%; top: -4px; height: 7px; background: var(--green); opacity: .16; border-radius: 5px; }
+    .event { position: absolute; top: -7px; width: 9px; height: 9px; background: var(--orange); border: 2px solid #152d2d; border-radius: 50%; box-shadow: 0 0 8px var(--orange); }
+    .event.high { background: var(--red); box-shadow: 0 0 8px var(--red); }
+    .event span { position: absolute; top: 17px; left: -11px; color: var(--muted); font: 10px monospace; white-space: nowrap; }
+    .timeline-labels { display: flex; justify-content: space-between; color: #5f7777; font: 10px monospace; margin: 6px 4% 0; }
+    @media (max-width: 1150px) { .app { padding: 18px; } .layout { grid-template-columns: 190px minmax(500px, 1fr) 250px; } }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div><div class="eyebrow">OPEN SOURCE INTELLIGENCE / LIVE MONITOR</div><h1>战区脉搏 <span>实时热点态势</span></h1></div>
+      <div class="top-actions"><div class="status"><i></i> 数据流正常 · 00:00:04</div><button class="btn" id="refresh">↻ 刷新数据</button><button class="btn" id="layer">图层管理</button></div>
+    </header>
+    <section class="layout">
+      <aside class="panel side">
+        <h3>监测视图</h3>
+        <nav class="nav">
+          <button class="selected"><b>01</b>全球态势</button><button><b>02</b>欧洲东部</button><button><b>03</b>中东地区</button><button><b>04</b>非洲之角</button><button><b>05</b>亚太区域</button>
+        </nav>
+        <div class="filter"><h3>筛选条件</h3><label>事件强度 <span id="intensityValue" style="float:right;color:var(--green)">全部</span></label><input id="intensity" type="range" min="0" max="100" value="0" /></div>
+        <div class="filter"><h3>显示图层</h3><div class="legend"><div><span class="dot red"></span>高强度冲突</div><div><span class="dot orange"></span>军事活动</div><div><span class="dot yellow"></span>紧张事件</div></div></div>
+        <div class="filter"><h3>数据来源</h3><label>◉ 卫星图像 <span style="float:right;color:var(--green)">ON</span></label><label>◉ 新闻情报 <span style="float:right;color:var(--green)">ON</span></label><label>◉ 社交信号 <span style="float:right;color:var(--green)">ON</span></label></div>
+      </aside>
+      <section class="panel map-panel">
+        <div class="map-head"><div><strong>东欧 · 黑海战区</strong><small>实时活动热度分布 / 更新时间 <span id="updated">17:53:04</span></small></div><div class="coords">49° 12' N &nbsp; 31° 10' E</div></div>
+        <div class="map" id="map">
+          <svg viewBox="0 0 800 590" preserveAspectRatio="none" aria-label="战区示意地图">
+            <path d="M0 90L105 67l76 33 80-45 73 46 93-25 69 39 77-12 62 34 104-2 61 45v100l-69 19-44 91-79 20-74 87-87-30-91 37-54-77-100-14-36-94-91-11L0 345Z"/>
+            <path d="M562 438l43-41 41 11 44 48-16 72-59 27-54-38Z"/>
+            <path class="river" d="M53 116C179 186 233 116 309 180S469 265 580 205s158 38 233 12M110 377c106-80 173-35 242 22s134 60 230-17"/>
+            <path class="border" d="M160 75c-14 106 51 139 21 224s66 157 14 259M413 69c-42 113 22 184-15 252s51 156 2 258M663 104c-56 66-19 125-49 202s21 136-20 226"/>
+          </svg>
+          <div class="map-label" style="left:13%;top:23%">波兰</div><div class="map-label" style="left:41%;top:15%">白俄罗斯</div><div class="map-label" style="left:55%;top:45%">乌克兰</div><div class="map-label" style="left:71%;top:74%">黑海</div><div class="map-label" style="left:28%;top:70%">摩尔多瓦</div>
+          <div class="marker red" style="left:58%;top:49%"><span class="tip">顿涅茨克 · 高强度活动</span></div><div class="marker red" style="left:62%;top:57%"><span class="tip">马里乌波尔 · 交火热点</span></div><div class="marker orange" style="left:51%;top:38%"><span class="tip">基辅 · 空袭警报</span></div><div class="marker orange" style="left:68%;top:38%"><span class="tip">卢甘斯克 · 部队调动</span></div><div class="marker yellow" style="left:42%;top:53%"><span class="tip">敖德萨 · 港口活动</span></div><div class="marker yellow" style="left:76%;top:67%"><span class="tip">克里米亚 · 海上活动</span></div>
+          <div class="map-tools"><button id="zoomIn">+</button><button id="zoomOut">−</button><button id="locate">⌖</button></div><div class="scale">50 KM</div>
+        </div>
+      </section>
+      <aside class="panel right">
+        <div class="section-title">当前态势概览</div>
+        <div class="metric-grid"><div class="metric danger"><small>活跃热点</small><strong id="hotspots">24</strong><em>↑ 12%</em></div><div class="metric"><small>过去 24 小时</small><strong>186</strong><em>事件</em></div><div class="metric"><small>受影响区域</small><strong>17</strong><em>个</em></div><div class="metric"><small>置信度</small><strong>87</strong><em>%</em></div></div>
+        <div class="activity"><div class="section-title">最新活动</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
+      </aside>
+      <section class="panel timeline"><div class="timeline-head"><div class="section-title">事件时间轴 / 过去 24 小时</div><span>LIVE WINDOW</span></div><div class="track"><i class="event high" style="left:14%"><span>00:20</span></i><i class="event" style="left:31%"><span>04:35</span></i><i class="event high" style="left:47%"><span>08:10</span></i><i class="event" style="left:63%"><span>12:45</span></i><i class="event high" style="left:77%"><span>16:08</span></i><i class="event" style="left:91%"><span>17:42</span></i></div><div class="timeline-labels"><span>24:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>现在</span></div></section>
+    </section>
+  </main>
+  <script>
+    const intensity = document.querySelector('#intensity');
+    intensity.addEventListener('input', e => document.querySelector('#intensityValue').textContent = e.target.value == 0 ? '全部' : `${e.target.value}+`);
+    document.querySelector('#refresh').addEventListener('click', e => { e.currentTarget.textContent = '✓ 已更新'; document.querySelector('#updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour12:false}); setTimeout(() => e.currentTarget.textContent = '↻ 刷新数据', 1600); });
+    document.querySelector('#layer').addEventListener('click', e => e.currentTarget.classList.toggle('active'));
+    let scale = 1; const map = document.querySelector('#map'); document.querySelector('#zoomIn').onclick = () => { scale = Math.min(1.25, scale + .1); map.style.transform = `scale(${scale})`; }; document.querySelector('#zoomOut').onclick = () => { scale = Math.max(1, scale - .1); map.style.transform = `scale(${scale})`; }; document.querySelector('#locate').onclick = () => map.scrollIntoView({behavior:'smooth'});
+    setInterval(() => { const count = document.querySelector('#hotspots'); count.textContent = 24 + Math.floor(Math.random() * 3); }, 5000);
+  </script>
+</body>
+</html>
