@@ -110,7 +110,7 @@
 <body>
   <main class="app">
     <header class="topbar">
-      <div><div class="eyebrow">OPEN SOURCE INTELLIGENCE / LIVE MONITOR</div><h1>战区脉搏 <span>实时热点态势</span></h1></div>
+      <div><div class="eyebrow">开放情报 / 实时监测</div><h1>战区脉搏 <span>实时热点态势</span></h1></div>
       <div class="top-actions"><div class="status"><i></i> 数据流正常 · 00:00:04</div><button class="btn" id="refresh">↻ 刷新数据</button><button class="btn" id="layer">图层管理</button></div>
     </header>
     <section class="layout">
@@ -121,7 +121,7 @@
         </nav>
         <div class="filter"><h3>筛选条件</h3><label>事件强度 <span id="intensityValue" style="float:right;color:var(--green)">全部</span></label><input id="intensity" type="range" min="0" max="100" value="0" /></div>
         <div class="filter"><h3>显示图层</h3><div class="legend"><div><span class="dot red"></span>高强度冲突</div><div><span class="dot orange"></span>军事活动</div><div><span class="dot yellow"></span>紧张事件</div></div></div>
-        <div class="filter"><h3>数据来源</h3><label>◉ 卫星图像 <span style="float:right;color:var(--green)">ON</span></label><label>◉ 新闻情报 <span style="float:right;color:var(--green)">ON</span></label><label>◉ 社交信号 <span style="float:right;color:var(--green)">ON</span></label></div>
+        <div class="filter"><h3>数据来源</h3><label>◉ 卫星图像 <span style="float:right;color:var(--green)">已启用</span></label><label>◉ 新闻情报 <span style="float:right;color:var(--green)">已启用</span></label><label>◉ 社交信号 <span style="float:right;color:var(--green)">已启用</span></label></div>
       </aside>
       <section class="panel map-panel">
         <div class="map-head"><div><strong>东欧 · 黑海战区</strong><small>实时活动热度分布 / 更新时间 <span id="updated">17:53:04</span></small></div><div class="coords">49° 12' N &nbsp; 31° 10' E</div></div>
@@ -134,7 +134,7 @@
           </svg>
           <div class="map-label" style="left:13%;top:23%">波兰</div><div class="map-label" style="left:41%;top:15%">白俄罗斯</div><div class="map-label" style="left:55%;top:45%">乌克兰</div><div class="map-label" style="left:71%;top:74%">黑海</div><div class="map-label" style="left:28%;top:70%">摩尔多瓦</div>
           <div class="marker red" style="left:58%;top:49%"><span class="tip">顿涅茨克 · 高强度活动</span></div><div class="marker red" style="left:62%;top:57%"><span class="tip">马里乌波尔 · 交火热点</span></div><div class="marker orange" style="left:51%;top:38%"><span class="tip">基辅 · 空袭警报</span></div><div class="marker orange" style="left:68%;top:38%"><span class="tip">卢甘斯克 · 部队调动</span></div><div class="marker yellow" style="left:42%;top:53%"><span class="tip">敖德萨 · 港口活动</span></div><div class="marker yellow" style="left:76%;top:67%"><span class="tip">克里米亚 · 海上活动</span></div>
-          <div class="map-tools"><button id="zoomIn">+</button><button id="zoomOut">−</button><button id="locate">⌖</button></div><div class="scale">50 KM</div>
+          <div class="map-tools"><button id="zoomIn" aria-label="放大地图">+</button><button id="zoomOut" aria-label="缩小地图">−</button><button id="locate" aria-label="定位当前位置">⌖</button></div><div class="scale">50 公里</div>
         </div>
       </section>
       <aside class="panel right">
@@ -142,7 +142,7 @@
         <div class="metric-grid"><div class="metric danger"><small>活跃热点</small><strong id="hotspots">24</strong><em>↑ 12%</em></div><div class="metric"><small>过去 24 小时</small><strong>186</strong><em>事件</em></div><div class="metric"><small>受影响区域</small><strong>17</strong><em>个</em></div><div class="metric"><small>置信度</small><strong>87</strong><em>%</em></div></div>
         <div class="activity"><div class="section-title">最新活动</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
       </aside>
-      <section class="panel timeline"><div class="timeline-head"><div class="section-title">事件时间轴 / 过去 24 小时</div><span>LIVE WINDOW</span></div><div class="track"><i class="event high" style="left:14%"><span>00:20</span></i><i class="event" style="left:31%"><span>04:35</span></i><i class="event high" style="left:47%"><span>08:10</span></i><i class="event" style="left:63%"><span>12:45</span></i><i class="event high" style="left:77%"><span>16:08</span></i><i class="event" style="left:91%"><span>17:42</span></i></div><div class="timeline-labels"><span>24:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>现在</span></div></section>
+      <section class="panel timeline"><div class="timeline-head"><div class="section-title">事件时间轴 / 过去 24 小时</div><span>实时窗口</span></div><div class="track"><i class="event high" style="left:14%"><span>00:20</span></i><i class="event" style="left:31%"><span>04:35</span></i><i class="event high" style="left:47%"><span>08:10</span></i><i class="event" style="left:63%"><span>12:45</span></i><i class="event high" style="left:77%"><span>16:08</span></i><i class="event" style="left:91%"><span>17:42</span></i></div><div class="timeline-labels"><span>24:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>现在</span></div></section>
     </section>
   </main>
   <script>
