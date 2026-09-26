@@ -103,6 +103,10 @@
     .activity-item strong { display: block; font-size: 12px; font-weight: 500; }
     .activity-item span { color: var(--muted); font-size: 11px; }
     .activity-item time { color: #698382; font: 10px monospace; }
+    .activity-item a { color: inherit; text-decoration: none; }
+    .activity-item a:hover strong { color: var(--green); }
+    .feed-status { color: var(--muted); font-size: 10px; margin: 5px 0 9px; }
+    .feed-status.live { color: var(--green); }
     .timeline { grid-column: 1 / -1; padding: 15px 18px 18px; }
     .timeline-head { display: flex; justify-content: space-between; margin-bottom: 15px; }
     .timeline-head span { color: var(--green); font-family: monospace; font-size: 11px; }
@@ -153,7 +157,7 @@
       <aside class="panel right">
         <div class="section-title">当前态势概览</div>
         <div class="metric-grid"><div class="metric danger" data-metric="活跃热点"><small>活跃热点</small><strong id="hotspots">24</strong><em>↑ 12%</em></div><div class="metric" data-metric="过去 24 小时"><small>过去 24 小时</small><strong>186</strong><em>事件</em></div><div class="metric" data-metric="受影响区域"><small>受影响区域</small><strong>17</strong><em>个</em></div><div class="metric" data-metric="置信度"><small>置信度</small><strong>87</strong><em>%</em></div></div>
-        <div class="activity"><div class="section-title">最新活动</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
+        <div class="activity"><div class="section-title">最新活动</div><div class="feed-status" id="feedStatus">正在连接公开新闻源…</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
       </aside>
       <section class="panel timeline"><div class="timeline-head"><div class="section-title">事件时间轴 / 过去 24 小时</div><span>实时窗口</span></div><div class="track"><i class="event high" data-time="00:20" style="left:14%"><span>00:20</span></i><i class="event" data-time="04:35" style="left:31%"><span>04:35</span></i><i class="event high" data-time="08:10" style="left:47%"><span>08:10</span></i><i class="event" data-time="12:45" style="left:63%"><span>12:45</span></i><i class="event high" data-time="16:08" style="left:77%"><span>16:08</span></i><i class="event" data-time="17:42" style="left:91%"><span>17:42</span></i></div><div class="timeline-labels"><span>24:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>现在</span></div></section>
     </section>
@@ -162,7 +166,6 @@
     const intensity = document.querySelector('#intensity');
     const state = { region: 'global', minLevel: 0, layers: new Set(['red', 'orange', 'yellow']) };
     const markers = [...document.querySelectorAll('.marker')];
-    const activityItems = [...document.querySelectorAll('.activity-item')];
     let filterFrame = 0;
     const applyFilters = () => {
       if (filterFrame) return;
@@ -173,7 +176,7 @@
           Number(marker.dataset.level) >= state.minLevel && state.layers.has([...marker.classList].find(c => ['red', 'orange', 'yellow'].includes(c)));
         marker.hidden = !visible;
       });
-      activityItems.forEach(item => {
+      document.querySelectorAll('.activity-item').forEach(item => {
         const level = item.querySelector('.dot')?.classList;
         const color = level && ['red', 'orange', 'yellow'].find(name => level.contains(name));
         item.hidden = !state.layers.has(color);
@@ -215,6 +218,61 @@
       metric.classList.add('selected');
       toast(`已选中指标：${metric.dataset.metric}`);
     }));
+    const formatNewsTime = date => {
+      const minutes = Math.max(0, Math.floor((Date.now() - date.getTime()) / 60000));
+      return minutes < 1 ? '刚刚' : `${minutes}m`;
+    };
+    const classifyNews = title => {
+      const high = /missile|airstrike|爆炸|袭击|炮击|导弹|strike/i.test(title);
+      return high ? 'red' : /military|troops|army|军事|部队|冲突|war/i.test(title) ? 'orange' : 'yellow';
+    };
+    const renderNews = articles => {
+      const list = document.querySelector('#activityList');
+      list.replaceChildren(...articles.slice(0, 6).map(article => {
+        const item = document.createElement('div');
+        item.className = `activity-item news-item`;
+        const level = classifyNews(article.title || '');
+        const dot = document.createElement('span');
+        dot.className = `dot ${level}`;
+        const content = document.createElement('div');
+        const link = document.createElement('a');
+        link.href = article.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        const title = document.createElement('strong');
+        title.textContent = article.title;
+        link.appendChild(title);
+        const source = document.createElement('span');
+        source.textContent = `${article.domain || '公开新闻源'} · 新闻事件`;
+        content.append(link, source);
+        const time = document.createElement('time');
+        time.textContent = formatNewsTime(new Date(article.seendate || Date.now()));
+        item.append(dot, content, time);
+        item.addEventListener('click', () => toast(`已打开新闻：${article.title}`));
+        return item;
+      }));
+    };
+    const loadLiveNews = async () => {
+      const status = document.querySelector('#feedStatus');
+      const endpoint = 'https://api.gdeltproject.org/api/v2/doc/doc?query=war%20OR%20conflict%20OR%20missile%20OR%20airstrike&mode=artlist&format=json&maxrecords=12&sort=HybridRel&timespan=24h';
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 8000);
+      try {
+        const response = await fetch(endpoint, { signal: controller.signal });
+        if (!response.ok) throw new Error(`新闻源响应 ${response.status}`);
+        const data = await response.json();
+        const articles = (data.articles || []).filter(article => article.title && article.url);
+        if (!articles.length) throw new Error('新闻源暂无可用结果');
+        renderNews(articles);
+        status.textContent = `实况新闻 · GDELT · ${articles.length} 条 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
+        status.classList.add('live');
+      } catch (error) {
+        status.textContent = '公开新闻源暂时不可用 · 当前显示演示数据';
+        status.classList.remove('live');
+      } finally {
+        clearTimeout(timeout);
+      }
+    };
     document.querySelector('#refresh').addEventListener('click', e => { e.currentTarget.textContent = '✓ 已更新'; document.querySelector('#updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour12:false}); setTimeout(() => e.currentTarget.textContent = '↻ 刷新数据', 1600); });
     document.querySelector('#layer').addEventListener('click', e => {
       e.currentTarget.classList.toggle('active');
@@ -238,6 +296,8 @@
       toast(firstVisible ? '已定位至当前热点' : '当前筛选条件下暂无热点');
     };
     setInterval(() => { document.querySelector('#updated').textContent = new Date().toLocaleTimeString('zh-CN', {hour12:false}); }, 5000);
+    loadLiveNews();
+    setInterval(loadLiveNews, 300000);
     applyFilters();
   </script>
 </body>
