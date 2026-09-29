@@ -159,16 +159,33 @@
       <aside class="panel right">
         <div class="section-title">当前态势概览</div>
         <div class="metric-grid"><div class="metric danger" data-metric="活跃热点"><small>活跃热点</small><strong id="hotspots">6</strong><em>地图</em></div><div class="metric" data-metric="过去 24 小时"><small>过去 24 小时报道</small><strong id="reportCount">—</strong><em>条</em></div><div class="metric" data-metric="受影响区域"><small>报道来源</small><strong id="sourceCount">—</strong><em>个</em></div><div class="metric" data-metric="置信度"><small>数据状态</small><strong id="dataMode">演示</strong><em>模式</em></div></div>
-        <div class="activity"><div class="section-title">最新活动</div><div class="feed-status" id="feedStatus">正在连接公开新闻源…</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
+        <div class="activity"><div class="section-title">最新活动</div><div class="feed-status" id="feedStatus">正在连接公开新闻源…</div><div class="feed-status" id="realtimeStatus">实时引擎：初始化中…</div><div id="activityList"><div class="activity-item"><span class="dot red"></span><div><strong>顿涅茨克州 · 爆炸活动</strong><span>多源信号确认 · 高强度</span></div><time>刚刚</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>基辅附近 · 防空系统启动</strong><span>开放信号源 · 中强度</span></div><time>02m</time></div><div class="activity-item"><span class="dot yellow"></span><div><strong>黑海西北部 · 船只异常聚集</strong><span>卫星图像分析 · 低强度</span></div><time>08m</time></div><div class="activity-item"><span class="dot orange"></span><div><strong>卢甘斯克 · 装甲车队移动</strong><span>视频情报交叉验证</span></div><time>14m</time></div></div></div>
       </aside>
       <section class="panel timeline"><div class="timeline-head"><div class="section-title">事件时间轴 / 过去 24 小时</div><span>实时窗口</span></div><div class="track"><i class="event high" data-time="00:20" style="left:14%"><span>00:20</span></i><i class="event" data-time="04:35" style="left:31%"><span>04:35</span></i><i class="event high" data-time="08:10" style="left:47%"><span>08:10</span></i><i class="event" data-time="12:45" style="left:63%"><span>12:45</span></i><i class="event high" data-time="16:08" style="left:77%"><span>16:08</span></i><i class="event" data-time="17:42" style="left:91%"><span>17:42</span></i></div><div class="timeline-labels"><span>24:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>现在</span></div></section>
     </section>
   </main>
   <script>
     const intensity = document.querySelector('#intensity');
+    if (window.__warRealtime?.destroy) window.__warRealtime.destroy();
     const state = { region: 'global', minLevel: 0, layers: new Set(['red', 'orange', 'yellow']) };
     const markers = [...document.querySelectorAll('.marker')];
+    const timelineEvents = [...document.querySelectorAll('.event')];
     let filterFrame = 0;
+    const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+    const jitter = (value, range) => value + (Math.random() * 2 - 1) * range;
+    const markerRuntime = markers.map((marker, index) => {
+      const left = clamp(Number.parseFloat(marker.style.left) || 50, 6, 94);
+      const top = clamp(Number.parseFloat(marker.style.top) || 50, 8, 92);
+      return {
+        marker,
+        color: ['red', 'orange', 'yellow'].find(name => marker.classList.contains(name)) || 'yellow',
+        baseLeft: left,
+        baseTop: top,
+        baseLevel: clamp(Number(marker.dataset.level) || 0, 0, 100),
+        phase: index * 0.9,
+        step: 0
+      };
+    });
     const applyFilters = () => {
       if (filterFrame) return;
       filterFrame = requestAnimationFrame(() => {
@@ -233,6 +250,7 @@
       list.replaceChildren(...articles.slice(0, 6).map(article => {
         const item = document.createElement('div');
         item.className = `activity-item news-item`;
+        item.dataset.seendate = article.seendate || '';
         const level = classifyNews(article.title || '');
         const dot = document.createElement('span');
         dot.className = `dot ${level}`;
@@ -274,6 +292,87 @@
     };
     let newsRequest;
     let lastLiveAt = 0;
+    const refreshActivityTimes = () => {
+      document.querySelectorAll('.news-item').forEach(item => {
+        const timeNode = item.querySelector('time');
+        const date = new Date(item.dataset.seendate || Date.now());
+        if (!Number.isNaN(date.getTime())) timeNode.textContent = formatNewsTime(date);
+      });
+    };
+    const updateRealtimeState = (label, demo = false) => {
+      const status = document.querySelector('#realtimeStatus');
+      status.textContent = label;
+      status.classList.toggle('live', !demo);
+    };
+    const updateTimeline = tick => {
+      timelineEvents.forEach((node, index) => {
+        const minuteOffset = (tick * 7 + index * 23) % (24 * 60);
+        const hour = String(Math.floor(minuteOffset / 60)).padStart(2, '0');
+        const minute = String(minuteOffset % 60).padStart(2, '0');
+        const left = clamp((minuteOffset / (24 * 60)) * 100, 7, 93);
+        const high = (tick + index) % 3 === 0;
+        node.style.left = `${left}%`;
+        node.dataset.time = `${hour}:${minute}`;
+        node.classList.toggle('high', high);
+        const label = node.querySelector('span');
+        if (label) label.textContent = `${hour}:${minute}`;
+      });
+    };
+    const updateRealtimeMarkers = tick => {
+      markerRuntime.forEach((entry, index) => {
+        entry.step += 1;
+        const wave = Math.sin((tick + entry.phase) / 2.2);
+        const levelShift = Math.round(wave * (entry.color === 'red' ? 10 : entry.color === 'orange' ? 14 : 12));
+        const level = clamp(entry.baseLevel + levelShift, 8, 99);
+        const left = clamp(jitter(entry.baseLeft + Math.sin((tick + index) / 3.4) * 1.4, 0.4), 7, 93);
+        const top = clamp(jitter(entry.baseTop + Math.cos((tick + index) / 3.1) * 1.1, 0.35), 9, 91);
+        entry.marker.dataset.level = String(level);
+        entry.marker.style.left = `${left.toFixed(2)}%`;
+        entry.marker.style.top = `${top.toFixed(2)}%`;
+        const tip = entry.marker.querySelector('.tip');
+        if (tip) tip.textContent = `${tip.textContent.split(' · ')[0]} · 强度 ${level}`;
+      });
+    };
+    const realtime = {
+      timer: 0,
+      tick: 0,
+      intervalMs: 4000,
+      running: false,
+      doTick: () => {
+        realtime.tick += 1;
+        updateRealtimeMarkers(realtime.tick);
+        updateTimeline(realtime.tick);
+        refreshActivityTimes();
+        applyFilters();
+        const liveCount = markers.filter(marker => !marker.hidden).length;
+        updateRealtimeState(`实时引擎：在线 · ${new Date().toLocaleTimeString('zh-CN', { hour12: false })} · 热点 ${liveCount}`);
+      },
+      start: () => {
+        if (realtime.running) return;
+        realtime.running = true;
+        realtime.doTick();
+        realtime.timer = window.setInterval(realtime.doTick, realtime.intervalMs);
+      },
+      stop: (message = '实时引擎：已暂停') => {
+        if (realtime.timer) clearInterval(realtime.timer);
+        realtime.timer = 0;
+        realtime.running = false;
+        updateRealtimeState(message, true);
+      },
+      handleVisibility: () => {
+        if (document.hidden) {
+          realtime.stop('实时引擎：页面隐藏，已暂停');
+        } else {
+          realtime.start();
+        }
+      },
+      destroy: () => {
+        realtime.stop('实时引擎：已停止');
+        document.removeEventListener('visibilitychange', realtime.handleVisibility);
+      }
+    };
+    document.addEventListener('visibilitychange', realtime.handleVisibility);
+    window.__warRealtime = realtime;
     const loadLiveNews = async () => {
       if (newsRequest) return newsRequest;
       newsRequest = (async () => {
@@ -348,6 +447,7 @@
     };
     loadLiveNews();
     setInterval(loadLiveNews, 600000);
+    realtime.start();
     applyFilters();
   </script>
 </body>
