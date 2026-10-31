@@ -164,7 +164,13 @@ real-time-war-zone-ui/
 - 引入真实数据前的权限控制与审计日志
 - 增加服务端代理，降低浏览器跨域和第三方接口波动影响
 
-## Cloudflare Worker 代理
+## 新闻数据同步
+
+项目通过 GitHub Actions 每 10 分钟从 GDELT 公共新闻接口生成 `data/news.json`，GitHub Pages 前端从同源文件读取数据，不再依赖 Cloudflare Worker 或浏览器跨域请求。也可以在 Actions 页面手动运行 `Update public news feed`。
+
+如果 GDELT 暂时不可用，本次同步会生成空结果，页面会明确回退到演示数据；新闻内容仅代表公开报道聚合，不等同于经过核实的现场事实。
+
+## Cloudflare Worker 代理（旧方案）
 
 `worker.js` 提供一个受限的 Cloudflare Worker 示例，只转发固定的 GDELT 冲突新闻查询，并设置 10 分钟上游缓存、15 分钟 stale-while-revalidate 和 GitHub Pages CORS 响应头。成功结果会写入 Worker Cache，GDELT 限流或临时异常时优先返回最近一次成功结果。当前部署地址为 `https://war-zone-news-proxy.fendou986.workers.dev/`，页面已通过该地址请求新闻，从而避免浏览器直接请求 GDELT 时的跨域限制。Worker 不接受任意目标 URL，也不代表新闻内容经过事实核验。前端请求已增加并发锁、限流提示和 10 分钟自动刷新，避免重复请求；没有可用缓存时会明确回退到演示数据。
 
