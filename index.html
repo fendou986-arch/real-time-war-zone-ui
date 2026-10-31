@@ -63,10 +63,24 @@
     .dot.orange { background: var(--orange); box-shadow: 0 0 10px var(--orange); }
     .dot.yellow { background: var(--yellow); box-shadow: 0 0 10px var(--yellow); }
     .map-panel { min-height: 650px; overflow: hidden; position: relative; }
-    .map-head { height: 58px; padding: 14px 17px; display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); position: relative; z-index: 3; }
+    .map-head { min-height: 82px; padding: 12px 17px; display: grid; grid-template-columns: minmax(210px, 1fr) minmax(250px, 360px) auto; gap: 16px; align-items: center; border-bottom: 1px solid var(--line); position: relative; z-index: 5; }
     .map-head strong { font-size: 14px; }
     .map-head small { color: var(--muted); display: block; margin-top: 2px; }
     .coords { color: var(--green); font-family: monospace; font-size: 11px; }
+    .search { position: relative; }
+    .search-box { display: flex; align-items: center; gap: 8px; padding: 7px 9px; background: rgba(5,17,19,.78); border: 1px solid var(--line); border-radius: 5px; }
+    .search-box:focus-within { border-color: rgba(115,226,177,.65); box-shadow: 0 0 0 2px rgba(115,226,177,.08); }
+    .search-box span { color: var(--green); font: 12px monospace; }
+    .search-box input { width: 100%; min-width: 0; border: 0; outline: 0; color: var(--text); background: transparent; font: 12px inherit; }
+    .search-box input::placeholder { color: #607a7a; }
+    .search-hint { color: #607a7a; font: 10px monospace; white-space: nowrap; }
+    .search-results { position: absolute; top: calc(100% + 6px); left: 0; right: 0; display: grid; gap: 3px; padding: 5px; background: #0a1a1c; border: 1px solid rgba(115,226,177,.35); border-radius: 5px; box-shadow: 0 14px 30px rgba(0,0,0,.35); }
+    .search-result { display: grid; grid-template-columns: 8px 1fr; gap: 8px; width: 100%; padding: 7px; border: 0; color: var(--text); text-align: left; background: transparent; border-radius: 3px; cursor: pointer; }
+    .search-result:hover, .search-result:focus-visible { background: rgba(115,226,177,.1); outline: 0; }
+    .search-result strong, .search-result small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .search-result small { color: var(--muted); margin-top: 2px; }
+    .marker.focused { z-index: 3; }
+    .marker.focused:before { box-shadow: 0 0 0 4px rgba(115,226,177,.22), 0 0 22px currentColor; }
     .map {
       height: 592px; position: relative; overflow: hidden;
       contain: layout paint; transform: translateZ(0); transform-origin: center center;
@@ -138,6 +152,10 @@
       .metric-grid { grid-template-columns: repeat(4, 1fr); }
       #activityList { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 14px; }
     }
+    @media (max-width: 900px) {
+      .map-head { grid-template-columns: 1fr auto; }
+      .search { grid-column: 1 / -1; grid-row: 2; }
+    }
     @media (max-width: 650px) {
       .app { padding: 16px 12px 22px; }
       .topbar { display: block; }
@@ -156,6 +174,10 @@
       .nav { grid-template-columns: repeat(2, 1fr); }
       .nav button { padding: 8px; }
       .map-readout { top: auto; bottom: 14px; }
+      .map-head { grid-template-columns: 1fr; gap: 7px; }
+      .map-head .coords { display: none; }
+      .search { grid-column: auto; grid-row: auto; }
+      .search-hint { display: none; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
@@ -180,7 +202,7 @@
         <div class="filter"><h3>数据来源</h3><label class="source-toggle"><button data-source="卫星图像" aria-pressed="true">◉ 卫星图像 <span>已启用</span></button></label><label class="source-toggle"><button data-source="新闻情报" aria-pressed="true">◉ 新闻情报 <span>已启用</span></button></label><label class="source-toggle"><button data-source="社交信号" aria-pressed="true">◉ 社交信号 <span>已启用</span></button></label></div>
       </aside>
       <section class="panel map-panel">
-        <div class="map-head"><div><strong>东欧 · 黑海战区</strong><small id="mapSubtitle">实时活动热度分布 / 等待公开新闻数据</small></div><div class="coords">49° 12' N &nbsp; 31° 10' E</div></div>
+        <div class="map-head"><div><strong>东欧 · 黑海战区</strong><small id="mapSubtitle">实时活动热度分布 / 等待公开新闻数据</small></div><div class="search"><label class="search-box"><span>⌕</span><input id="mapSearch" type="search" autocomplete="off" placeholder="搜索热点、区域或新闻…" aria-label="搜索热点、区域或新闻" /><span class="search-hint">/</span></label><div id="searchResults" class="search-results" role="listbox" hidden></div></div><div class="coords" id="mapCoords">49° 12' N &nbsp; 31° 10' E</div></div>
         <div class="map" id="map">
           <svg viewBox="0 0 800 590" preserveAspectRatio="none" aria-label="战区示意地图">
             <path d="M0 90L105 67l76 33 80-45 73 46 93-25 69 39 77-12 62 34 104-2 61 45v100l-69 19-44 91-79 20-74 87-87-30-91 37-54-77-100-14-36-94-91-11L0 345Z"/>
@@ -189,7 +211,7 @@
             <path class="border" d="M160 75c-14 106 51 139 21 224s66 157 14 259M413 69c-42 113 22 184-15 252s51 156 2 258M663 104c-56 66-19 125-49 202s21 136-20 226"/>
           </svg>
           <div class="map-label" style="left:13%;top:23%">波兰</div><div class="map-label" style="left:41%;top:15%">白俄罗斯</div><div class="map-label" style="left:55%;top:45%">乌克兰</div><div class="map-label" style="left:71%;top:74%">黑海</div><div class="map-label" style="left:28%;top:70%">摩尔多瓦</div>
-          <div class="marker red" data-level="90" data-region="europe" style="left:58%;top:49%"><span class="tip">顿涅茨克 · 高强度活动</span></div><div class="marker red" data-level="88" data-region="europe" style="left:62%;top:57%"><span class="tip">马里乌波尔 · 交火热点</span></div><div class="marker orange" data-level="65" data-region="europe" style="left:51%;top:38%"><span class="tip">基辅 · 空袭警报</span></div><div class="marker orange" data-level="62" data-region="europe" style="left:68%;top:38%"><span class="tip">卢甘斯克 · 部队调动</span></div><div class="marker yellow" data-level="35" data-region="europe" style="left:42%;top:53%"><span class="tip">敖德萨 · 港口活动</span></div><div class="marker yellow" data-level="30" data-region="europe" style="left:76%;top:67%"><span class="tip">克里米亚 · 海上活动</span></div>
+          <div class="marker red" data-level="90" data-region="europe" data-coords="48° 00' N · 37° 48' E" style="left:58%;top:49%"><span class="tip">顿涅茨克 · 高强度活动</span></div><div class="marker red" data-level="88" data-region="europe" data-coords="47° 06' N · 37° 33' E" style="left:62%;top:57%"><span class="tip">马里乌波尔 · 交火热点</span></div><div class="marker orange" data-level="65" data-region="europe" data-coords="50° 27' N · 30° 31' E" style="left:51%;top:38%"><span class="tip">基辅 · 空袭警报</span></div><div class="marker orange" data-level="62" data-region="europe" data-coords="48° 34' N · 39° 18' E" style="left:68%;top:38%"><span class="tip">卢甘斯克 · 部队调动</span></div><div class="marker yellow" data-level="35" data-region="europe" data-coords="46° 29' N · 30° 44' E" style="left:42%;top:53%"><span class="tip">敖德萨 · 港口活动</span></div><div class="marker yellow" data-level="30" data-region="europe" data-coords="45° 20' N · 34° 00' E" style="left:76%;top:67%"><span class="tip">克里米亚 · 海上活动</span></div>
           <div class="map-readout"><i></i><span id="mapReadout">LIVE FEED · 等待同步</span></div><div class="map-tools"><button id="zoomIn" aria-label="放大地图">+</button><button id="zoomOut" aria-label="缩小地图">−</button><button id="locate" aria-label="定位当前位置">⌖</button></div><div class="scale">50 公里</div>
         </div>
       </section>
@@ -205,6 +227,90 @@
     const intensity = document.querySelector('#intensity');
     const state = { region: 'global', minLevel: 0, layers: new Set(['red', 'orange', 'yellow']) };
     const markers = [...document.querySelectorAll('.marker')];
+    const searchInput = document.querySelector('#mapSearch');
+    const searchResults = document.querySelector('#searchResults');
+    const normalize = value => value.toLocaleLowerCase('zh-CN').replace(/\s+/g, '');
+    const focusMarker = marker => {
+      document.querySelector('.marker.focused')?.classList.remove('focused');
+      marker.classList.add('focused');
+      document.querySelector('#mapCoords').textContent = marker.dataset.coords || '坐标未标注';
+      marker.animate([{filter:'brightness(2)'}, {filter:'brightness(1)'}], {duration:800, iterations:2});
+      marker.scrollIntoView({behavior:'smooth', block:'center', inline:'center'});
+      toast(`已定位：${marker.querySelector('.tip').textContent}`);
+    };
+    const getSearchItems = query => {
+      const needle = normalize(query);
+      const markerItems = markers.map(marker => ({
+        type: 'marker',
+        element: marker,
+        title: marker.querySelector('.tip').textContent,
+        meta: `${marker.dataset.region === 'europe' ? '欧洲东部' : marker.dataset.region} · ${marker.dataset.coords || '坐标未标注'}`
+      }));
+      const activityItems = [...document.querySelectorAll('.activity-item')].map(item => ({
+        type: 'activity',
+        element: item,
+        title: item.querySelector('strong')?.textContent || '',
+        meta: item.querySelector('span:last-child')?.textContent || '最新活动'
+      }));
+      return [...markerItems, ...activityItems]
+        .filter(item => !item.element.hidden && normalize(`${item.title}${item.meta}`).includes(needle))
+        .slice(0, 6);
+    };
+    const renderSearchResults = query => {
+      searchResults.replaceChildren();
+      if (!query.trim()) {
+        searchResults.hidden = true;
+        return [];
+      }
+      const items = getSearchItems(query);
+      items.forEach(item => {
+        const result = document.createElement('button');
+        result.type = 'button';
+        result.className = 'search-result';
+        result.setAttribute('role', 'option');
+        const dot = document.createElement('span');
+        dot.className = `dot ${item.type === 'marker' ? [...item.element.classList].find(name => ['red', 'orange', 'yellow'].includes(name)) : 'cyan'}`;
+        const content = document.createElement('span');
+        content.innerHTML = `<strong></strong><small></small>`;
+        content.querySelector('strong').textContent = item.title;
+        content.querySelector('small').textContent = item.meta;
+        result.append(dot, content);
+        result.addEventListener('click', () => {
+          if (item.type === 'marker') focusMarker(item.element);
+          else {
+            document.querySelector('.activity-item.selected')?.classList.remove('selected');
+            item.element.classList.add('selected');
+            item.element.scrollIntoView({behavior:'smooth', block:'center'});
+            toast(`已选中活动：${item.title}`);
+          }
+          searchResults.hidden = true;
+          searchInput.value = item.title;
+        });
+        searchResults.append(result);
+      });
+      searchResults.hidden = !items.length;
+      return items;
+    };
+    searchInput.addEventListener('input', event => renderSearchResults(event.target.value));
+    searchInput.addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        const first = searchResults.querySelector('.search-result');
+        if (first) first.click();
+      }
+      if (event.key === 'Escape') {
+        searchResults.hidden = true;
+        searchInput.blur();
+      }
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === '/' && document.activeElement !== searchInput) {
+        event.preventDefault();
+        searchInput.focus();
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!event.target.closest('.search')) searchResults.hidden = true;
+    });
     let filterFrame = 0;
     const applyFilters = () => {
       if (filterFrame) return;
@@ -248,8 +354,7 @@
     }));
     document.querySelectorAll('.marker').forEach(marker => marker.addEventListener('click', event => {
       event.stopPropagation();
-      toast(`热点详情：${marker.querySelector('.tip').textContent}`);
-      marker.animate([{transform:'translate(-50%, -50%) scale(1)'}, {transform:'translate(-50%, -50%) scale(1.45)'}, {transform:'translate(-50%, -50%) scale(1)'}], {duration:500});
+      focusMarker(marker);
     }));
     document.querySelectorAll('.event').forEach(event => event.addEventListener('click', () => toast(`时间轴事件：${event.dataset.time}`)));
     document.querySelectorAll('.metric').forEach(metric => metric.addEventListener('click', () => {
@@ -290,6 +395,7 @@
         item.addEventListener('click', () => toast(`已打开新闻：${article.title}`));
         return item;
       }));
+      if (searchInput.value) renderSearchResults(searchInput.value);
     };
     const setConnectionState = (message, demo = false) => {
       const connection = document.querySelector('#connectionStatus');
@@ -390,9 +496,21 @@
     document.querySelector('#zoomOut').onclick = () => { setScale(Math.max(1, scale - .1)); toast(`地图缩放至 ${Math.round(scale * 100)}%`); };
     document.querySelector('#locate').onclick = () => {
       const firstVisible = markers.find(marker => !marker.hidden);
-      firstVisible?.animate([{filter:'brightness(2)'}, {filter:'brightness(1)'}], {duration:800, iterations:2});
-      map.scrollIntoView({behavior:'smooth', block:'center'});
-      toast(firstVisible ? '已定位至当前热点' : '当前筛选条件下暂无热点');
+      if (!firstVisible) {
+        toast('当前筛选条件下暂无热点');
+        return;
+      }
+      focusMarker(firstVisible);
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          position => {
+            document.querySelector('#mapCoords').textContent = `设备位置 ${position.coords.latitude.toFixed(2)}° · ${position.coords.longitude.toFixed(2)}°`;
+            toast('已定位当前设备，并聚焦最近可用热点');
+          },
+          () => toast('无法取得设备位置，已聚焦当前热点'),
+          {enableHighAccuracy:false, timeout:3000, maximumAge:60000}
+        );
+      }
     };
     loadLiveNews();
     setInterval(loadLiveNews, 600000);
