@@ -1,0 +1,46 @@
+name: Update public news feed
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch GDELT articles
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          url='https://api.gdeltproject.org/api/v2/doc/doc?query=%28war%20OR%20conflict%20OR%20missile%20OR%20airstrike%29&mode=artlist&format=json&maxrecords=12&sort=HybridRel&timespan=24h'
+          if curl --fail --silent --show-error --retry 2 --connect-timeout 15 --max-time 45 "$url" -o /tmp/gdelt.json \
+            && jq -e '.articles | type == "array"' /tmp/gdelt.json >/dev/null; then
+            jq --arg generatedAt "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+              '{generatedAt: $generatedAt, source: "gdelt", stale: false, articles: [.articles[] | select(.title and (.url // .url_mobile)) | {title, url: (.url // .url_mobile), domain, seendate}]}' \
+              /tmp/gdelt.json > data/news.json
+          elif jq -e '.articles | length > 0' data/news.json >/dev/null 2>&1; then
+            jq --arg generatedAt "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+              '.generatedAt = $generatedAt | .stale = true' data/news.json > /tmp/news.json
+            mv /tmp/news.json data/news.json
+          else
+            printf '{"generatedAt":%s,"source":"gdelt","stale":true,"articles":[]}\n' \
+              "\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"" > data/news.json
+          fi
+      - name: Publish updated feed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "News feed unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "Update public news feed"
+          git push

@@ -424,8 +424,8 @@
       newsRequest = (async () => {
       const status = document.querySelector('#feedStatus');
       setConnectionState('正在连接公开新闻源…');
-      status.textContent = '正在请求 GDELT 近 24 小时报道…';
-      const endpoint = 'https://bold-glade-984d.fendou986.workers.dev/';
+      status.textContent = '正在读取最近同步的公开新闻…';
+      const endpoint = `./data/news.json?t=${Date.now()}`;
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 8000);
       try {
@@ -443,9 +443,9 @@
         applyFilters();
         updateLiveMetrics(articles);
         lastLiveAt = Date.now();
-        const stale = response.headers.get('X-News-Stale') === 'true';
-        const source = response.headers.get('X-News-Source') || (data.source === 'rss' ? 'rss-fallback' : 'gdelt');
-        const sourceLabel = source === 'rss-fallback' ? '备用新闻源' : source === 'gdelt' ? 'GDELT' : '缓存新闻';
+        const stale = data.stale === true;
+        const source = data.source || 'GDELT';
+        const sourceLabel = source === 'rss' ? '备用新闻源' : source === 'gdelt' ? 'GDELT' : '公开新闻源';
         status.textContent = `${stale ? '缓存新闻' : sourceLabel} · ${articles.length} 条 · ${new Date().toLocaleTimeString('zh-CN', {hour12:false})}`;
         status.classList.add('live');
         setConnectionState(`${stale ? '缓存新闻' : sourceLabel}已接入 · ${articles.length} 条报道`);
