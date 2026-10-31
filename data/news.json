@@ -1,1 +1,67 @@
-{"generatedAt":"2026-10-31T12:31:34Z","source":"gdelt","stale":true,"articles":[]}
+{
+  "generatedAt": "2026-10-31T12:36:04.388097+00:00",
+  "source": "rss",
+  "stale": false,
+  "articles": [
+    {
+      "title": "Evacuees from Russia-occupied city where residents ate weeds on way to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 12:05:04 GMT"
+    },
+    {
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 12:21:25 GMT"
+    },
+    {
+      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 02:12:19 GMT"
+    },
+    {
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 01:11:43 GMT"
+    },
+    {
+      "title": "Spain train disaster clouds Sánchez chances of re-election",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 05:44:21 GMT"
+    },
+    {
+      "title": "Former rebel leader elected chief minister of Philippine Muslim region",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/former-rebel-leader-elected-chief-minister-of-philippine-muslim-region?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 31 Oct 2026 12:23:06 +0000"
+    },
+    {
+      "title": "Paris steps up security as police patrol streets",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/paris-steps-up-security-as-police-patrol-streets?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 31 Oct 2026 12:22:49 +0000"
+    },
+    {
+      "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 31 Oct 2026 12:22:45 +0000"
+    },
+    {
+      "title": "Aston Villa to sue ex-Liverpool star Carragher over ‘unacceptable insults’",
+      "url": "https://www.aljazeera.com/sports/2026/10/31/aston-villa-jamie-carragher-legal-action-sue-premier-league-football?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 31 Oct 2026 12:14:15 +0000"
+    },
+    {
+      "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 31 Oct 2026 12:13:42 +0000"
+    }
+  ]
+}
