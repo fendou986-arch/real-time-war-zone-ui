@@ -1,13 +1,25 @@
 {
-  "generatedAt": "2026-10-31T17:21:43.605282+00:00",
+  "generatedAt": "2026-10-31T20:34:35.555513+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
     {
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied frontline city",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 19:22:26 GMT"
+    },
+    {
       "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
       "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Sat, 31 Oct 2026 15:50:41 GMT"
+      "seendate": "Sat, 31 Oct 2026 17:53:35 GMT"
+    },
+    {
+      "title": "Clashes erupt between police and protesters in Paris",
+      "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 31 Oct 2026 19:37:43 GMT"
     },
     {
       "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
@@ -22,46 +34,34 @@
       "seendate": "Sat, 31 Oct 2026 15:16:20 GMT"
     },
     {
-      "title": "Police deployed during stand-off over control of top Poland court",
-      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 31 Oct 2026 01:11:43 GMT"
-    },
-    {
-      "title": "Ethiopian PM puts ministers through military training",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 31 Oct 2026 14:28:15 GMT"
-    },
-    {
-      "title": "Flavio Bolsonaro says he may run again for Brazilian presidency",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/flavio-bolsonaro-says-he-may-run-again-for-brazilian-presidency?traffic_source=rss",
+      "title": "What is ranked-choice voting and how does it work in US elections?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/what-is-ranked-choice-voting-and-how-does-it-work-in-us-elections?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 31 Oct 2026 17:12:11 +0000"
+      "seendate": "Sat, 31 Oct 2026 20:11:37 +0000"
     },
     {
-      "title": "Thousands rally in Berlin as Gen Z plans protests in 30 German cities",
-      "url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities?traffic_source=rss",
+      "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 31 Oct 2026 16:28:04 +0000"
+      "seendate": "Sat, 31 Oct 2026 20:09:18 +0000"
     },
     {
-      "title": "South Africa hammer Australia as Harmer takes career best bowling of 6-16",
-      "url": "https://www.aljazeera.com/sports/2026/10/31/south-africa-hammer-australia-as-harmer-takes-career-best-bowling-of-6-16?traffic_source=rss",
+      "title": "How vulnerable are cryptocurrency platforms?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 31 Oct 2026 15:43:46 +0000"
+      "seendate": "Sat, 31 Oct 2026 19:19:29 +0000"
     },
     {
-      "title": "Chelsea beat Man United as Martinez sent off to pile pressure on Carrick",
-      "url": "https://www.aljazeera.com/sports/2026/10/31/chelsea-beat-man-united-as-martinez-sees-red-for-crazy-moment-in-thriller?traffic_source=rss",
+      "title": "Palestinians ‘Stealing their own olives’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/palestinians-stealing-their-own?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 31 Oct 2026 15:09:59 +0000"
+      "seendate": "Sat, 31 Oct 2026 19:18:32 +0000"
     },
     {
-      "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks",
-      "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks?traffic_source=rss",
+      "title": "Who is Arafat Minhas, Pakistan cricket’s rising star all-rounder?",
+      "url": "https://www.aljazeera.com/sports/2026/10/31/who-is-arafat-minhas-pakistan-crickets-rising-star-all-rounder?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 31 Oct 2026 14:31:37 +0000"
+      "seendate": "Sat, 31 Oct 2026 18:50:25 +0000"
     }
   ]
 }
