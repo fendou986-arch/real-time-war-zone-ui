@@ -1,13 +1,25 @@
 {
-  "generatedAt": "2026-11-01T20:42:53.824044+00:00",
+  "generatedAt": "2026-11-01T23:55:45.122693+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 01 Nov 2026 22:38:24 GMT"
+    },
+    {
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
       "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Sun, 01 Nov 2026 19:48:17 GMT"
+      "seendate": "Sun, 01 Nov 2026 21:55:01 GMT"
+    },
+    {
+      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 01 Nov 2026 21:16:45 GMT"
     },
     {
       "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
@@ -22,46 +34,34 @@
       "seendate": "Sun, 01 Nov 2026 17:05:18 GMT"
     },
     {
-      "title": "Shops looted as German cost-of-living protests turn violent",
-      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 01 Nov 2026 11:57:48 GMT"
-    },
-    {
-      "title": "Armed police start patrols in Sydney after Bondi Beach attack",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 01 Nov 2026 17:56:47 GMT"
-    },
-    {
-      "title": "Police clash with housing crisis protesters in Portugal",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/police-clash-with-housing-crisis-protesters-in-portugal?traffic_source=rss",
+      "title": "Nine people dead after Learjet crashes in Florida",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/nine-people-dead-after-learjet-crashes-in-florida?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sun, 01 Nov 2026 20:31:17 +0000"
+      "seendate": "Sun, 01 Nov 2026 23:29:48 +0000"
     },
     {
-      "title": "Al Jazeera celebrates 30th anniversary",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/al-jazeera-celebrates-30th-anniversary?traffic_source=rss",
+      "title": "Why governors’ races are important in the 2026 US midterms",
+      "url": "https://www.aljazeera.com/news/2026/11/1/why-governors-races-are-important-in-the-2026-us-midterms?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sun, 01 Nov 2026 20:21:05 +0000"
+      "seendate": "Sun, 01 Nov 2026 23:24:56 +0000"
     },
     {
-      "title": "Video captures house collapsing due to Ecuador floods",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/video-captures-house-collapsing-due-to-ecuador-floods?traffic_source=rss",
+      "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
+      "url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sun, 01 Nov 2026 19:56:47 +0000"
+      "seendate": "Sun, 01 Nov 2026 23:19:51 +0000"
     },
     {
-      "title": "Arsenal go top after narrow win at Liverpool",
-      "url": "https://www.aljazeera.com/sports/2026/11/1/arsenal-go-top-after-narrow-win-at-liverpool?traffic_source=rss",
+      "title": "High-ranking US Democratic senator suffers stroke",
+      "url": "https://www.aljazeera.com/news/2026/11/1/high-ranking-us-democratic-senator-suffers-stroke?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sun, 01 Nov 2026 19:09:18 +0000"
+      "seendate": "Sun, 01 Nov 2026 22:32:54 +0000"
     },
     {
-      "title": "How will the Iran war shape the outcome of the US midterm vote?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/1/how-will-the-iran-war-shape-the-outcome-of-the-u-s-midterm-vote?traffic_source=rss",
+      "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sun, 01 Nov 2026 19:00:32 +0000"
+      "seendate": "Sun, 01 Nov 2026 22:15:14 +0000"
     }
   ]
 }
