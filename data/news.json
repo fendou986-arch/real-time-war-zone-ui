@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-03T10:45:12.041472+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-03T18:05:21Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "US strikes Iranian island ahead of midterm elections",
-      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 03 Nov 2026 10:37:13 GMT"
+      "title": "Kuzey Kore , misket başlıklı seyir füzesini 50 - 60 bin metrekarelik alanda test etti",
+      "url": "https://www.haberler.com/3-sayfa/kuzey-kore-misket-baslikli-seyir-fuzesini-50-60-20391188-haberi/",
+      "domain": "haberler.com",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
-      "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 03 Nov 2026 03:32:36 GMT"
+      "title": "伊朗军方提出五项和平原则 ： 解除制裁 、 战争赔偿 ， 还要霍尔木兹海峡主权 ...... ",
+      "url": "https://wallstreetcn.com/articles/3785079",
+      "domain": "wallstreetcn.com",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 03 Nov 2026 07:24:12 GMT"
+      "title": "What Are They Preparing Us For ? ",
+      "url": "https://www.americanthinker.com/articles/2026/11/what-are-they-preparing-us-for/",
+      "domain": "americanthinker.com",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Tenerife striker De Miguel dies after on-field collision",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 03 Nov 2026 09:09:18 GMT"
+      "title": "Iran Sebut Bola Ada di Tangan AS untuk Cegah Perang",
+      "url": "https://international.sindonews.com/read/1767845/43/iran-sebut-bola-ada-di-tangan-as-untuk-cegah-perang-1793697093",
+      "domain": "international.sindonews.com",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
-      "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 03 Nov 2026 10:02:48 GMT"
+      "title": "امریکا کے ساتھ جنگ بندی کے معاہدے سے ابھی بہت دور ہیں ، اعلیٰ ایرانی عہدیدار - World",
+      "url": "https://www.aaj.tv/news/30523941/",
+      "domain": "aaj.tv",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Deadly RSF drone attacks reveal deep divisions between Sudan and Ethiopia",
-      "url": "https://www.aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 03 Nov 2026 10:29:56 +0000"
+      "title": "Трамп и третья мировая война : Лукашенко оценил роль в предотвращении конфликта",
+      "url": "https://iz.ru/2195505/lukashenko-otvel-trampu-rol-spasitelia-mira-ot-tretei-mirovoi-voiny-izi",
+      "domain": "iz.ru",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Senate candidates in Iowa deliver final appeals for midterm elections",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/senate-candidates-in-iowa-deliver-final-appeals-for-midterm-elections?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 03 Nov 2026 10:20:54 +0000"
+      "title": "Arap Koalisyonu : Mekke bölgesinde 1 İHA imha edildi",
+      "url": "https://www.aa.com.tr/tr/dunya/-arap-koalisyonu-mekke-bolgesinde-1-iha-imha-edildi-/4109776",
+      "domain": "aa.com.tr",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
-      "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 03 Nov 2026 10:18:18 +0000"
+      "title": "Trump calls Iran conflict a  soft war , insists US holds the cards ahead of midterm elections",
+      "url": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
+      "domain": "nypost.com",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "Lebanon cuts power to public bodies as electricity crisis deepens",
-      "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 03 Nov 2026 10:17:27 +0000"
+      "title": "US to mediate trilateral talks with Ukraine , Russia in Abu Dhabi next week , US envoy says",
+      "url": "https://www.channelnewsasia.com/world/russia-ukraine-us-trilateral-talks-6516046",
+      "domain": "channelnewsasia.com",
+      "seendate": "20261103T111500Z"
     },
     {
-      "title": "US midterm elections live: Polls due to open in test for Trump",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 03 Nov 2026 10:10:48 +0000"
+      "title": "USA greifen Iran an : Geheime Angriffe vor den Zwischenwahlen",
+      "url": "https://www.az-online.de/politik/usa-greifen-iran-an-geheime-angriffe-vor-den-zwischenwahlen-zr-94571598.html",
+      "domain": "az-online.de",
+      "seendate": "20261103T111500Z"
+    },
+    {
+      "title": "Люди с оружием готовят тайную миссию в Киеве : главная новость СВО 3 ноября",
+      "url": "https://aif.ru/society/lyudi-s-oruzhiem-gotovyat-taynuyu-missiyu-v-kieve-glavnaya-novost-svo-3-noyabrya",
+      "domain": "aif.ru",
+      "seendate": "20261103T021500Z"
+    },
+    {
+      "title": "Lukašenko : Rat u Ukrajini završit će u roku od nekoliko mjeseci",
+      "url": "https://www.index.hr/vijesti/clanak/lukasenko-rat-u-ukrajini-zavrsit-ce-u-roku-od-nekoliko-mjeseci/2852746.aspx?index_tid=1210161&index_ref=naslovnica_vijesti_najnovije_d",
+      "domain": "index.hr",
+      "seendate": "20261103T111500Z"
     }
   ]
 }
