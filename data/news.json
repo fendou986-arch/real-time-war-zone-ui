@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-03T03:07:12Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-03T10:45:12.041472+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Люди с оружием готовят тайную миссию в Киеве : главная новость СВО 3 ноября",
-      "url": "https://aif.ru/society/lyudi-s-oruzhiem-gotovyat-taynuyu-missiyu-v-kieve-glavnaya-novost-svo-3-noyabrya",
-      "domain": "aif.ru",
-      "seendate": "20261103T021500Z"
+      "title": "US strikes Iranian island ahead of midterm elections",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 03 Nov 2026 10:37:13 GMT"
     },
     {
-      "title": "北朝鮮 、 巡航ミサイルでもクラスター弾試験 多様な攻撃能力誇示",
-      "url": "https://mainichi.jp/articles/20261103/k00/00m/030/007000c",
-      "domain": "mainichi.jp",
-      "seendate": "20261103T021500Z"
+      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 03 Nov 2026 03:32:36 GMT"
     },
     {
-      "title": "北韓試射戰略巡弋飛彈 宣稱可將5至6公頃夷為平地 | 國際焦點 | 全球",
-      "url": "https://udn.com/news/story/6809/9853410",
-      "domain": "udn.com",
-      "seendate": "20261103T021500Z"
+      "title": "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 03 Nov 2026 07:24:12 GMT"
     },
     {
-      "title": "Переговори України , США та Росії - названо дату",
-      "url": "https://zn.ua/ukr/usa/ssha-nazvali-datu-perehovoriv-z-ukrajinoju-ta-rosijeju-v-abu-dabi.html",
-      "domain": "zn.ua",
-      "seendate": "20261103T021500Z"
+      "title": "Tenerife striker De Miguel dies after on-field collision",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 03 Nov 2026 09:09:18 GMT"
     },
     {
-      "title": "Giá dầu lao dốc hơn 7 % nhờ hy vọng về đàm phán giữa Mỹ và Iran",
-      "url": "https://vietstock.vn/2026/11/gia-dau-lao-doc-hon-7-nho-hy-vong-ve-dam-phan-giua-my-va-iran-34-1510719.htm",
-      "domain": "vietstock.vn",
-      "seendate": "20261103T021500Z"
+      "title": "Jet may have broken apart before Florida crash, officials say, as family named among victims",
+      "url": "https://www.bbc.co.uk/news/articles/cm9wz01dx8xro?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 03 Nov 2026 10:02:48 GMT"
     },
     {
-      "title": "Nordkorea testet Streusprengkopf für Marschflugkörper",
-      "url": "https://www.noz.de/deutschland-welt/politik/artikel/nordkorea-testet-streusprengkopf-fuer-marschflugkoerper-51688167",
-      "domain": "noz.de",
-      "seendate": "20261103T021500Z"
+      "title": "Deadly RSF drone attacks reveal deep divisions between Sudan and Ethiopia",
+      "url": "https://www.aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Tue, 03 Nov 2026 10:29:56 +0000"
     },
     {
-      "title": "Axios hé lộ cuộc điện đàm căng thẳng giữa ông Trump và ông Netanyahu về Iran",
-      "url": "https://baotintuc.vn/axios-he-lo-cuoc-dien-dam-cang-thang-giua-ong-trump-va-ong-netanyahu-ve-iran-post1399376.html",
-      "domain": "baotintuc.vn",
-      "seendate": "20261103T021500Z"
+      "title": "Senate candidates in Iowa deliver final appeals for midterm elections",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/senate-candidates-in-iowa-deliver-final-appeals-for-midterm-elections?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Tue, 03 Nov 2026 10:20:54 +0000"
     },
     {
-      "title": "Donald Trump llamó a votar contra los candidatos demócratas : Extremistas y peligrosos",
-      "url": "https://www.diariopopular.com.ar/internacionales/donald-trump-llamo-votar-contra-los-candidatos-democratas-extremistas-y-peligrosos-n927460",
-      "domain": "diariopopular.com.ar",
-      "seendate": "20261103T021500Z"
+      "title": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+      "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Tue, 03 Nov 2026 10:18:18 +0000"
     },
     {
-      "title": " « Наші ракети досягнуть Європи »: Іран пригрозив ударами по базах США",
-      "url": "https://glavcom.ua/world/world-politics/nashi-raketi-dosjahnut-jevropi-iran-prihroziv-udarami-po-bazakh-ssha-1153077.html",
-      "domain": "glavcom.ua",
-      "seendate": "20261103T021500Z"
+      "title": "Lebanon cuts power to public bodies as electricity crisis deepens",
+      "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Tue, 03 Nov 2026 10:17:27 +0000"
     },
     {
-      "title": "Нова среща САЩ - Украйна - Русия ще се проведе в Абу Даби на 10 и 11 ноември",
-      "url": "https://www.focus-news.net/novini/mejdunarodni/Nova-sreshta-SASht-Ukraina-Rusiya-shte-se-provede-v-Abu-Dabi-na-10-i-11-noemvri-3050298",
-      "domain": "focus-news.net",
-      "seendate": "20261103T021500Z"
-    },
-    {
-      "title": "Vance dice que ha habido  avances  en la negociación con Irán | Noticias La Tribuna de Albacete",
-      "url": "https://www.latribunadealbacete.es/noticia/zbf148e80-1036-4486-adaa37697d9c7708/202611/vance-dice-que-ha-habido-avances-en-la-negociacion-con-iran",
-      "domain": "latribunadealbacete.es",
-      "seendate": "20261103T021500Z"
-    },
-    {
-      "title": "Генеральный штаб подвел итоги российских атак на Украину за октябрь - сколько БПЛА сбили в октябре",
-      "url": "https://24tv.ua/ru/generalnyj-shtab-podvel-itogi-rossijskih-atak-na-ukrainu-za-oktjabr-skolko-dronov-bylo-sbito-v-oktjabre_n3172396",
-      "domain": "24tv.ua",
-      "seendate": "20261103T021500Z"
+      "title": "US midterm elections live: Polls due to open in test for Trump",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Tue, 03 Nov 2026 10:10:48 +0000"
     }
   ]
 }
