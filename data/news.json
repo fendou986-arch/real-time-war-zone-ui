@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-03T23:15:08Z",
+  "generatedAt": "2026-11-04T03:02:17Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Kuzey Kore , misket başlıklı seyir füzesini 50 - 60 bin metrekarelik alanda test etti",
-      "url": "https://www.haberler.com/3-sayfa/kuzey-kore-misket-baslikli-seyir-fuzesini-50-60-20391188-haberi/",
-      "domain": "haberler.com",
-      "seendate": "20261103T111500Z"
-    },
-    {
       "title": "伊朗军方提出五项和平原则 ： 解除制裁 、 战争赔偿 ， 还要霍尔木兹海峡主权 ...... ",
       "url": "https://wallstreetcn.com/articles/3785079",
       "domain": "wallstreetcn.com",
+      "seendate": "20261103T111500Z"
+    },
+    {
+      "title": "Kuzey Kore , misket başlıklı seyir füzesini 50 - 60 bin metrekarelik alanda test etti",
+      "url": "https://www.haberler.com/3-sayfa/kuzey-kore-misket-baslikli-seyir-fuzesini-50-60-20391188-haberi/",
+      "domain": "haberler.com",
       "seendate": "20261103T111500Z"
     },
     {
@@ -26,6 +26,12 @@
       "url": "https://international.sindonews.com/read/1767845/43/iran-sebut-bola-ada-di-tangan-as-untuk-cegah-perang-1793697093",
       "domain": "international.sindonews.com",
       "seendate": "20261103T111500Z"
+    },
+    {
+      "title": "US Continues Strikes on Iran Despite Trump Claims That War Is Over",
+      "url": "https://truthout.org/articles/us-continues-strikes-on-iran-despite-trump-claims-that-war-is-over/",
+      "domain": "truthout.org",
+      "seendate": "20261104T013000Z"
     },
     {
       "title": "امریکا کے ساتھ جنگ بندی کے معاہدے سے ابھی بہت دور ہیں ، اعلیٰ ایرانی عہدیدار - World",
@@ -64,16 +70,10 @@
       "seendate": "20261103T111500Z"
     },
     {
-      "title": "Люди с оружием готовят тайную миссию в Киеве : главная новость СВО 3 ноября",
-      "url": "https://aif.ru/society/lyudi-s-oruzhiem-gotovyat-taynuyu-missiyu-v-kieve-glavnaya-novost-svo-3-noyabrya",
-      "domain": "aif.ru",
-      "seendate": "20261103T021500Z"
-    },
-    {
-      "title": "Lukašenko : Rat u Ukrajini završit će u roku od nekoliko mjeseci",
-      "url": "https://www.index.hr/vijesti/clanak/lukasenko-rat-u-ukrajini-zavrsit-ce-u-roku-od-nekoliko-mjeseci/2852746.aspx?index_tid=1210161&index_ref=naslovnica_vijesti_najnovije_d",
-      "domain": "index.hr",
-      "seendate": "20261103T111500Z"
+      "title": "Todo va mal para Muhammad bin Salman",
+      "url": "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
+      "domain": "abc.es",
+      "seendate": "20261104T013000Z"
     }
   ]
 }
