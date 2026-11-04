@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-04T18:16:23Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-04T23:44:59.500669+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "US Continues Strikes on Iran Despite Trump Claims That War Is Over",
-      "url": "https://truthout.org/articles/us-continues-strikes-on-iran-despite-trump-claims-that-war-is-over/",
-      "domain": "truthout.org",
-      "seendate": "20261104T013000Z"
+      "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 04 Nov 2026 13:33:30 GMT"
     },
     {
-      "title": "Todo va mal para Muhammad bin Salman",
-      "url": "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
-      "domain": "abc.es",
-      "seendate": "20261104T013000Z"
+      "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+      "url": "https://www.bbc.co.uk/news/articles/cqev3mw3e0kdo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 04 Nov 2026 18:01:31 GMT"
     },
     {
-      "title": "Todo va mal para Muhammad bin Salman | El Diario Montas",
-      "url": "https://www.eldiariomontanes.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
-      "domain": "eldiariomontanes.es",
-      "seendate": "20261104T013000Z"
+      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 04 Nov 2026 22:48:43 GMT"
     },
     {
-      "title": "Nga oanh tạc quy mô lớn , hệ thống năng lượng của Ukraine bị tê liệt",
-      "url": "https://baomoi.com/nga-oanh-tac-quy-mo-lon-he-thong-nang-luong-cua-ukraine-bi-te-liet-c56424506.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261104T013000Z"
+      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 04 Nov 2026 16:26:15 GMT"
     },
     {
-      "title": "ΗΠΑ : 6 στους 10 ψηφοφόρους διαφωνούν με τον πόλεμο του Τραμπ κατά του Ιράν",
-      "url": "https://www.in.gr/2026/11/04/world/ipa-6-stous-10-psifoforous-diafonoun-me-ton-polemo-tou-tramp-kata-tou-iran/",
-      "domain": "in.gr",
-      "seendate": "20261104T013000Z"
+      "title": "'Most difficult days of my life' for keeper Owono",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6zxjz40l280o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 04 Nov 2026 16:40:38 GMT"
     },
     {
-      "title": "North Korea fires unidentified projectile toward East Sea",
-      "url": "https://www.koreaherald.com/article/10925065",
-      "domain": "koreaherald.com",
-      "seendate": "20261104T013000Z"
+      "title": "Giant banner of Trump, Vance and Netanyahu burnt at Tehran rally",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/giant-banner-of-trump-vance-and-netanyahu-burnt-at-tehran-rally?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 04 Nov 2026 23:34:47 +0000"
     },
     {
-      "title": "4 Novembre , perché si celebra la Giornata dellUnità Nazionale e delle Forze Armate ? La storia , il significato e perché oggi non è più festivo",
-      "url": "https://www.strettoweb.com/2026/11/4-novembre-perche-si-celebra-la-giornata-dellunita-nazionale-e-delle-forze-armate-la-storia-il-significato-e-perche-oggi-non-e-piu-festivo/2171937/",
-      "domain": "strettoweb.com",
-      "seendate": "20261104T013000Z"
+      "title": "Trump blames Iran war for midterms losses",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 04 Nov 2026 23:30:01 +0000"
     },
     {
-      "title": "Democrat Amanda Hollowell focuses on jobs , affordability , and veteran care in 1st District race",
-      "url": "https://www.wtoc.com/2026/11/03/democrat-amanda-hollowell-focuses-jobs-affordability-veteran-care-1st-district-race/",
-      "domain": "wtoc.com",
-      "seendate": "20261104T013000Z"
+      "title": "Democratic Socialists of America see record wins in US midterm elections",
+      "url": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 04 Nov 2026 22:45:24 +0000"
     },
     {
-      "title": "  맥그리거 , 약물 · 음주로 개차반 돼 … 절친 폭로",
-      "url": "https://biz.heraldcorp.com/article/10925133",
-      "domain": "biz.heraldcorp.com",
-      "seendate": "20261104T013000Z"
+      "title": "Sudan factories struggle to restart after devastating wartime losses",
+      "url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 04 Nov 2026 22:31:09 +0000"
     },
     {
-      "title": "Trump is not undercutting Israel by withdrawing military aid",
-      "url": "https://www.americanthinker.com/blog/2026/11/trump-is-not-undercutting-israel-by-withdrawing-military-aid/",
-      "domain": "americanthinker.com",
-      "seendate": "20261104T013000Z"
-    },
-    {
-      "title": "Gas Prices Decline , But Still For Election Day",
-      "url": "https://jamn1075.iheart.com/content/2026-11-03-gas-prices-decline-but-still-for-election-day/",
-      "domain": "jamn1075.iheart.com",
-      "seendate": "20261104T013000Z"
-    },
-    {
-      "title": "Gas Prices Decline , But Still For Election Day | News Radio 1190 KEX",
-      "url": "https://1190kex.iheart.com/content/2026-11-03-gas-prices-decline-but-still-for-election-day/",
-      "domain": "1190kex.iheart.com",
-      "seendate": "20261104T013000Z"
+      "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 04 Nov 2026 22:06:24 +0000"
     }
   ]
 }
