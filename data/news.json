@@ -1,32 +1,8 @@
 {
-  "generatedAt": "2026-11-04T03:02:17Z",
+  "generatedAt": "2026-11-04T18:16:23Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
-    {
-      "title": "伊朗军方提出五项和平原则 ： 解除制裁 、 战争赔偿 ， 还要霍尔木兹海峡主权 ...... ",
-      "url": "https://wallstreetcn.com/articles/3785079",
-      "domain": "wallstreetcn.com",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "Kuzey Kore , misket başlıklı seyir füzesini 50 - 60 bin metrekarelik alanda test etti",
-      "url": "https://www.haberler.com/3-sayfa/kuzey-kore-misket-baslikli-seyir-fuzesini-50-60-20391188-haberi/",
-      "domain": "haberler.com",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "What Are They Preparing Us For ? ",
-      "url": "https://www.americanthinker.com/articles/2026/11/what-are-they-preparing-us-for/",
-      "domain": "americanthinker.com",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "Iran Sebut Bola Ada di Tangan AS untuk Cegah Perang",
-      "url": "https://international.sindonews.com/read/1767845/43/iran-sebut-bola-ada-di-tangan-as-untuk-cegah-perang-1793697093",
-      "domain": "international.sindonews.com",
-      "seendate": "20261103T111500Z"
-    },
     {
       "title": "US Continues Strikes on Iran Despite Trump Claims That War Is Over",
       "url": "https://truthout.org/articles/us-continues-strikes-on-iran-despite-trump-claims-that-war-is-over/",
@@ -34,45 +10,69 @@
       "seendate": "20261104T013000Z"
     },
     {
-      "title": "امریکا کے ساتھ جنگ بندی کے معاہدے سے ابھی بہت دور ہیں ، اعلیٰ ایرانی عہدیدار - World",
-      "url": "https://www.aaj.tv/news/30523941/",
-      "domain": "aaj.tv",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "Трамп и третья мировая война : Лукашенко оценил роль в предотвращении конфликта",
-      "url": "https://iz.ru/2195505/lukashenko-otvel-trampu-rol-spasitelia-mira-ot-tretei-mirovoi-voiny-izi",
-      "domain": "iz.ru",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "Arap Koalisyonu : Mekke bölgesinde 1 İHA imha edildi",
-      "url": "https://www.aa.com.tr/tr/dunya/-arap-koalisyonu-mekke-bolgesinde-1-iha-imha-edildi-/4109776",
-      "domain": "aa.com.tr",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "Trump calls Iran conflict a  soft war , insists US holds the cards ahead of midterm elections",
-      "url": "https://nypost.com/2026/11/03/us-news/trump-calls-iran-conflict-a-soft-war-insists-us-holds-the-cards-ahead-of-midterm-elections/",
-      "domain": "nypost.com",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "US to mediate trilateral talks with Ukraine , Russia in Abu Dhabi next week , US envoy says",
-      "url": "https://www.channelnewsasia.com/world/russia-ukraine-us-trilateral-talks-6516046",
-      "domain": "channelnewsasia.com",
-      "seendate": "20261103T111500Z"
-    },
-    {
-      "title": "USA greifen Iran an : Geheime Angriffe vor den Zwischenwahlen",
-      "url": "https://www.az-online.de/politik/usa-greifen-iran-an-geheime-angriffe-vor-den-zwischenwahlen-zr-94571598.html",
-      "domain": "az-online.de",
-      "seendate": "20261103T111500Z"
-    },
-    {
       "title": "Todo va mal para Muhammad bin Salman",
       "url": "https://www.abc.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
       "domain": "abc.es",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "Todo va mal para Muhammad bin Salman | El Diario Montas",
+      "url": "https://www.eldiariomontanes.es/internacional/mal-muhammad-bin-salman-20261104014747-nt.html",
+      "domain": "eldiariomontanes.es",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "Nga oanh tạc quy mô lớn , hệ thống năng lượng của Ukraine bị tê liệt",
+      "url": "https://baomoi.com/nga-oanh-tac-quy-mo-lon-he-thong-nang-luong-cua-ukraine-bi-te-liet-c56424506.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "ΗΠΑ : 6 στους 10 ψηφοφόρους διαφωνούν με τον πόλεμο του Τραμπ κατά του Ιράν",
+      "url": "https://www.in.gr/2026/11/04/world/ipa-6-stous-10-psifoforous-diafonoun-me-ton-polemo-tou-tramp-kata-tou-iran/",
+      "domain": "in.gr",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "North Korea fires unidentified projectile toward East Sea",
+      "url": "https://www.koreaherald.com/article/10925065",
+      "domain": "koreaherald.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "4 Novembre , perché si celebra la Giornata dellUnità Nazionale e delle Forze Armate ? La storia , il significato e perché oggi non è più festivo",
+      "url": "https://www.strettoweb.com/2026/11/4-novembre-perche-si-celebra-la-giornata-dellunita-nazionale-e-delle-forze-armate-la-storia-il-significato-e-perche-oggi-non-e-piu-festivo/2171937/",
+      "domain": "strettoweb.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "Democrat Amanda Hollowell focuses on jobs , affordability , and veteran care in 1st District race",
+      "url": "https://www.wtoc.com/2026/11/03/democrat-amanda-hollowell-focuses-jobs-affordability-veteran-care-1st-district-race/",
+      "domain": "wtoc.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "  맥그리거 , 약물 · 음주로 개차반 돼 … 절친 폭로",
+      "url": "https://biz.heraldcorp.com/article/10925133",
+      "domain": "biz.heraldcorp.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "Trump is not undercutting Israel by withdrawing military aid",
+      "url": "https://www.americanthinker.com/blog/2026/11/trump-is-not-undercutting-israel-by-withdrawing-military-aid/",
+      "domain": "americanthinker.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "Gas Prices Decline , But Still For Election Day",
+      "url": "https://jamn1075.iheart.com/content/2026-11-03-gas-prices-decline-but-still-for-election-day/",
+      "domain": "jamn1075.iheart.com",
+      "seendate": "20261104T013000Z"
+    },
+    {
+      "title": "Gas Prices Decline , But Still For Election Day | News Radio 1190 KEX",
+      "url": "https://1190kex.iheart.com/content/2026-11-03-gas-prices-decline-but-still-for-election-day/",
+      "domain": "1190kex.iheart.com",
       "seendate": "20261104T013000Z"
     }
   ]
