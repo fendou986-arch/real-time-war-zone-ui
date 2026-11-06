@@ -1,20 +1,8 @@
 {
-  "generatedAt": "2026-11-06T05:30:55.447165+00:00",
+  "generatedAt": "2026-11-06T13:11:27.461896+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
-    {
-      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 02:57:24 GMT"
-    },
-    {
-      "title": "Trump signs order preventing future presidents from changing Oval Office",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 04:29:25 GMT"
-    },
     {
       "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
       "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
@@ -22,46 +10,58 @@
       "seendate": "Fri, 06 Nov 2026 02:08:57 GMT"
     },
     {
-      "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-      "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump signs order to preserve Oval Office as national monument",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 00:02:57 GMT"
+      "seendate": "Fri, 06 Nov 2026 09:19:57 GMT"
     },
     {
-      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+      "title": "Two dead after bus crashes in France, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Thu, 05 Nov 2026 17:39:48 GMT"
+      "seendate": "Fri, 06 Nov 2026 12:27:33 GMT"
     },
     {
-      "title": "Why one Republican won a redrawn Texas district despite blue tsunami",
-      "url": "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 06 Nov 2026 05:03:57 +0000"
+      "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 06 Nov 2026 12:54:04 GMT"
     },
     {
-      "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
-      "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 06 Nov 2026 05:00:47 +0000"
+      "title": "Russian extremist group denies sending hoax bomb threats",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 06 Nov 2026 12:51:38 GMT"
     },
     {
-      "title": "Trump issues proclamation declaring Oval Office national monument",
-      "url": "https://www.aljazeera.com/news/2026/11/6/trump-issues-proclamation-declaring-oval-office-national-monument?traffic_source=rss",
+      "title": "Russia to UAE, Iran steps up diplomacy amid Trump threats: What we know",
+      "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 06 Nov 2026 04:48:00 +0000"
+      "seendate": "Fri, 06 Nov 2026 12:57:33 +0000"
     },
     {
-      "title": "Israeli settlers seize 8 Palestinian homes in Jericho, displacing dozens",
-      "url": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss",
+      "title": "Cristiano Ronaldo: Portugal’s polarising icon and his bitter final act",
+      "url": "https://www.aljazeera.com/sports/2026/11/6/cristiano-ronaldo-portugal-retirement-jorge-jesus-manchester-united?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 06 Nov 2026 04:30:26 +0000"
+      "seendate": "Fri, 06 Nov 2026 12:55:29 +0000"
     },
     {
-      "title": "Democratic Socialist Nithya Raman wins LA mayoral race",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/democratic-socialist-nithya-raman-wins-la-mayoral-race?traffic_source=rss",
+      "title": "Kenyan court sentences starvation cult leader to 200 years",
+      "url": "https://www.aljazeera.com/news/2026/11/6/kenyan-court-sentences-starvation-cult-leader-to-200-years?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 06 Nov 2026 04:29:04 +0000"
+      "seendate": "Fri, 06 Nov 2026 12:50:24 +0000"
+    },
+    {
+      "title": "‘City of immigrants’: Who is Nithya Raman, the Los Angeles mayor-elect?",
+      "url": "https://www.aljazeera.com/news/2026/11/6/city-of-immigrants-who-is-nithya-raman-the-los-angeles-mayor-elect?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 06 Nov 2026 12:41:24 +0000"
+    },
+    {
+      "title": "Air turns hazardous in New Delhi days before Diwali",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/air-turns-hazardous-in-new-delhi-days-before-diwali?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 06 Nov 2026 12:30:28 +0000"
     }
   ]
 }
