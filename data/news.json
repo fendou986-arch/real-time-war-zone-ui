@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-07T11:55:57Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-07T17:20:48.660590+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Yemende pazar yerine hava saldırısı ! Çok sayıda ölü var",
-      "url": "https://www.haberler.com/haberler/yemende-pazar-yerine-hava-saldirisi-cok-sayida-20402051-haberi/",
-      "domain": "haberler.com",
-      "seendate": "20261106T120000Z"
+      "title": "No clear winner after tight New Zealand general election",
+      "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 15:56:28 GMT"
     },
     {
-      "title": "Yemende çatışmalar şiddetlendi : Husiler bazı bölgelerden çıkarıldı",
-      "url": "https://www.birgun.net/haber/yemen-de-catismalar-siddetlendi-husiler-bazi-bolgelerden-cikarildi-745074",
-      "domain": "birgun.net",
-      "seendate": "20261107T100000Z"
+      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 15:19:35 GMT"
     },
     {
-      "title": "Τρόμος από αέρος - Ρωσικές FAB - 500 εναντίον ουκρανικών Flamingo - Trump για συμφωνία : Θα είναι σαρωτική , σεισμός για ΕΕ",
-      "url": "https://www.bankingnews.gr/diethni/articles/909514/tromos-apo-aeros-rosikes-vomves-fab-500-trion-tonon-enantion-oukranikon-flamingo-kai-neptune-syntrimmia-energeiako-parko-stin-oukrania%20title=",
-      "domain": "bankingnews.gr",
-      "seendate": "20261106T120000Z"
+      "title": "With Stephen Miller pick, Trump readies for a battle",
+      "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 06 Nov 2026 23:24:15 GMT"
     },
     {
-      "title": "美媒 ： 北约有意强化对俄纵深打击能力",
-      "url": "https://www.163.com/dy/article/LB503ATD0514BQ68.html",
-      "domain": "163.com",
-      "seendate": "20261107T080000Z"
+      "title": "Paraguay's president impeached and under house arrest after bank collapse",
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 07:20:00 GMT"
     },
     {
-      "title": "Δράμα στο Κίεβο - « Σεισμοί » από ρωσικούς Zircon διέλυσαν 144 στόχους , στρατηγική μονάδα Flamingo , Βόρεια Γέφυρα",
-      "url": "https://www.bankingnews.gr/diethni/articles/909692/dramatiki-katastasi-sto-kievo-titania-rosiki-epithesi-se-144-stoxous-katestrepsan-ti-stratigiki-monada-meridian-kai-ti-voreia-gefyra",
-      "domain": "bankingnews.gr",
-      "seendate": "20261107T113000Z"
+      "title": "Pope in 'pretty good health' as he starts Latin America tour",
+      "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 06:59:48 GMT"
     },
     {
-      "title": "Δράμα στο Κίεβο - « Σεισμοί » από ρωσικούς Zircon διέλυσαν 144 στόχους , στρατηγική μονάδα Flamingo , Βόρεια Γέφυρα",
-      "url": "https://www.bankingnews.gr/diethni/articles/909692/dramatiki-katastasi-sto-kievo-titania-rosiki-epithesi-se-144-stoxous-katestrepsan-ti-stratigiki-monada-meridian-kai-ti-voreia-gefyra%20title=",
-      "domain": "bankingnews.gr",
-      "seendate": "20261107T113000Z"
+      "title": "Jerusalem Daily: Heavy rains flood Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 07 Nov 2026 17:11:29 +0000"
     },
     {
-      "title": "Στόλος εναντίον θαλάσσιων drones ή μάχη με ... σκιές – Η Σόφια εξοπλίζεται με πυραύλους VL MICA κι ενισχύει το Βουλγαρικό Πολεμικό Ναυτικό",
-      "url": "https://www.bankingnews.gr/diethni/articles/909513/stolos-enantion-thalassion-drones-i-maxi-me-skies-i-sofia-eksoplizetai-me-pyraylous-vl-mica-ki-enisxyei-to-voulgariko-polemiko-naftiko",
-      "domain": "bankingnews.gr",
-      "seendate": "20261106T120000Z"
+      "title": "Valencia vs Real Madrid LIVE: La Liga",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/11/7/valencia-vs-real-madrid-live-la-liga?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 07 Nov 2026 17:00:12 +0000"
     },
     {
-      "title": "Iran waspadai serangan baru AS meski kapal perang telah ditarik",
-      "url": "https://www.antaranews.com/berita/5838035/iran-waspadai-serangan-baru-as-meski-kapal-perang-telah-ditarik",
-      "domain": "antaranews.com",
-      "seendate": "20261107T050000Z"
+      "title": "Israel builds 90km network of military roads across southern Lebanon",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 07 Nov 2026 16:30:33 +0000"
     },
     {
-      "title": "Finland considers Ukraine - style anti - tank barriers as Russia rearms",
-      "url": "https://www.business-standard.com/world-news/finland-considers-ukraine-style-anti-tank-barriers-as-russia-rearms-126110700482_1.html",
-      "domain": "business-standard.com",
-      "seendate": "20261107T113000Z"
+      "title": "Guatemalan lawmaker and three police officers killed in armed attack",
+      "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 07 Nov 2026 16:15:18 +0000"
     },
     {
-      "title": "Guerre en Ukraine : un pont et des infrastructures énergétiques endommagés dans des frappes russes à cet sa région",
-      "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/11/07/guerre-en-ukraine-un-pont-et-des-infrastructures-energetiques-endommages-dans-des-frappes-russes-a-cet-sa-region-FOJP2QISVNGEVDJ7UUB253SU7Y/",
-      "domain": "lalibre.be",
-      "seendate": "20261107T080000Z"
-    },
-    {
-      "title": "Đảng Dân chủ giành chiến thắng : Cuộc chiến Mỹ - Iran sẽ sớm chấm dứt ? ",
-      "url": "https://petrotimes.vn/dang-dan-chu-gianh-chien-thang-cuoc-chien-my-iran-se-som-cham-dut-747640.html",
-      "domain": "petrotimes.vn",
-      "seendate": "20261107T020000Z"
-    },
-    {
-      "title": "রিয়াদ অঞ্চলে হাউছিদের ক্ষেপণাস্ত্র প্রতিহতের দাবি সৌদি জোটের : Daily Naya Diganta ( দৈনিক নয়া দিগন্ত ) ",
-      "url": "https://www.dailynayadiganta.com/post/middle-east/1067299",
-      "domain": "dailynayadiganta.com",
-      "seendate": "20261107T100000Z"
+      "title": "Hundreds march in Pau, France against high living costs",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/hundreds-march-in-pau-france-against-high-living-costs?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 07 Nov 2026 16:09:11 +0000"
     }
   ]
 }
