@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-07T05:39:51.099931+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-07T11:55:57Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "AI stocks climb after trillions wiped from market values",
-      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 21:06:25 GMT"
+      "title": "Yemende pazar yerine hava saldırısı ! Çok sayıda ölü var",
+      "url": "https://www.haberler.com/haberler/yemende-pazar-yerine-hava-saldirisi-cok-sayida-20402051-haberi/",
+      "domain": "haberler.com",
+      "seendate": "20261106T120000Z"
     },
     {
-      "title": "Four midterms takeaways for 2028 White House race",
-      "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 16:12:22 GMT"
+      "title": "Yemende çatışmalar şiddetlendi : Husiler bazı bölgelerden çıkarıldı",
+      "url": "https://www.birgun.net/haber/yemen-de-catismalar-siddetlendi-husiler-bazi-bolgelerden-cikarildi-745074",
+      "domain": "birgun.net",
+      "seendate": "20261107T100000Z"
     },
     {
-      "title": "Two dead after bus crashes in France, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 15:33:52 GMT"
+      "title": "Τρόμος από αέρος - Ρωσικές FAB - 500 εναντίον ουκρανικών Flamingo - Trump για συμφωνία : Θα είναι σαρωτική , σεισμός για ΕΕ",
+      "url": "https://www.bankingnews.gr/diethni/articles/909514/tromos-apo-aeros-rosikes-vomves-fab-500-trion-tonon-enantion-oukranikon-flamingo-kai-neptune-syntrimmia-energeiako-parko-stin-oukrania%20title=",
+      "domain": "bankingnews.gr",
+      "seendate": "20261106T120000Z"
     },
     {
-      "title": "New wave of bomb threats hit European airlines",
-      "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 15:25:35 GMT"
+      "title": "美媒 ： 北约有意强化对俄纵深打击能力",
+      "url": "https://www.163.com/dy/article/LB503ATD0514BQ68.html",
+      "domain": "163.com",
+      "seendate": "20261107T080000Z"
     },
     {
-      "title": "Paraguay's President Santiago Peña impeached and arrested",
-      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 07 Nov 2026 03:25:00 GMT"
+      "title": "Δράμα στο Κίεβο - « Σεισμοί » από ρωσικούς Zircon διέλυσαν 144 στόχους , στρατηγική μονάδα Flamingo , Βόρεια Γέφυρα",
+      "url": "https://www.bankingnews.gr/diethni/articles/909692/dramatiki-katastasi-sto-kievo-titania-rosiki-epithesi-se-144-stoxous-katestrepsan-ti-stratigiki-monada-meridian-kai-ti-voreia-gefyra",
+      "domain": "bankingnews.gr",
+      "seendate": "20261107T113000Z"
     },
     {
-      "title": "President Herzog faces key choice as Israel struggles to form government",
-      "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 05:16:18 +0000"
+      "title": "Δράμα στο Κίεβο - « Σεισμοί » από ρωσικούς Zircon διέλυσαν 144 στόχους , στρατηγική μονάδα Flamingo , Βόρεια Γέφυρα",
+      "url": "https://www.bankingnews.gr/diethni/articles/909692/dramatiki-katastasi-sto-kievo-titania-rosiki-epithesi-se-144-stoxous-katestrepsan-ti-stratigiki-monada-meridian-kai-ti-voreia-gefyra%20title=",
+      "domain": "bankingnews.gr",
+      "seendate": "20261107T113000Z"
     },
     {
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 05:11:03 +0000"
+      "title": "Στόλος εναντίον θαλάσσιων drones ή μάχη με ... σκιές – Η Σόφια εξοπλίζεται με πυραύλους VL MICA κι ενισχύει το Βουλγαρικό Πολεμικό Ναυτικό",
+      "url": "https://www.bankingnews.gr/diethni/articles/909513/stolos-enantion-thalassion-drones-i-maxi-me-skies-i-sofia-eksoplizetai-me-pyraylous-vl-mica-ki-enisxyei-to-voulgariko-polemiko-naftiko",
+      "domain": "bankingnews.gr",
+      "seendate": "20261106T120000Z"
     },
     {
-      "title": "‘One less gang leader’: Haiti’s prime minister celebrates police operation",
-      "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 05:02:49 +0000"
+      "title": "Iran waspadai serangan baru AS meski kapal perang telah ditarik",
+      "url": "https://www.antaranews.com/berita/5838035/iran-waspadai-serangan-baru-as-meski-kapal-perang-telah-ditarik",
+      "domain": "antaranews.com",
+      "seendate": "20261107T050000Z"
     },
     {
-      "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
-      "url": "https://www.aljazeera.com/economy/2026/11/7/us-treasury-sanctions-eight-canadian-money-exchange-firms-over-iran-ties?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 04:50:46 +0000"
+      "title": "Finland considers Ukraine - style anti - tank barriers as Russia rearms",
+      "url": "https://www.business-standard.com/world-news/finland-considers-ukraine-style-anti-tank-barriers-as-russia-rearms-126110700482_1.html",
+      "domain": "business-standard.com",
+      "seendate": "20261107T113000Z"
     },
     {
-      "title": "Los Angeles reacts to historic mayoral election",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/los-angeles-reacts-to-historic-mayoral-election?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 04:14:12 +0000"
+      "title": "Guerre en Ukraine : un pont et des infrastructures énergétiques endommagés dans des frappes russes à cet sa région",
+      "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/11/07/guerre-en-ukraine-un-pont-et-des-infrastructures-energetiques-endommages-dans-des-frappes-russes-a-cet-sa-region-FOJP2QISVNGEVDJ7UUB253SU7Y/",
+      "domain": "lalibre.be",
+      "seendate": "20261107T080000Z"
+    },
+    {
+      "title": "Đảng Dân chủ giành chiến thắng : Cuộc chiến Mỹ - Iran sẽ sớm chấm dứt ? ",
+      "url": "https://petrotimes.vn/dang-dan-chu-gianh-chien-thang-cuoc-chien-my-iran-se-som-cham-dut-747640.html",
+      "domain": "petrotimes.vn",
+      "seendate": "20261107T020000Z"
+    },
+    {
+      "title": "রিয়াদ অঞ্চলে হাউছিদের ক্ষেপণাস্ত্র প্রতিহতের দাবি সৌদি জোটের : Daily Naya Diganta ( দৈনিক নয়া দিগন্ত ) ",
+      "url": "https://www.dailynayadiganta.com/post/middle-east/1067299",
+      "domain": "dailynayadiganta.com",
+      "seendate": "20261107T100000Z"
     }
   ]
 }
