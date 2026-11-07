@@ -1,13 +1,31 @@
 {
-  "generatedAt": "2026-11-07T17:20:48.660590+00:00",
+  "generatedAt": "2026-11-07T21:01:03.647223+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
+    {
+      "title": "What we know so far after Polish gunman opens fire in Krakow main square",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 20:23:17 GMT"
+    },
     {
       "title": "No clear winner after tight New Zealand general election",
       "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
       "seendate": "Sat, 07 Nov 2026 15:56:28 GMT"
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 18:14:38 GMT"
+    },
+    {
+      "title": "Houthis say at least 25 killed in Saudi air strike",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 17:09:24 GMT"
     },
     {
       "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
@@ -16,52 +34,34 @@
       "seendate": "Sat, 07 Nov 2026 15:19:35 GMT"
     },
     {
-      "title": "With Stephen Miller pick, Trump readies for a battle",
-      "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 06 Nov 2026 23:24:15 GMT"
-    },
-    {
-      "title": "Paraguay's president impeached and under house arrest after bank collapse",
-      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 07 Nov 2026 07:20:00 GMT"
-    },
-    {
-      "title": "Pope in 'pretty good health' as he starts Latin America tour",
-      "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 07 Nov 2026 06:59:48 GMT"
-    },
-    {
-      "title": "Jerusalem Daily: Heavy rains flood Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/jerusalem-daily-heavy-rains-flood-gaza?traffic_source=rss",
+      "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
+      "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 17:11:29 +0000"
+      "seendate": "Sat, 07 Nov 2026 20:26:58 +0000"
     },
     {
-      "title": "Valencia vs Real Madrid LIVE: La Liga",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/11/7/valencia-vs-real-madrid-live-la-liga?traffic_source=rss",
+      "title": "More than 140,000 rally as new protests against rising costs sweep France",
+      "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 17:00:12 +0000"
+      "seendate": "Sat, 07 Nov 2026 20:12:22 +0000"
     },
     {
-      "title": "Israel builds 90km network of military roads across southern Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
+      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 16:30:33 +0000"
+      "seendate": "Sat, 07 Nov 2026 20:10:38 +0000"
     },
     {
-      "title": "Guatemalan lawmaker and three police officers killed in armed attack",
-      "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
+      "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 16:15:18 +0000"
+      "seendate": "Sat, 07 Nov 2026 20:08:47 +0000"
     },
     {
-      "title": "Hundreds march in Pau, France against high living costs",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/hundreds-march-in-pau-france-against-high-living-costs?traffic_source=rss",
+      "title": "Masked protesters set off firecrackers and block roads in Albania",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 16:09:11 +0000"
+      "seendate": "Sat, 07 Nov 2026 19:49:19 +0000"
     }
   ]
 }
