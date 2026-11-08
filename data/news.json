@@ -1,13 +1,19 @@
 {
-  "generatedAt": "2026-11-07T21:01:03.647223+00:00",
+  "generatedAt": "2026-11-08T00:29:31.429839+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "What we know so far after Polish gunman opens fire in Krakow main square",
+      "title": "What we know so far after Krakow gun attack",
       "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Sat, 07 Nov 2026 20:23:17 GMT"
+      "seendate": "Sat, 07 Nov 2026 22:58:49 GMT"
+    },
+    {
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 07 Nov 2026 22:19:59 GMT"
     },
     {
       "title": "No clear winner after tight New Zealand general election",
@@ -28,40 +34,34 @@
       "seendate": "Sat, 07 Nov 2026 17:09:24 GMT"
     },
     {
-      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 07 Nov 2026 15:19:35 GMT"
+      "title": "Iran war live: Blasts heard in Qeshm; US moves to block land supply routes",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 08 Nov 2026 00:00:56 +0000"
     },
     {
-      "title": "Israel’s president picks Eisenkot over Netanyahu to form next government",
-      "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government?traffic_source=rss",
+      "title": "Eisenkot chosen over Netanyahu to form Israel’s next government",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 20:26:58 +0000"
+      "seendate": "Sat, 07 Nov 2026 23:45:45 +0000"
     },
     {
-      "title": "More than 140,000 rally as new protests against rising costs sweep France",
-      "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss",
+      "title": "Real Madrid beat Valencia 3-0 to draw level with La Liga leaders Barcelona",
+      "url": "https://www.aljazeera.com/sports/2026/11/7/real-madrid-beat-valencia-3-0-to-draw-level-with-la-liga-leaders-barcelona?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 20:12:22 +0000"
+      "seendate": "Sat, 07 Nov 2026 22:21:58 +0000"
     },
     {
-      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+      "title": "Police clash with protesters as anti-government rallies sweep France",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/police-clash-with-protesters-as-anti-government-rallies-sweep-france?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 20:10:38 +0000"
+      "seendate": "Sat, 07 Nov 2026 21:24:10 +0000"
     },
     {
-      "title": "Paraguay’s ousted president appears before prosecutors after impeachment",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-paraguay-former-president-detained-appears?traffic_source=rss",
+      "title": "Mélenchon promises action against Israeli annexation if elected President",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/melenchon-promises-action-against-israeli-annexation-if-elected-president?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 20:08:47 +0000"
-    },
-    {
-      "title": "Masked protesters set off firecrackers and block roads in Albania",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 07 Nov 2026 19:49:19 +0000"
+      "seendate": "Sat, 07 Nov 2026 20:53:47 +0000"
     }
   ]
 }
