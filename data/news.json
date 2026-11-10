@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-09T19:37:27.875257+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-10T02:23:34Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "France accuses Iran of supermarket fridge hacking",
-      "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Mon, 09 Nov 2026 16:55:07 GMT"
+      "title": "Krieg am Golf eskaliert – Huthi - Miliz trifft berühmten Aramco - Tower in Riad",
+      "url": "https://www.heute.at/s/huthi-miliz-trifft-aramco-tower-in-riad-120278726",
+      "domain": "heute.at",
+      "seendate": "20261109T060000Z"
     },
     {
-      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Mon, 09 Nov 2026 18:11:11 GMT"
+      "title": "Tòa tháp tại Saudi Arabia trúng đòn tấn công của Houthi",
+      "url": "https://baomoi.com/toa-thap-tai-saudi-arabia-trung-don-tan-cong-cua-houthi-c56466711.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261109T063000Z"
     },
     {
-      "title": "Trump questions midterm elections integrity after previously accepting results",
-      "url": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Mon, 09 Nov 2026 17:47:29 GMT"
+      "title": "41 kere maşallah",
+      "url": "https://www.milliyet.com.tr/gundem/41-kere-masallah-7697019",
+      "domain": "milliyet.com.tr",
+      "seendate": "20261109T060000Z"
     },
     {
-      "title": "Turkey steel factory blast kills at least 16 people",
-      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Mon, 09 Nov 2026 18:04:01 GMT"
+      "title": "沙特红海出口路线 ， 会不会成为下一个被瞄准的对象 ？_ 期市动态 _ 期货 _ 中金在线",
+      "url": "http://futures.cnfol.com/qishidongtai/20261109/32418846.shtml",
+      "domain": "futures.cnfol.com",
+      "seendate": "20261109T070000Z"
     },
     {
-      "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-      "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Mon, 09 Nov 2026 18:19:19 GMT"
+      "title": "North Korea weapons tests surge to twice Trump first - term pace",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/north-koreas-weapons-tests-surge-to-twice-trump-first-term-pace",
+      "domain": "thestar.com.my",
+      "seendate": "20261109T060000Z"
     },
     {
-      "title": "US agencies unite to combat rogue drone threats nationwide",
-      "url": "https://www.aljazeera.com/news/2026/11/9/us-agencies-unite-to-combat-rogue-drone-threats-nationwide?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Mon, 09 Nov 2026 19:07:56 +0000"
+      "title": "LIran peut - il vraiment tirer des missiles sur lUkraine  ? ",
+      "url": "https://www.20minutes.fr/monde/ukraine/4260598-20261109-iran-peut-vraiment-tirer-missiles-ukraine",
+      "domain": "20minutes.fr",
+      "seendate": "20261109T070000Z"
     },
     {
-      "title": "Trump reverses stance, alleges fraud in recent US midterm elections",
-      "url": "https://www.aljazeera.com/news/2026/11/9/trump-reverses-stance-alleges-fraud-in-recent-us-midterm-elections?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Mon, 09 Nov 2026 19:07:42 +0000"
+      "title": "俄羅斯新型巡弋導彈驚見美製零件 烏克蘭查獲52項美國部件",
+      "url": "https://n.yam.com/Article/20261110258433",
+      "domain": "n.yam.com",
+      "seendate": "20261110T020000Z"
     },
     {
-      "title": "What’s next for US Republicans and Trumpism?",
-      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/11/9/whats-next-for-us-republicans-and-trumpism?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Mon, 09 Nov 2026 19:02:54 +0000"
+      "title": "Коалицията унищожи ракетна установка в Сана",
+      "url": "https://fakti.bg/world/1098912-koaliciata-unishtoji-raketna-ustanovka-v-sana",
+      "domain": "fakti.bg",
+      "seendate": "20261109T060000Z"
     },
     {
-      "title": "Two security breaches near White House prompt brief lockdown",
-      "url": "https://www.aljazeera.com/news/2026/11/9/two-security-breaches-near-white-house-prompt-brief-lockdown?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Mon, 09 Nov 2026 18:57:01 +0000"
+      "title": "Η Βόρεια Κορέα δοκίμασε νέες τορπίλες υψηλής ταχύτητας που θα ενταχθούν στο οπλοστάσιό της το 2027",
+      "url": "https://www.inewsgr.com/97/i-voreia-korea-dokimase-nees-torpiles-ypsilis-tachytitas-pou-tha-entachthoun-sto-oplostasio-tis-to-2027.htm",
+      "domain": "inewsgr.com",
+      "seendate": "20261110T020000Z"
     },
     {
-      "title": "Al Jazeera.net co-founder and cartoonist Shujaat Ali dies aged 54",
-      "url": "https://www.aljazeera.com/news/2026/11/9/al-jazeera-net-co-founder-and-cartoonist-shujaat-ali-dies-aged-54?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Mon, 09 Nov 2026 18:50:29 +0000"
+      "title": "Tin nóng thế giới hôm nay 9 / 11 : Ông Trump dự kiến gặp lãnh đạo Nga và Trung Quốc",
+      "url": "https://baomoi.com/tin-nong-the-gioi-hom-nay-9-11-ong-trump-du-kien-gap-lanh-dao-nga-va-trung-quoc-c56466594.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261109T060000Z"
+    },
+    {
+      "title": "Η Βόρεια Κορέα προχωρά σε δοκιμή νέων τορπιλών υψηλής ταχύτητας",
+      "url": "https://www.in.gr/2026/11/10/world/i-voreia-korea-proxora-se-dokimi-neon-torpilon-ypsilis-taxytitas/",
+      "domain": "in.gr",
+      "seendate": "20261110T010000Z"
+    },
+    {
+      "title": "Tổng tư lệnh Ukraine : 100 ngày tiếp quản cuộc chiến đầy cam go",
+      "url": "https://dantri.com.vn/the-gioi/tong-tu-lenh-ukraine-100-ngay-tiep-quan-cuoc-chien-day-cam-go-20261109104245835.htm",
+      "domain": "dantri.com.vn",
+      "seendate": "20261109T053000Z"
     }
   ]
 }
