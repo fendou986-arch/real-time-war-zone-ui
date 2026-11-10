@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-10T17:55:25.805979+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-10T22:45:29Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "First day of Ukraine peace talks constructive, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 10 Nov 2026 17:29:36 GMT"
+      "title": "Iran  gỡ rào  tầm bắn tên lửa , nêu rõ 7 điều kiện chấm dứt xung đột",
+      "url": "https://dantri.com.vn/the-gioi/iran-go-rao-tam-ban-ten-lua-neu-ro-7-dieu-kien-cham-dut-xung-dot-20261110080056203.htm",
+      "domain": "dantri.com.vn",
+      "seendate": "20261110T023000Z"
     },
     {
-      "title": "Arrests made in Mohamed Al Fayed probe in France, police say",
-      "url": "https://www.bbc.co.uk/news/articles/ck1wvwyrd4ywo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 10 Nov 2026 16:19:48 GMT"
+      "title": "Σαουδική Αραβία : Σειρά εκρήξεων στο Ριάντ - Αναχαιτίστηκαν πύραυλοι των Χούθι",
+      "url": "https://www.naftemporiki.gr/kosmos/2186798/saoydiki-aravia-seira-ekrixeon-sto-riant-anachaitistikan-pyrayloi-ton-choythi/",
+      "domain": "naftemporiki.gr",
+      "seendate": "20261110T060000Z"
     },
     {
-      "title": "Israel's new parliament sworn in as leaders compete to form government",
-      "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 10 Nov 2026 17:03:16 GMT"
+      "title": "Ông Trump tuyên bố cuộc chiến với Iran  cơ bản đã kết thúc  ",
+      "url": "https://baomoi.com/ong-trump-tuyen-bo-cuoc-chien-voi-iran-co-ban-da-ket-thuc-c56473564.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261110T033000Z"
     },
     {
-      "title": "Twelve dead after motorway pile-ups in Bulgaria fog",
-      "url": "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 10 Nov 2026 16:07:51 GMT"
+      "title": "Koalisi Saudi hancurkan tiga pabrik komponen rudal milik Houthi",
+      "url": "https://www.antaranews.com/berita/5843051/koalisi-saudi-hancurkan-tiga-pabrik-komponen-rudal-milik-houthi",
+      "domain": "antaranews.com",
+      "seendate": "20261110T023000Z"
     },
     {
-      "title": "Police officer dies and another injured after backpack explosion in northern Spain",
-      "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 10 Nov 2026 11:25:46 GMT"
+      "title": "C - 17 : Τα μεταγωγικά αεροσκάφη των ΗΠΑ θα εκτοξεύουν μαζικά πυραύλους cruise",
+      "url": "https://www.onalert.gr/eksoplismoi/c-17-ta-metagogika-aeroskafi-ton-ipa-tha-ektokseyoun-mazika-pyraylous-cruise/832341/",
+      "domain": "onalert.gr",
+      "seendate": "20261110T060000Z"
     },
     {
-      "title": "Anthropic targets $1.4 trillion valuation in massive stock market debut",
-      "url": "https://www.aljazeera.com/economy/2026/11/10/anthropic-targets-1-4-trillion-valuation-in-massive-stock-market-debut?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 10 Nov 2026 17:21:58 +0000"
+      "title": "Втрати ворога станом на 10 листопада 2026 : свіжі дані Генштабу та ціна розбитої техніки",
+      "url": "https://glavcom.ua/country/incidents/vtrati-voroha-stanom-na-10-listopada-2026-svizhi-dani-henshtabu-ta-tsina-rozbitoji-tekhniki-1154524.html",
+      "domain": "glavcom.ua",
+      "seendate": "20261110T060000Z"
     },
     {
-      "title": "Israeli president warns against repeat election in new Knesset session",
-      "url": "https://www.aljazeera.com/news/2026/11/10/israeli-president-warns-against-repeat-election-in-new-knesset-session?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 10 Nov 2026 17:16:15 +0000"
+      "title": "Trump says Iran war is  effectively over : How the conflict unfolded",
+      "url": "https://www.business-standard.com/world-news/trump-says-iran-war-is-effectively-over-how-the-conflict-unfolded-126111000144_1.html",
+      "domain": "business-standard.com",
+      "seendate": "20261110T053000Z"
     },
     {
-      "title": "Security forces seized top court, Somalia’s ex-chief justice says",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/security-forces-seized-top-court-somalias-ex-chief-justice-says?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 10 Nov 2026 17:02:23 +0000"
+      "title": "Tổng thống Mỹ Trump nói lý do tạm hoãn tấn công Iran",
+      "url": "https://baomoi.com/tong-thong-my-trump-noi-ly-do-tam-hoan-tan-cong-iran-c56474010.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261110T050000Z"
     },
     {
-      "title": "Qatari PM’s Washington visit comes amid renewed US–Iran diplomacy",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/qatari-pms-washington-visit-comes-amid-renewed-us-iran?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 10 Nov 2026 16:39:25 +0000"
+      "title": "Hegseth defends Iran war , brushes off impeachment",
+      "url": "https://aninews.in/news/world/us/hegseth-defends-iran-war-brushes-off-impeachment20261110093505/",
+      "domain": "aninews.in",
+      "seendate": "20261110T050000Z"
     },
     {
-      "title": "Did Fox News’ fixation on Hasan Piker backfire?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/did-fox-news-fixation-on-hasan-piker-backfire?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 10 Nov 2026 16:26:08 +0000"
+      "title": "When will lasting peace ever come to the Middle East ? ",
+      "url": "https://www.standardmedia.co.ke/xn-iraki/article/2001561919/when-will-lasting-peace-ever-come-to-the-middle-east",
+      "domain": "standardmedia.co.ke",
+      "seendate": "20261110T043000Z"
+    },
+    {
+      "title": "Kanada , Rusyanın savunma sanayisi dahil 38 kuruluş ve 24 kişiye yaptırım uygulayacak",
+      "url": "https://www.haberler.com/dunya/kanada-rusya-nin-savunma-sanayisi-dahil-38-kurulus-20411922-haberi/",
+      "domain": "haberler.com",
+      "seendate": "20261110T060000Z"
+    },
+    {
+      "title": "Kanadadan Rusyaya yeni yaptırım kararı : 38 kuruluş ve 24 kişi listede",
+      "url": "https://www.birgun.net/haber/kanada-dan-rusya-ya-yeni-yaptirim-karari-38-kurulus-ve-24-kisi-listede-745541%20target=_blank%20class=stretched-link",
+      "domain": "birgun.net",
+      "seendate": "20261110T060000Z"
     }
   ]
 }
