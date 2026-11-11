@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-10T22:45:29Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-11T02:18:22.247836+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Iran  gỡ rào  tầm bắn tên lửa , nêu rõ 7 điều kiện chấm dứt xung đột",
-      "url": "https://dantri.com.vn/the-gioi/iran-go-rao-tam-ban-ten-lua-neu-ro-7-dieu-kien-cham-dut-xung-dot-20261110080056203.htm",
-      "domain": "dantri.com.vn",
-      "seendate": "20261110T023000Z"
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 01:01:20 GMT"
     },
     {
-      "title": "Σαουδική Αραβία : Σειρά εκρήξεων στο Ριάντ - Αναχαιτίστηκαν πύραυλοι των Χούθι",
-      "url": "https://www.naftemporiki.gr/kosmos/2186798/saoydiki-aravia-seira-ekrixeon-sto-riant-anachaitistikan-pyrayloi-ton-choythi/",
-      "domain": "naftemporiki.gr",
-      "seendate": "20261110T060000Z"
+      "title": "US Army soldier suspected of spying for Russia arrested in UK",
+      "url": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 10 Nov 2026 20:20:04 GMT"
     },
     {
-      "title": "Ông Trump tuyên bố cuộc chiến với Iran  cơ bản đã kết thúc  ",
-      "url": "https://baomoi.com/ong-trump-tuyen-bo-cuoc-chien-voi-iran-co-ban-da-ket-thuc-c56473564.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261110T033000Z"
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 01:14:40 GMT"
     },
     {
-      "title": "Koalisi Saudi hancurkan tiga pabrik komponen rudal milik Houthi",
-      "url": "https://www.antaranews.com/berita/5843051/koalisi-saudi-hancurkan-tiga-pabrik-komponen-rudal-milik-houthi",
-      "domain": "antaranews.com",
-      "seendate": "20261110T023000Z"
+      "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+      "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Tue, 10 Nov 2026 22:17:45 GMT"
     },
     {
-      "title": "C - 17 : Τα μεταγωγικά αεροσκάφη των ΗΠΑ θα εκτοξεύουν μαζικά πυραύλους cruise",
-      "url": "https://www.onalert.gr/eksoplismoi/c-17-ta-metagogika-aeroskafi-ton-ipa-tha-ektokseyoun-mazika-pyraylous-cruise/832341/",
-      "domain": "onalert.gr",
-      "seendate": "20261110T060000Z"
+      "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 00:18:07 GMT"
     },
     {
-      "title": "Втрати ворога станом на 10 листопада 2026 : свіжі дані Генштабу та ціна розбитої техніки",
-      "url": "https://glavcom.ua/country/incidents/vtrati-voroha-stanom-na-10-listopada-2026-svizhi-dani-henshtabu-ta-tsina-rozbitoji-tekhniki-1154524.html",
-      "domain": "glavcom.ua",
-      "seendate": "20261110T060000Z"
+      "title": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+      "url": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 01:44:21 +0000"
     },
     {
-      "title": "Trump says Iran war is  effectively over : How the conflict unfolded",
-      "url": "https://www.business-standard.com/world-news/trump-says-iran-war-is-effectively-over-how-the-conflict-unfolded-126111000144_1.html",
-      "domain": "business-standard.com",
-      "seendate": "20261110T053000Z"
+      "title": "Republicans block Hegseth impeachment motion",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 01:43:42 +0000"
     },
     {
-      "title": "Tổng thống Mỹ Trump nói lý do tạm hoãn tấn công Iran",
-      "url": "https://baomoi.com/tong-thong-my-trump-noi-ly-do-tam-hoan-tan-cong-iran-c56474010.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261110T050000Z"
+      "title": "Tigray displaced families fear renewed war as hopes of returning home fade",
+      "url": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 01:11:04 +0000"
     },
     {
-      "title": "Hegseth defends Iran war , brushes off impeachment",
-      "url": "https://aninews.in/news/world/us/hegseth-defends-iran-war-brushes-off-impeachment20261110093505/",
-      "domain": "aninews.in",
-      "seendate": "20261110T050000Z"
+      "title": "Spain holds state funeral for 69 victims of deadly train crash",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-holds-state-funeral-for-69-victims-of-deadly-train-crash?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 00:42:41 +0000"
     },
     {
-      "title": "When will lasting peace ever come to the Middle East ? ",
-      "url": "https://www.standardmedia.co.ke/xn-iraki/article/2001561919/when-will-lasting-peace-ever-come-to-the-middle-east",
-      "domain": "standardmedia.co.ke",
-      "seendate": "20261110T043000Z"
-    },
-    {
-      "title": "Kanada , Rusyanın savunma sanayisi dahil 38 kuruluş ve 24 kişiye yaptırım uygulayacak",
-      "url": "https://www.haberler.com/dunya/kanada-rusya-nin-savunma-sanayisi-dahil-38-kurulus-20411922-haberi/",
-      "domain": "haberler.com",
-      "seendate": "20261110T060000Z"
-    },
-    {
-      "title": "Kanadadan Rusyaya yeni yaptırım kararı : 38 kuruluş ve 24 kişi listede",
-      "url": "https://www.birgun.net/haber/kanada-dan-rusya-ya-yeni-yaptirim-karari-38-kurulus-ve-24-kisi-listede-745541%20target=_blank%20class=stretched-link",
-      "domain": "birgun.net",
-      "seendate": "20261110T060000Z"
+      "title": "‘Everything and everyone we love is at stake’: Thunberg slams COP31 talks",
+      "url": "https://www.aljazeera.com/news/2026/11/11/everything-and-everyone-we-love-is-at-stake-thunberg-slams-cop31-talks?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 00:24:27 +0000"
     }
   ]
 }
