@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-11T09:35:07Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-11T17:26:28.271967+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "恢复战前一半生产能力 ， 伊朗  仍能战斗  |导弹",
-      "url": "https://www.163.com/news/article/LBF2DAPF0001899O.html",
-      "domain": "163.com",
-      "seendate": "20261111T053000Z"
+      "title": "Spain sees widespread disruption in first general strike for 14 years",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 14:06:27 GMT"
     },
     {
-      "title": "Iran phát cảnh báo cứng rắn sau khi công bố thành phố tên lửa ngầm mới",
-      "url": "https://baotintuc.vn/iran-phat-canh-bao-cung-ran-sau-khi-cong-bo-thanh-pho-ten-lua-ngam-moi-post1401661.html",
-      "domain": "baotintuc.vn",
-      "seendate": "20261111T020000Z"
+      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 15:05:11 GMT"
     },
     {
-      "title": "Iran có thể sản xuất 50 tên lửa đạn đạo mỗi tháng",
-      "url": "http://vov.vn/the-gioi/iran-co-the-san-xuat-50-ten-lua-dan-dao-moi-thang-post1349126.vov",
-      "domain": "vov.vn",
-      "seendate": "20261111T040000Z"
+      "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 16:45:11 GMT"
     },
     {
-      "title": "美国务卿 ： 经济施压效果显著 没必要对伊朗开展大规模军事行动 _ 国际财经 _ 财经 _ 中金在线",
-      "url": "http://news.cnfol.com/guojicaijing/20261111/32420552.shtml",
-      "domain": "news.cnfol.com",
-      "seendate": "20261111T023000Z"
+      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 12:30:29 GMT"
     },
     {
-      "title": "美国务卿 ： 经济施压效果显著 没必要对伊朗开展大规模军事行动 _ 基金动态 _ 基金 _ 中金在线",
-      "url": "http://fund.cnfol.com/jijindongtai/20261111/32420520.shtml",
-      "domain": "fund.cnfol.com",
-      "seendate": "20261111T010000Z"
+      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+      "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 11 Nov 2026 16:59:34 GMT"
     },
     {
-      "title": "伊朗革命卫队公布新地下导弹城 ， 展示中远程弹道导弹",
-      "url": "https://original.ifeng.com/c/8xxiSTDDEkk",
-      "domain": "original.ifeng.com",
-      "seendate": "20261111T040000Z"
+      "title": "Russia-Ukraine talks in UAE secure major prisoner exchange deal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/russia-ukraine-talks-in-uae-secure-major-prisoner-exchange-deal?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 16:58:32 +0000"
     },
     {
-      "title": "İran kazandı - MELİH ALTINOK",
-      "url": "https://www.sabah.com.tr/yazarlar/melihaltinok/2026/11/11/iran-kazandi",
-      "domain": "sabah.com.tr",
-      "seendate": "20261111T050000Z"
+      "title": "Palestinian American activist refused UK entry for Gaza fundraiser",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/palestinian-american-activist-refused-uk-entry-for-gaza-fundraiser?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 16:52:59 +0000"
     },
     {
-      "title": "在战场需求的强力牵引之下 ， 声学探测网络技术  重获新生  ",
-      "url": "http://www.81.cn/yw_208727/16499138.html",
-      "domain": "81.cn",
-      "seendate": "20261111T013000Z"
+      "title": "Israeli army kills Palestinian footballer Mahmoud Kamal Abdel-Malek in Gaza",
+      "url": "https://www.aljazeera.com/sports/2026/11/11/israeli-army-kills-palestinian-footballer-mahmoud-kamal-abdel-malek-in-gaza?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 16:48:48 +0000"
     },
     {
-      "title": "Israeli strikes and gunfire in Gaza kill 5 people , and other Mideast news",
-      "url": "http://www.postregister.com/news/national/israeli-strikes-and-gunfire-in-gaza-kill-5-people-and-other-mideast-news/article_a9b5fe4a-0fcd-5353-89fe-f8ddafa58df2.html",
-      "domain": "postregister.com",
-      "seendate": "20261111T013000Z"
+      "title": "‘It’s just too expensive’: Housing and wages at the heart of Spain’s strike",
+      "url": "https://www.aljazeera.com/news/2026/11/11/its-just-too-expensive-housing-and-wages-at-the-heart-of-spains-strike?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 16:20:13 +0000"
     },
     {
-      "title": "欧洲被曝要保自用不愿供乌爱国者导弹 库存紧张引发争议 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20261111/49861359.html",
-      "domain": "military.china.com",
-      "seendate": "20261111T063000Z"
-    },
-    {
-      "title": "Gazzede İsrail saldırısı : İHA ile hedef alınan noktada can kaybı ve yaralılar var",
-      "url": "https://www.bursadabugun.com/haber/gazze-de-israil-saldirisi-iha-ile-hedef-alinan-noktada-can-kaybi-ve-yaralilar-var-1962463.html",
-      "domain": "bursadabugun.com",
-      "seendate": "20261111T000000Z"
-    },
-    {
-      "title": "Mỹ bật đèn xanh cho kế hoạch lập căn cứ quân sự thường trực tại Ba Lan",
-      "url": "http://vov.vn/the-gioi/my-bat-den-xanh-cho-ke-hoach-lap-can-cu-quan-su-thuong-truc-tai-ba-lan-post1349130.vov",
-      "domain": "vov.vn",
-      "seendate": "20261111T050000Z"
+      "title": "Israel is ‘disrupting entire ecosystems’, including Lebanon’s wheat crop",
+      "url": "https://www.aljazeera.com/news/2026/11/11/israel-is-disrupting-entire-ecosystems-including-lebanons-wheat-crop?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 11 Nov 2026 15:48:39 +0000"
     }
   ]
 }
