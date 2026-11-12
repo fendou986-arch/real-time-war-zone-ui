@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-11T23:36:53.559157+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-12T04:10:36Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 11 Nov 2026 22:07:37 GMT"
+      "title": "Đằng sau tuyên bố Mỹ sản xuất vũ khí nhiều chưa từng có của Tổng thống Trump",
+      "url": "https://tienphong.vn/dang-sau-tuyen-bo-my-san-xuat-vu-khi-nhieu-chua-tung-co-cua-tong-thong-trump-post1893522.tpo",
+      "domain": "tienphong.vn",
+      "seendate": "20261112T003000Z"
     },
     {
-      "title": "Democrat Scott Colom wins Mississippi Senate race in surprise victory for party",
-      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 11 Nov 2026 23:24:15 GMT"
+      "title": "特朗普说战事结束了 ， 伊朗却公布新建导弹城 ， 导弹车塞满隧道架起就打 ！_ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261112/49864920.html",
+      "domain": "military.china.com",
+      "seendate": "20261112T034500Z"
     },
     {
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 11 Nov 2026 18:04:58 GMT"
+      "title": "Tin tức Iran - Hình ảnh và video clip nóng mới nhất",
+      "url": "https://baomoi.com/iran-t44690475.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261112T013000Z"
     },
     {
-      "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-      "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 11 Nov 2026 18:38:45 GMT"
+      "title": "恢复战前一半生产能力 ， 伊朗  仍能战斗  |导弹",
+      "url": "https://www.163.com/news/article/LBF2DAPF0001899O.html",
+      "domain": "163.com",
+      "seendate": "20261111T053000Z"
     },
     {
-      "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-      "url": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 11 Nov 2026 16:38:07 GMT"
+      "title": "Iran dỡ giới hạn tầm bắn tên lửa : Đòn răn đe hay quân bài đàm phán ? ",
+      "url": "http://vov.vn/the-gioi/quan-sat/iran-do-gioi-han-tam-ban-ten-lua-don-ran-de-hay-quan-bai-dam-phan-post1349225.vov",
+      "domain": "vov.vn",
+      "seendate": "20261112T013000Z"
     },
     {
-      "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
-      "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Wed, 11 Nov 2026 23:05:34 +0000"
+      "title": "伊朗公布新建地下  导弹城 ， 隧道内摆满各种导弹 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/important/64/20261112/49864297.html",
+      "domain": "military.china.com",
+      "seendate": "20261112T034500Z"
     },
     {
-      "title": "Israeli strikes hit tent camp as five killed in Gaza",
-      "url": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Wed, 11 Nov 2026 22:55:37 +0000"
+      "title": "安保３文書 概要判明 / 敵基地攻撃能力 質 ・ 量で強化 /「 智能化戦争 」 ＡＩ用い推進",
+      "url": "https://www.jcp.or.jp/akahata/aik26/2026-11-12/2026111202_02_0.php",
+      "domain": "jcp.or.jp",
+      "seendate": "20261112T033000Z"
     },
     {
-      "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-      "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Wed, 11 Nov 2026 22:34:43 +0000"
+      "title": "Israeli strike on southern Gaza hospital kills five , Gaza civil defence says",
+      "url": "https://www.thehindu.com/news/international/israeli-strike-on-southern-gaza-hospital-kills-five-gaza-civil-defence-says/article71692179.ece",
+      "domain": "thehindu.com",
+      "seendate": "20261112T033000Z"
     },
     {
-      "title": "Judge rules Trump’s $10bn BBC defamation suit can proceed",
-      "url": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Wed, 11 Nov 2026 22:10:12 +0000"
+      "title": "曝伊朗每月可造约50枚弹道导弹 生产能力未被摧毁 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261112/49863932.html",
+      "domain": "military.china.com",
+      "seendate": "20261112T034500Z"
     },
     {
-      "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-      "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Wed, 11 Nov 2026 21:03:40 +0000"
+      "title": "İran kazandı - MELİH ALTINOK",
+      "url": "https://www.sabah.com.tr/yazarlar/melihaltinok/2026/11/11/iran-kazandi",
+      "domain": "sabah.com.tr",
+      "seendate": "20261111T050000Z"
+    },
+    {
+      "title": "伊朗新地下导弹城内部画面公开 展示强大防御能力 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261112/49864912.html",
+      "domain": "military.china.com",
+      "seendate": "20261112T034500Z"
+    },
+    {
+      "title": "伊朗地下导弹城曝光 展示新型武器与强大战力 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261112/49864752.html",
+      "domain": "news.china.com",
+      "seendate": "20261112T030000Z"
     }
   ]
 }
