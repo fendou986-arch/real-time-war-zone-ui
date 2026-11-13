@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-12T20:30:01Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-13T01:25:23.738076+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Đằng sau tuyên bố Mỹ sản xuất vũ khí nhiều chưa từng có của Tổng thống Trump",
-      "url": "https://tienphong.vn/dang-sau-tuyen-bo-my-san-xuat-vu-khi-nhieu-chua-tung-co-cua-tong-thong-trump-post1893522.tpo",
-      "domain": "tienphong.vn",
-      "seendate": "20261112T003000Z"
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 12 Nov 2026 23:34:05 GMT"
     },
     {
-      "title": "Νέες δολοφονίες αμάχων από χτύπημα σε νοσοκομείο της Γάζας - Τουλάχιστον 5 νεκροί και 20 τραυματίες",
-      "url": "https://www.in.gr/2026/11/12/world/nees-dolofonies-amaxon-apo-xtypima-se-nosokomeio-tis-gazas-toulaxiston-5-nekroi-kai-20-traymaties/",
-      "domain": "in.gr",
-      "seendate": "20261112T053000Z"
+      "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+      "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 12 Nov 2026 21:00:42 GMT"
     },
     {
-      "title": "特朗普说战事结束了 ， 伊朗却公布新建导弹城 ， 导弹车塞满隧道架起就打 ！_ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20261112/49864920.html",
-      "domain": "military.china.com",
-      "seendate": "20261112T034500Z"
+      "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 13 Nov 2026 00:20:24 GMT"
     },
     {
-      "title": "Tin tức Iran - Hình ảnh và video clip nóng mới nhất",
-      "url": "https://baomoi.com/iran-t44690475.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261112T013000Z"
+      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 12 Nov 2026 20:09:16 GMT"
     },
     {
-      "title": "Iran dỡ giới hạn tầm bắn tên lửa : Đòn răn đe hay quân bài đàm phán ? ",
-      "url": "http://vov.vn/the-gioi/quan-sat/iran-do-gioi-han-tam-ban-ten-lua-don-ran-de-hay-quan-bai-dam-phan-post1349225.vov",
-      "domain": "vov.vn",
-      "seendate": "20261112T013000Z"
+      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+      "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 12 Nov 2026 19:23:02 GMT"
     },
     {
-      "title": "Νέα πλήγματα με πυραύλους και drones στην Υεμένη : Οι Χούθι απειλούν με αποκλεισμό την Ερυθρά Θάλασσα",
-      "url": "https://www.protothema.gr/world/article/1909477/nea-pligmata-me-puraulous-kai-drones-stin-uemeni-oi-houthi-apeiloun-me-apokleismo-tin-eruthra-thalassa/",
-      "domain": "protothema.gr",
-      "seendate": "20261112T040000Z"
+      "title": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 13 Nov 2026 00:00:26 +0000"
     },
     {
-      "title": "伊朗公布新建地下  导弹城 ， 隧道内摆满各种导弹 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/important/64/20261112/49864297.html",
-      "domain": "military.china.com",
-      "seendate": "20261112T034500Z"
+      "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 12 Nov 2026 23:52:38 +0000"
     },
     {
-      "title": "İsrailin Nasır Hastanesine düzenlediği saldırıda 6 kişi hayatını kaybetti",
-      "url": "https://www.dha.com.tr/dunya/israilin-nasir-hastanesine-duzenledigi-saldirida-6-kisi-hayatini-kaybetti-2979930",
-      "domain": "dha.com.tr",
-      "seendate": "20261112T070000Z"
+      "title": "Russian court jails rights lawyer for 12 years on treason charge",
+      "url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 12 Nov 2026 23:18:50 +0000"
     },
     {
-      "title": "Israel claims Hamas hit in deadly Gaza hospital strike",
-      "url": "https://www.perthnow.com.au/news/conflict/israel-claims-hamas-hit-in-deadly-gaza-hospital-strike-c-23154282",
-      "domain": "perthnow.com.au",
-      "seendate": "20261112T064500Z"
+      "title": "Italy fight back to beat France 3-1 and move top of Nations League group",
+      "url": "https://www.aljazeera.com/sports/2026/11/12/italy-fight-back-to-beat-france-3-1-and-move-top-of-nations-league-group?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 12 Nov 2026 22:12:32 +0000"
     },
     {
-      "title": "Husilerin 2 balistik füzesi ve 2 İHA ı engellendi , füze parçaları Sabouhaya düştü",
-      "url": "https://www.haberler.com/3-sayfa/husiler-in-2-balistik-fuzesi-ve-2-iha-si-20419181-haberi/",
-      "domain": "haberler.com",
-      "seendate": "20261112T064500Z"
-    },
-    {
-      "title": "Israeli strike on a Gaza hospital kills 6 people , health authorities say",
-      "url": "https://www.newsday.com/news/nation/gaza-israel-hospital-strike-people-killed-h38646",
-      "domain": "newsday.com",
-      "seendate": "20261112T070000Z"
-    },
-    {
-      "title": "安保３文書 概要判明 / 敵基地攻撃能力 質 ・ 量で強化 /「 智能化戦争 」 ＡＩ用い推進",
-      "url": "https://www.jcp.or.jp/akahata/aik26/2026-11-12/2026111202_02_0.php",
-      "domain": "jcp.or.jp",
-      "seendate": "20261112T033000Z"
+      "title": "Deadly shooting in Washington DC",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/deadly-shooting-in-washington-dc?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 12 Nov 2026 21:18:24 +0000"
     }
   ]
 }
