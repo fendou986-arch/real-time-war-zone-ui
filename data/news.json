@@ -1,13 +1,19 @@
 {
-  "generatedAt": "2026-11-13T16:39:35.002256+00:00",
+  "generatedAt": "2026-11-13T22:11:36.150514+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Why is the Microsoft outage lasting so long?",
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 13 Nov 2026 21:14:22 GMT"
+    },
+    {
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
       "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 14:21:26 GMT"
+      "seendate": "Fri, 13 Nov 2026 18:36:57 GMT"
     },
     {
       "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
@@ -16,52 +22,46 @@
       "seendate": "Fri, 13 Nov 2026 11:43:27 GMT"
     },
     {
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 03:57:01 GMT"
+      "seendate": "Fri, 13 Nov 2026 16:40:31 GMT"
     },
     {
-      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 02:01:35 GMT"
+      "seendate": "Fri, 13 Nov 2026 19:53:57 GMT"
     },
     {
-      "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-      "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 12:28:28 GMT"
-    },
-    {
-      "title": "Sixth victim found in DC condo-related shooting, police confirm",
-      "url": "https://www.aljazeera.com/news/2026/11/13/sixth-victim-found-in-dc-condo-related-shooting-police-confirm?traffic_source=rss",
+      "title": "US grounds all flights after ‘communication issue’",
+      "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 16:31:50 +0000"
+      "seendate": "Fri, 13 Nov 2026 21:32:08 +0000"
     },
     {
-      "title": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
-      "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
+      "title": "Pope Leo cheered on return to Peru city where he served as bishop",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 16:22:33 +0000"
+      "seendate": "Fri, 13 Nov 2026 20:52:31 +0000"
     },
     {
-      "title": "Truck and bus crash in India’s Assam state kills at least 24 people",
-      "url": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
+      "title": "Qatar and Turkiye send message of deterrence with new defence pact",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 16:01:45 +0000"
+      "seendate": "Fri, 13 Nov 2026 20:48:02 +0000"
     },
     {
-      "title": "Turkiye and Qatar sign mutual defence agreement",
-      "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
+      "title": "Australia captain Cummins denies involvement in ‘Sandpapergate’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/australia-captain-cummins-denies-involvement-in?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 15:49:51 +0000"
+      "seendate": "Fri, 13 Nov 2026 20:32:42 +0000"
     },
     {
-      "title": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
-      "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
+      "title": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
+      "url": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 15:43:39 +0000"
+      "seendate": "Fri, 13 Nov 2026 20:28:20 +0000"
     }
   ]
 }
