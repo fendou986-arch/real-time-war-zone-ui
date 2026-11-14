@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-13T22:11:36.150514+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-14T02:29:30Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 21:14:22 GMT"
+      "title": "US military denies Iran claim of attack on radar in Bahrain , says it shot down two drones",
+      "url": "https://www.hindustantimes.com/world-news/us-military-denies-iran-s-claim-of-attack-on-radar-in-bahrain-says-it-shot-down-two-drones-101794581485752.html",
+      "domain": "hindustantimes.com",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 18:36:57 GMT"
+      "title": "Europie grozi wojna domowa . Badacz konfliktów ostrzega",
+      "url": "https://pch24.pl/wiadomosci/europie-grozi-wojna-domowa-badacz-konfliktow-ostrzega,742613",
+      "domain": "pch24.pl",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
-      "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 11:43:27 GMT"
+      "title": "CNN : JD Vance shqyrton të mos kandidojë në vitin 2028 , ndërsa shtohen dyshimet për të ardhmen e tij politike",
+      "url": "https://albeu.com/lajme/bota/cnn-jd-vance-shqyrton-te-mos-kandidoje-ne-vitin-2028-ndersa-shtohen-dyshimet-per-te-ardhmen-e-tij-politike/1099667/",
+      "domain": "albeu.com",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 16:40:31 GMT"
+      "title": "Ukraine claims record 3 , 000 Russian casualties in one day as war drags on",
+      "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates",
+      "domain": "aljazeera.com",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 13 Nov 2026 19:53:57 GMT"
+      "title": "Polisi Ungkap WNI Tentara Bayaran di Rusia Dikontrak hingga Tewas",
+      "url": "https://www.merdeka.com/peristiwa/read/8334998/polisi-ungkap-wni-tentara-bayaran-di-rusia-dikontrak-hingga-tewas",
+      "domain": "merdeka.com",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "US grounds all flights after ‘communication issue’",
-      "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 21:32:08 +0000"
+      "title": "Pripadnik Armije BiH osuđen za ubistvo ratnog zarobljenika kod Zenice",
+      "url": "https://www.slobodnaevropa.org/a/serif-patkovic-deset-godina-ratni-zlocin-armija-bih-hvo-zenica/33898068.html",
+      "domain": "slobodnaevropa.org",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Pope Leo cheered on return to Peru city where he served as bishop",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 20:52:31 +0000"
+      "title": "CNN : Nga pasardhësi i sigurt i Trump te dilemat për vitin 2028 , JD Vance mendon të heqë dorë nga gara presidenciale",
+      "url": "https://top-channel.tv/2026/11/13/cnn-nga-pasardhesi-i-sigurt-i-trump-te-dilemat-per-vitin-2028-jd-vance-mendon-te-heqe-dore-nga-gara-presidenciale/",
+      "domain": "top-channel.tv",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Qatar and Turkiye send message of deterrence with new defence pact",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 20:48:02 +0000"
+      "title": "Shawn Mendes Ajak Publik Bantu Palestina dan Berani Bersuara",
+      "url": "https://www.cnnindonesia.com/hiburan/20261113203549-234-1427046/shawn-mendes-ajak-publik-bantu-palestina-dan-berani-bersuara",
+      "domain": "cnnindonesia.com",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Australia captain Cummins denies involvement in ‘Sandpapergate’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/australia-captain-cummins-denies-involvement-in?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 20:32:42 +0000"
+      "title": "Rindizet konflikti në Lindjen e Mesme , Irani sulmon radarin e SHBA - së në Bahrein",
+      "url": "https://top-channel.tv/2026/11/13/rindizet-konflikti-ne-lindjen-e-mesme-irani-sulmon-radarin-e-shba-se-ne-bahrein/",
+      "domain": "top-channel.tv",
+      "seendate": "20261113T180000Z"
     },
     {
-      "title": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
-      "url": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 13 Nov 2026 20:28:20 +0000"
+      "title": "Can Netanyahu launch a strike on Iran before he leaves ? ",
+      "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
+      "domain": "aljazeera.com",
+      "seendate": "20261113T180000Z"
+    },
+    {
+      "title": "Nowolipki 23 : Historia przedwojennego „ niebotyku  Warszawy - Warszawa , Super Express",
+      "url": "https://www.se.pl/warszawa/przedwojenny-niebotyk-przy-nowolipkach-23-niezwykle-losy-perly-dawnego-muranowa-aa-dPE6-f9EF-NaTz.html",
+      "domain": "se.pl",
+      "seendate": "20261113T180000Z"
+    },
+    {
+      "title": "Wollen united states Iran - Krieg beenden ? Revolutionsgarden melden Angriff auf US - Radar in Bahrain",
+      "url": "https://de.euronews.com/2026/11/13/wollen-usa-iran-krieg-beenden-revolutionsgarden-melden-angriff-auf-us-radar-in-bahrain",
+      "domain": "de.euronews.com",
+      "seendate": "20261113T180000Z"
     }
   ]
 }
