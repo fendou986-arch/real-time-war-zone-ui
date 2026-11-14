@@ -1,13 +1,37 @@
 {
-  "generatedAt": "2026-11-14T20:19:34Z",
+  "generatedAt": "2026-11-14T23:59:41Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
+    {
+      "title": "Pakistan Views India Pralay Test Through Nuclear Lens",
+      "url": "https://idrw.org/pakistan-india-pralay-test-nuclear-signalling/",
+      "domain": "idrw.org",
+      "seendate": "20261114T200000Z"
+    },
     {
       "title": "EU calls on Israel to reopen Gaza crossings - Shafaqna English | International Shia News & Fatwas",
       "url": "https://en.shafaqna.com/491990/eu-calls-on-israel-to-reopen-gaza-crossings/",
       "domain": "en.shafaqna.com",
       "seendate": "20261114T200000Z"
+    },
+    {
+      "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+      "domain": "theyeshivaworld.com",
+      "seendate": "20261114T210000Z"
+    },
+    {
+      "title": "中国代表就中东海湾局势发声 ： 必须坚决遏止战争 新京报",
+      "url": "https://www.bjnews.com.cn/detail/1794660091129239.html",
+      "domain": "bjnews.com.cn",
+      "seendate": "20261114T200000Z"
+    },
+    {
+      "title": "İki ülke arasında savaş çıktı ! Şiddetli çatışmalar yaşanıyor",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/iki-ulke-arasinda-savas-cikti-siddetli-catismalar-yasaniyor-1829351",
+      "domain": "turkiyegazetesi.com.tr",
+      "seendate": "20261114T210000Z"
     },
     {
       "title": "Pakistan Reportedly Seeks Turkish GAZAP Warhead for Babur",
@@ -16,63 +40,39 @@
       "seendate": "20261114T200000Z"
     },
     {
+      "title": "美 · 日 · 호주 · 인도 , 17일 필리핀서 2년 만에  쿼드  정상회의",
+      "url": "https://www.koreatimes.com/article/11631514",
+      "domain": "koreatimes.com",
+      "seendate": "20261114T200000Z"
+    },
+    {
+      "title": "Το Starship της SpaceX πλησιάζει στο τέλος της 15ης δοκιμαστικής πτήσης και της προσπάθειας προσγείωσης κατά την επιστροφή του",
+      "url": "https://www.naftemporiki.gr/techscience/2189155/to-starship-tis-spacex-plisiazei-sto-telos-tis-15is-dokimastikis-ptisis-kai-tis-prospatheias-prosgeiosis-kata-tin-epistrofi-toy/",
+      "domain": "naftemporiki.gr",
+      "seendate": "20261114T200000Z"
+    },
+    {
+      "title": "Кушнер заявил о новых идеях по урегулированию конфликта на Украине",
+      "url": "https://ria.ru/20261114/kushner-2131611744.html",
+      "domain": "ria.ru",
+      "seendate": "20261114T210000Z"
+    },
+    {
+      "title": "Финский политик Мема призвал НАТО вернуться к границам 1997 года ради мира с РФ",
+      "url": "https://life.ru/p/mir-v-evrope-nevozmozhen-bez-ustupok-v-finlyandii-prizvali-nato-otvesti-voyska",
+      "domain": "life.ru",
+      "seendate": "20261114T200000Z"
+    },
+    {
+      "title": "Раскрыт хитрый план Мерца по Украине",
+      "url": "https://lenta.ru/news/2026/11/14/raskryt-hitryy-plan-mertsa-po-ukraine/",
+      "domain": "lenta.ru",
+      "seendate": "20261114T200000Z"
+    },
+    {
       "title": "Guerre en Ukraine  : Le retrait du Donbass contre ladhésion à lOtan  ? La nouvelle piste évoquée par Washington",
       "url": "https://www.20minutes.fr/monde/ukraine/4262885-20261114-guerre-ukraine-retrait-donbass-contre-adhesion-otan-nouvelle-piste-evoquee-washington",
       "domain": "20minutes.fr",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Oil markets stay flush despite tanker attacks",
-      "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/oil-markets-stay-flush-despite-tanker-attacks/articleshow/135841578.cms",
-      "domain": "economictimes.indiatimes.com",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Governo dos EUA propõe que Ucrânia ceda território em troca de adesão à Otan , diz Zelensky",
-      "url": "https://www.cartacapital.com.br/politica/governo-dos-eua-propoe-que-ucrania-ceda-territorio-em-troca-de-adesao-a-otan-diz-zelensky/",
-      "domain": "cartacapital.com.br",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Убийство самбиста Давудова : стрельба в Махачкале , подробности , что известно",
-      "url": "https://lenta.ru/news/2026/11/14/long-davudov/",
-      "domain": "lenta.ru",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Убийство спортсмена Вацилова Давудова : задержание , пойман ли подозреваемый , причина конфликта",
-      "url": "https://ura.news/news/1053144248",
-      "domain": "ura.news",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "В Апатитах мужчина душил сожительницу и угрожал ей убийством",
-      "url": "https://b-port.com/news/368935",
-      "domain": "b-port.com",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Zastupnik iz HNŽ - a kažnjen s 5000 KM , pod istragom i gradonačelnik Prnjavora",
-      "url": "https://www.vecernji.ba/vijesti/zastupnik-iz-hnz-a-kaznjen-s-5000-km-pod-istragom-i-gradonacelnik-prnjavora-2013541",
-      "domain": "vecernji.ba",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "В Верховной Раде раскрыли подоплеку действий Мерца по Украине",
-      "url": "https://www.mk.ru/politics/2026/11/14/v-verkhovnoy-rade-raskryli-podopleku-deystviy-merca-po-ukraine.html",
-      "domain": "mk.ru",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "В СК рассказали подробности убийства самбиста на свадьбе в Дагестане",
-      "url": "https://lenta.ru/news/2026/11/14/v-sk-rasskazali-podrobnosti-ubiystva-sambista-na-svadbe-v-dagestane/",
-      "domain": "lenta.ru",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Операција Халијард и даље живи у Америци : у Аризони обележен подвиг српског народа",
-      "url": "https://www.politika.rs/scc/clanak/802873/operacija-halijard-i-dalje-zivi-u-americi-u-arizoni-obelezen-podvig-srpskog-naroda",
-      "domain": "politika.rs",
       "seendate": "20261114T200000Z"
     }
   ]
