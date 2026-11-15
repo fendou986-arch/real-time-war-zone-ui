@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-15T05:48:10Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-15T12:59:18.523291+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Pakistan Views India Pralay Test Through Nuclear Lens",
-      "url": "https://idrw.org/pakistan-india-pralay-test-nuclear-signalling/",
-      "domain": "idrw.org",
-      "seendate": "20261114T200000Z"
+      "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
+      "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 14 Nov 2026 22:27:06 GMT"
     },
     {
-      "title": "EU calls on Israel to reopen Gaza crossings - Shafaqna English | International Shia News & Fatwas",
-      "url": "https://en.shafaqna.com/491990/eu-calls-on-israel-to-reopen-gaza-crossings/",
-      "domain": "en.shafaqna.com",
-      "seendate": "20261114T200000Z"
+      "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+      "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 15 Nov 2026 11:06:32 GMT"
     },
     {
-      "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-      "domain": "theyeshivaworld.com",
-      "seendate": "20261114T210000Z"
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 15 Nov 2026 08:17:41 GMT"
     },
     {
-      "title": "中国代表就中东海湾局势发声 ： 必须坚决遏止战争 新京报",
-      "url": "https://www.bjnews.com.cn/detail/1794660091129239.html",
-      "domain": "bjnews.com.cn",
-      "seendate": "20261114T200000Z"
+      "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+      "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 15 Nov 2026 09:26:37 GMT"
     },
     {
-      "title": "İki ülke arasında savaş çıktı ! Şiddetli çatışmalar yaşanıyor",
-      "url": "https://www.turkiyegazetesi.com.tr/dunya/iki-ulke-arasinda-savas-cikti-siddetli-catismalar-yasaniyor-1829351",
-      "domain": "turkiyegazetesi.com.tr",
-      "seendate": "20261114T210000Z"
+      "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 15 Nov 2026 07:10:31 GMT"
     },
     {
-      "title": "Pakistan Reportedly Seeks Turkish GAZAP Warhead for Babur",
-      "url": "https://idrw.org/pakistan-turkey-gazap-warhead-babur-cruise-missile/",
-      "domain": "idrw.org",
-      "seendate": "20261114T200000Z"
+      "title": "Bahrain accuses Iran of attacking its territory to ‘settle’ score with US",
+      "url": "https://www.aljazeera.com/news/2026/11/15/bahrain-accuses-iran-of-attacking-its-territory-to-settle-score-with-us?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 15 Nov 2026 12:36:19 +0000"
     },
     {
-      "title": "美 · 日 · 호주 · 인도 , 17일 필리핀서 2년 만에  쿼드  정상회의",
-      "url": "https://www.koreatimes.com/article/11631514",
-      "domain": "koreatimes.com",
-      "seendate": "20261114T200000Z"
+      "title": "Australia crush New Zealand to win fourth Women’s Rugby League World Cup",
+      "url": "https://www.aljazeera.com/sports/2026/11/15/australia-crush-new-zealand-to-win-fourth-womens-rugby-league-world-cup?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 15 Nov 2026 12:21:28 +0000"
     },
     {
-      "title": "Το Starship της SpaceX πλησιάζει στο τέλος της 15ης δοκιμαστικής πτήσης και της προσπάθειας προσγείωσης κατά την επιστροφή του",
-      "url": "https://www.naftemporiki.gr/techscience/2189155/to-starship-tis-spacex-plisiazei-sto-telos-tis-15is-dokimastikis-ptisis-kai-tis-prospatheias-prosgeiosis-kata-tin-epistrofi-toy/",
-      "domain": "naftemporiki.gr",
-      "seendate": "20261114T200000Z"
+      "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 15 Nov 2026 12:15:51 +0000"
     },
     {
-      "title": "Кушнер заявил о новых идеях по урегулированию конфликта на Украине",
-      "url": "https://ria.ru/20261114/kushner-2131611744.html",
-      "domain": "ria.ru",
-      "seendate": "20261114T210000Z"
+      "title": "Siege on Hebron’s Beit Ula industrial zone threatens Palestinian economy",
+      "url": "https://www.aljazeera.com/economy/2026/11/15/siege-on-hebrons-beit-ula-industrial-zone-threatens-palestinian-economy?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 15 Nov 2026 12:02:45 +0000"
     },
     {
-      "title": "Финский политик Мема призвал НАТО вернуться к границам 1997 года ради мира с РФ",
-      "url": "https://life.ru/p/mir-v-evrope-nevozmozhen-bez-ustupok-v-finlyandii-prizvali-nato-otvesti-voyska",
-      "domain": "life.ru",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Раскрыт хитрый план Мерца по Украине",
-      "url": "https://lenta.ru/news/2026/11/14/raskryt-hitryy-plan-mertsa-po-ukraine/",
-      "domain": "lenta.ru",
-      "seendate": "20261114T200000Z"
-    },
-    {
-      "title": "Guerre en Ukraine  : Le retrait du Donbass contre ladhésion à lOtan  ? La nouvelle piste évoquée par Washington",
-      "url": "https://www.20minutes.fr/monde/ukraine/4262885-20261114-guerre-ukraine-retrait-donbass-contre-adhesion-otan-nouvelle-piste-evoquee-washington",
-      "domain": "20minutes.fr",
-      "seendate": "20261114T200000Z"
+      "title": "Israel coalition talks put Arab party leader under pressure over Hamas",
+      "url": "https://www.aljazeera.com/news/2026/11/15/israel-coalition-talks-put-arab-party-leader-under-pressure-over-hamas?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 15 Nov 2026 11:56:26 +0000"
     }
   ]
 }
