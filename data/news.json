@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-18T10:28:09Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-18T18:58:43.894537+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Anh cấp hơn 1 . 000 tên lửa phòng không cho Ukraine trước mùa Đông",
-      "url": "https://baomoi.com/anh-cap-hon-1-000-ten-lua-phong-khong-cho-ukraine-truoc-mua-dong-c56538908.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261118T011500Z"
+      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 18 Nov 2026 17:00:40 GMT"
     },
     {
-      "title": "Radio Station WHMI 93 . 5 FM Livingston County Michigan News , Weather , Traffic , Sports , School Updates , and the Best Classic Hit",
-      "url": "https://www.whmi.com/news/fox/us-carries-out-self-defense-strike-irgc-missile-launch-site-qeshm-island",
-      "domain": "whmi.com",
-      "seendate": "20261118T011500Z"
+      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 18 Nov 2026 17:00:04 GMT"
     },
     {
-      "title": "油价受全球供应风险推动走高 _ 国际原油市场 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/guojiyuanyousc/20261118/32426018.shtml",
-      "domain": "gold.cnfol.com",
-      "seendate": "20261118T011500Z"
+      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 18 Nov 2026 16:10:44 GMT"
     },
     {
-      "title": "Serangan di Selat Hormuz Dorong Harga Minyak Dunia",
-      "url": "https://www.liputan6.com/bisnis/read/8337362/serangan-di-selat-hormuz-dorong-harga-minyak-dunia",
-      "domain": "liputan6.com",
-      "seendate": "20261118T011500Z"
+      "title": "William and Kate reflect on 'enduring' UK-India ties with Modi",
+      "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 18 Nov 2026 17:51:47 GMT"
     },
     {
-      "title": "战火会烧到美国本土吗 ？ 美伊僵局之下 ， 华盛顿连夜设防最危险的报复",
-      "url": "https://news.ifeng.com/c/8y95p6M5Tis",
-      "domain": "news.ifeng.com",
-      "seendate": "20261118T011500Z"
+      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Wed, 18 Nov 2026 13:04:48 GMT"
     },
     {
-      "title": "U . S . Strikes Iranian Missile Site After Drone Attack in Bahrain",
-      "url": "https://sanangelolive.com/news/national/2026-11-17/us-strikes-iranian-missile-site-after-drone-attack-bahrain",
-      "domain": "sanangelolive.com",
-      "seendate": "20261118T011500Z"
+      "title": "Israeli court extends Gaza doctor Abu Safia’s detention without charge",
+      "url": "https://www.aljazeera.com/news/2026/11/18/israeli-court-extends-gaza-doctor-abu-safias-detention-without-charge?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 18 Nov 2026 18:22:26 +0000"
     },
     {
-      "title": "Israël va - t - il attaquer lIran seul ? ",
-      "url": "https://mondafrique.com/decryptage/israel-va-t-il-attaquer-liran-seul/",
-      "domain": "mondafrique.com",
-      "seendate": "20261118T011500Z"
+      "title": "Israeli forces launch new military operation in central Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 18 Nov 2026 18:12:42 +0000"
     },
     {
-      "title": "Ukraine hits Russia Kerch Bridge , as Russia strikes back at Kyiv bridges",
-      "url": "https://www.10news.com/investigations/russia-ukraine-war-on-the-ground/ukraine-says-it-brought-down-part-of-russias-kerch-bridge-as-russia-hits-back-at-kyivs-bridges",
-      "domain": "10news.com",
-      "seendate": "20261118T011500Z"
+      "title": "Donald Trump meets ‘longtime friend’ Imelda Marcos during Philippines visit",
+      "url": "https://www.aljazeera.com/news/2026/11/18/donald-trump-meets-longtime-friend-imelda-marcos-during-philippines-visit?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 18 Nov 2026 18:09:57 +0000"
     },
     {
-      "title": "回应美驻巴林基地遇袭 美军空袭霍尔木兹海峡伊朗岛屿",
-      "url": "https://www.zaobao.com.sg/news/world/story20261118-10015737",
-      "domain": "zaobao.com.sg",
-      "seendate": "20261118T011500Z"
+      "title": "Far-right influencer Jake Lang kicked out of Dearborn council meeting",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/far-right-influencer-jake-lang-kicked-out-of-dearborn-council-meeting?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 18 Nov 2026 17:50:00 +0000"
     },
     {
-      "title": "Tucker Carlson says he spoke to Trump and is convinced he wants to de - escalate in Iran",
-      "url": "https://wjla.com/news/nation-world/tucker-carlson-says-he-spoke-to-trump-and-is-convinced-he-wants-to-de-escalate-in-iran-nukes-truth-social-house-senate-rrt",
-      "domain": "wjla.com",
-      "seendate": "20261118T011500Z"
-    },
-    {
-      "title": "Ukraine strikes Putin prized Crimean Bridge , destroys central road section ahead of US - China meet",
-      "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-strikes-putins-prized-crimean-bridge-destroys-central-road-section-ahead-of-us-china-meet/articleshow/135944199.cms",
-      "domain": "timesofindia.indiatimes.com",
-      "seendate": "20261118T011500Z"
-    },
-    {
-      "title": "إيران تنفي التخطيط لهجوم في واشنطن",
-      "url": "https://www.hespress.com/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%86%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7-%D9%84%D9%87%D8%AC%D9%88%D9%85-%D9%81%D9%8A-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-1841510.html",
-      "domain": "hespress.com",
-      "seendate": "20261118T011500Z"
+      "title": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
+      "url": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Wed, 18 Nov 2026 17:45:09 +0000"
     }
   ]
 }
