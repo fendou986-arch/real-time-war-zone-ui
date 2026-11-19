@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-19T01:00:51.145624+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-19T08:37:15Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 18 Nov 2026 17:00:40 GMT"
+      "title": "Saudis prepare for Houthi war to last well into 2027",
+      "url": "https://www.thehindu.com/news/international/saudis-prepare-for-houthi-war-to-last-well-into-2027/article71717227.ece",
+      "domain": "thehindu.com",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 18 Nov 2026 17:00:04 GMT"
+      "title": "India signs $211m deal with Israel Aerospace Industries to upgrade Barak naval defense system",
+      "url": "https://www.jpost.com/defense-and-tech/article-915326",
+      "domain": "jpost.com",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 18 Nov 2026 23:04:06 GMT"
+      "title": "Drone attacks nearly halve Russia November oil refining , sources say",
+      "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-915337",
+      "domain": "jpost.com",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Wed, 18 Nov 2026 23:44:27 GMT"
+      "title": "Pakistan Strengthens Military Might with Successful Fatah - 3 Supersonic Cruise Missile Test",
+      "url": "https://pakobserver.net/pakistan-strengthens-military-might-with-successful-fatah-3-supersonic-cruise-missile-test/",
+      "domain": "pakobserver.net",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 19 Nov 2026 00:49:19 GMT"
+      "title": "Peace in a Humbler Form",
+      "url": "https://www.ncregister.com/commentaries/weigel-peace-in-a-humbler-form",
+      "domain": "ncregister.com",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "German FA backs France’s Diallo for FIFA presidency",
-      "url": "https://www.aljazeera.com/news/2026/11/19/german-fa-backs-frances-diallo-for-fifa-presidency?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 00:44:50 +0000"
+      "title": "Šokantan obrt u pregovorima ! Putin spreman na veliki ustupak , ali zauzvrat traži nezamislivo ! | Ukrajina",
+      "url": "https://www.alo.rs/vesti/ukrajina/17060437/putin-ponudio-nato-u-povlacenje-iz-kalinjingrada-uz-veliki-uslov.html",
+      "domain": "alo.rs",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Kenya’s milk shortage deepens as drought hits farmers and pushes up prices",
-      "url": "https://www.aljazeera.com/news/2026/11/19/kenyas-milk-shortage-deepens-as-drought-hits-farmers-and-pushes-up-prices?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 00:40:01 +0000"
+      "title": "İsrail ve ABD arasında 5 yıllık anlaşma - Dünya Haberleri",
+      "url": "https://www.haberturk.com/dunya/israil-ve-abd-arasinda-5-yillik-anlasma-3928317",
+      "domain": "haberturk.com",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Somalia’s constitutional overhaul tests its fragile federal bargain",
-      "url": "https://www.aljazeera.com/news/2026/11/19/somalias-constitutional-overhaul-tests-its-fragile-federal-bargain?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 00:37:03 +0000"
+      "title": "US Launches Unarmed ICBM Test During President Trump Trip To Asia | News Radio 920 AM & 104 . 7 FM",
+      "url": "https://newsradiori.iheart.com/content/2026-11-18-us-launches-unarmed-icbm-test-during-president-trumps-trip-to-asia/",
+      "domain": "newsradiori.iheart.com",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Anthropic raises $81.3bn in biggest IPO of all-time",
-      "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 00:20:03 +0000"
+      "title": "Etiopija i Eritreja gomilaju vojsku uz zajedničku granicu , raste zabrinutost od sukoba",
+      "url": "https://naslovi.net/2026-11-18/rts/etiopija-i-eritreja-gomilaju-vojsku-uz-zajednicku-granicu-raste-zabrinutost-od-sukoba/42622925",
+      "domain": "naslovi.net",
+      "seendate": "20261118T173000Z"
     },
     {
-      "title": "Unvaccinated Pennsylvania resident dies amid historic US measles resurgence",
-      "url": "https://www.aljazeera.com/news/2026/11/19/unvaccinated-pennsylvania-resident-dies-amid-historic-us-measles-resurgence?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 00:14:40 +0000"
+      "title": "Donald Trump llega a China para foro APEC y reunión con Vladimir Putin",
+      "url": "https://wapa.tv/noticias/internacionales/donald-trump-llega-a-china-para-foro-apec-y-reuni-n-con-vladimir-putin/article_f3f40672-5739-41cd-a530-5c23370fa8d9.html",
+      "domain": "wapa.tv",
+      "seendate": "20261118T173000Z"
+    },
+    {
+      "title": "Is another US - Iran war looming ? ",
+      "url": "http://www.middleeaststar.com/news/279440849/is-another-us-iran-war-looming",
+      "domain": "middleeaststar.com",
+      "seendate": "20261118T173000Z"
+    },
+    {
+      "title": "Iran protests erupt over bus crash killing 13 oil workers in Abdanan",
+      "url": "https://www.foxnews.com/world/protesters-call-regime-change-iran-following-deadly-crash-killed-13-oil-gas-workers",
+      "domain": "foxnews.com",
+      "seendate": "20261118T173000Z"
     }
   ]
 }
