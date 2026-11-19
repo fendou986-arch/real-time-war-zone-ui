@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-19T17:37:49Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-19T23:48:22.854463+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Riyadh tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ",
-      "url": "https://bdnews24.com/world/middle-east/fivt512358",
-      "domain": "bdnews24.com",
-      "seendate": "20261119T171500Z"
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 19 Nov 2026 23:33:51 GMT"
     },
     {
-      "title": "Ο Πούτιν εκτοξεύει νέες απειλές : Ουκρανία και ΕΕ ή θα συμβιβαστούν ή θα αντιμετωπίσουν τη νέα πραγματικότητα",
-      "url": "https://www.newsit.gr/kosmos/o-poutin-ektokseyei-nees-apeiles-oukrania-kai-ee-i-tha-symvivastoun-i-tha-antimetopisoun-ti-nea-pragmatikotita/4826604/",
-      "domain": "newsit.gr",
-      "seendate": "20261119T171500Z"
+      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 19 Nov 2026 20:07:02 GMT"
     },
     {
-      "title": "Palestinians victims of a third of violations against children worldwide , Save the Children says",
-      "url": "https://www.click2houston.com/news/world/2026/11/19/palestinians-victims-of-a-third-of-violations-against-children-worldwide-save-the-children-says/",
-      "domain": "click2houston.com",
-      "seendate": "20261119T171500Z"
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 19 Nov 2026 17:38:22 GMT"
     },
     {
-      "title": "Las 4 claves de la  declaración sobre la paz  de Putin , Trump y Xi Jinping - Crónica",
-      "url": "https://www.cronica.com.ar/mundo/las-4-claves-de-la-declaracion-sobre-la-paz-de-putin-trump-y-xi-jinping/",
-      "domain": "cronica.com.ar",
-      "seendate": "20261119T171500Z"
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 19 Nov 2026 21:21:43 GMT"
     },
     {
-      "title": "Ουκρανία : Υλικές ζημιές από βλήμα στην ολλανδική πρεσβεία στο Κίεβο",
-      "url": "https://www.skai.gr/news/world/oukrania-ylikes-zimies-apo-vlima-stin-ollandiki-presveia-sto-kievo",
-      "domain": "skai.gr",
-      "seendate": "20261119T171500Z"
+      "title": "California probing whether China improperly acquired Nvidia technology",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 19 Nov 2026 23:04:30 GMT"
     },
     {
-      "title": "川习普APEC会晤结束 深圳 《 和平宣言 》 说了什么 ？ ",
-      "url": "https://www.renminbao.com/rmb/articles/2026/11/19/97264.html",
-      "domain": "renminbao.com",
-      "seendate": "20261119T171500Z"
+      "title": "Six killed in suspected gas explosion at Georgia apartment building",
+      "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 19 Nov 2026 23:09:48 +0000"
     },
     {
-      "title": "Песков : Встреча Путина , Трампа и Си не могла приблизить победу над неонацизмом",
-      "url": "https://life.ru/p/peskov-vstrecha-putina-trampa-i-si-ne-mogla-priblizit-pobedu-nad-neonatsizmom",
-      "domain": "life.ru",
-      "seendate": "20261119T171500Z"
+      "title": "Mosque torched in Israel sparks political backlash against Netanyahu",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 19 Nov 2026 22:58:48 +0000"
     },
     {
-      "title": "Arab News | Turkiye revels in new status within NATO defense industry",
-      "url": "https://www.arabnews.com/middle-east/turkiye-revels-in-new-status-within-nato-defense-industry-3012978",
-      "domain": "arabnews.com",
-      "seendate": "20261119T171500Z"
+      "title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
+      "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 19 Nov 2026 21:58:27 +0000"
     },
     {
-      "title": "习近平主持中俄美元首会晤 _ 广州日报大洋网",
-      "url": "https://news.dayoo.com/china/202611/19/139997_55025454.htm",
-      "domain": "news.dayoo.com",
-      "seendate": "20261119T171500Z"
+      "title": "Haiti police say at least 34 suspected gang members killed in raid",
+      "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 19 Nov 2026 21:39:39 +0000"
     },
     {
-      "title": "Poľsko a Maďarsko chcú oživiť V4 . Sikorski zároveň odkázal Putinovi , že Rusko je „ ekonomický trpaslík  ",
-      "url": "https://www.aktuality.sk/clanok/ZmY3F2r/polsko-a-madarsko-chcu-ozivit-v4-sikorski-zaroven-odkazal-putinovi-ze-rusko-je-ekonomicky-trpaslik/",
-      "domain": "aktuality.sk",
-      "seendate": "20261119T171500Z"
-    },
-    {
-      "title": "Xi , Trump y Putin abordan Ucrania y el desarme nuclear en reunión histórica",
-      "url": "https://www.critica.com.pa/mundo/xi-trump-y-putin-abordan-ucrania-y-el-desarme-nuclear-en-reunion-historica-520125",
-      "domain": "critica.com.pa",
-      "seendate": "20261119T171500Z"
-    },
-    {
-      "title": "Крах дипломатической карьеры Каи Каллас , или как тяжеловесы съели ее с потрохами ( Geopolitika . news , Хорватия ) ",
-      "url": "https://inosmi.ru/20261119/kallas-281297819.html",
-      "domain": "inosmi.ru",
-      "seendate": "20261119T171500Z"
+      "title": "US appeals court lets Trump end TPS deportation protections for Venezuelans",
+      "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Thu, 19 Nov 2026 21:11:45 +0000"
     }
   ]
 }
