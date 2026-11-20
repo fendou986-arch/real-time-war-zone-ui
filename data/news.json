@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-20T13:24:12Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-20T21:25:17.736022+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Проектил го погоди највисокиот облакодер во Ријад",
-      "url": "https://vecer.mk/svet/proektil-go-pogodi-najvisokiot-oblakoder-vo-rijad-ed286b72-f88a-475a-a718-4e0a223435b5",
-      "domain": "vecer.mk",
-      "seendate": "20261119T233000Z"
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 20 Nov 2026 17:49:48 GMT"
     },
     {
-      "title": "Từ cung cấp vũ khí đến cử quân nhân tới Ukraine , Pháp khiến Nga nổi giận : Moscow cảnh báo  đanh thép  ",
-      "url": "https://soha.vn/tu-cung-cap-vu-khi-den-cu-quan-nhan-toi-ukraine-phap-khien-nga-noi-gian-moscow-canh-bao-dieu-gi-198261119164445865.htm",
-      "domain": "soha.vn",
-      "seendate": "20261120T024500Z"
+      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 20 Nov 2026 16:54:29 GMT"
     },
     {
-      "title": "Rusya , Kievi balistik füzelerle vurdu ! Başkent karanlığa gömüldü",
-      "url": "https://www.haberler.com/haberler/rusya-kievi-balistik-fuzelerle-vurdu-baskent-20444618-haberi/",
-      "domain": "haberler.com",
-      "seendate": "20261120T063000Z"
+      "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 20 Nov 2026 13:01:16 GMT"
     },
     {
-      "title": "La guerre contre lIran a coûté plus de 48 milliards de dollars aux États - Unis",
-      "url": "https://defimedia.info/la-guerre-contre-liran-coute-plus-de-48-milliards-de-dollars-aux-etats-unis",
-      "domain": "defimedia.info",
-      "seendate": "20261120T064500Z"
+      "title": "Gérard Depardieu and French author investigated over sexual allegations",
+      "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 20 Nov 2026 19:45:20 GMT"
     },
     {
-      "title": "Ισραηλινές επιδρομές στον Λίβανο : Στο στόχαστρο εγκατάσταση παραγωγής και αποθήκευσης πυραύλων",
-      "url": "https://www.enikos.gr/international/israilines-epidromes-ston-livano-sto-stochastro-egkatastasi-paragogis-kai-apothikefsis-pyravlon/2679745/",
-      "domain": "enikos.gr",
-      "seendate": "20261120T053000Z"
+      "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 20 Nov 2026 20:00:53 GMT"
     },
     {
-      "title": "乌急需海量20毫米机炮弹药补给 北约库存承压 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20261120/49890578.html",
-      "domain": "military.china.com",
-      "seendate": "20261120T043000Z"
+      "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 20 Nov 2026 21:05:07 +0000"
     },
     {
-      "title": "Riyadh tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ",
-      "url": "https://bdnews24.com/world/middle-east/fivt512358",
-      "domain": "bdnews24.com",
-      "seendate": "20261119T171500Z"
+      "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+      "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 20 Nov 2026 20:59:04 +0000"
     },
     {
-      "title": "美 , 이란전 비용 64조원 돌파 … 중동 미군 기지 피해액 미포함",
-      "url": "https://biz.chosun.com/international/international_general/2026/11/20/3XJ77RPWU5E3FKWSNFYEBBPK2U/",
-      "domain": "biz.chosun.com",
-      "seendate": "20261120T033000Z"
+      "title": "Can the UK and EU turn the page on Brexit?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 20 Nov 2026 20:51:19 +0000"
     },
     {
-      "title": "Tổng thống Macron kêu gọi xem xét vấn đề Ukraine gia nhập NATO",
-      "url": "https://baomoi.com/tong-thong-macron-keu-goi-xem-xet-van-de-ukraine-gia-nhap-nato-c56559358.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261120T053000Z"
+      "title": "Gaza’s displaced children celebrate World Children’s Day",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/gazas-displaced-children-celebrate-world-childrens-day?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 20 Nov 2026 20:45:09 +0000"
     },
     {
-      "title": "Pakistan calls Houthi attack on Riyadh tower  grave violation  of Saudi sovereignty",
-      "url": "https://tribune.com.pk/story/2641330/pakistan-calls-houthi-attack-on-riyadh-tower-grave-violation-of-saudi-sovereignty",
-      "domain": "tribune.com.pk",
-      "seendate": "20261120T064500Z"
-    },
-    {
-      "title": "A Prince In A Hurry , And The Graves He Leaves In Yemen - OpEd",
-      "url": "https://www.eurasiareview.com/20112026-a-prince-in-a-hurry-and-the-graves-he-leaves-in-yemen-oped/",
-      "domain": "eurasiareview.com",
-      "seendate": "20261120T043000Z"
-    },
-    {
-      "title": "Vì sao Ukraine liên tiếp tập kích lớn vào cầu Crimea",
-      "url": "http://vov.vn/the-gioi/quan-sat/vi-sao-ukraine-lien-tiep-tap-kich-lon-vao-cau-crimea-do-nga-kiem-soat-post1351661.vov",
-      "domain": "vov.vn",
-      "seendate": "20261119T233000Z"
+      "title": "Sudan’s war leaves disabled children missing out on education",
+      "url": "https://www.aljazeera.com/news/2026/11/20/sudans-war-leaves-disabled-children-missing-out-on-education?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 20 Nov 2026 20:45:08 +0000"
     }
   ]
 }
