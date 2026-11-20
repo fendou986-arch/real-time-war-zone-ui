@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-19T23:48:22.854463+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-20T04:23:27Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 19 Nov 2026 23:33:51 GMT"
+      "title": "Проектил го погоди највисокиот облакодер во Ријад",
+      "url": "https://vecer.mk/svet/proektil-go-pogodi-najvisokiot-oblakoder-vo-rijad-ed286b72-f88a-475a-a718-4e0a223435b5",
+      "domain": "vecer.mk",
+      "seendate": "20261119T233000Z"
     },
     {
-      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 19 Nov 2026 20:07:02 GMT"
+      "title": "Từ cung cấp vũ khí đến cử quân nhân tới Ukraine , Pháp khiến Nga nổi giận : Moscow cảnh báo  đanh thép  ",
+      "url": "https://soha.vn/tu-cung-cap-vu-khi-den-cu-quan-nhan-toi-ukraine-phap-khien-nga-noi-gian-moscow-canh-bao-dieu-gi-198261119164445865.htm",
+      "domain": "soha.vn",
+      "seendate": "20261120T024500Z"
     },
     {
-      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 19 Nov 2026 17:38:22 GMT"
+      "title": "Riyadh tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ",
+      "url": "https://bdnews24.com/world/middle-east/fivt512358",
+      "domain": "bdnews24.com",
+      "seendate": "20261119T171500Z"
     },
     {
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 19 Nov 2026 21:21:43 GMT"
+      "title": "美 , 이란전 비용 64조원 돌파 … 중동 미군 기지 피해액 미포함",
+      "url": "https://biz.chosun.com/international/international_general/2026/11/20/3XJ77RPWU5E3FKWSNFYEBBPK2U/",
+      "domain": "biz.chosun.com",
+      "seendate": "20261120T033000Z"
     },
     {
-      "title": "California probing whether China improperly acquired Nvidia technology",
-      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 19 Nov 2026 23:04:30 GMT"
+      "title": "Vì sao Ukraine liên tiếp tập kích lớn vào cầu Crimea",
+      "url": "http://vov.vn/the-gioi/quan-sat/vi-sao-ukraine-lien-tiep-tap-kich-lon-vao-cau-crimea-do-nga-kiem-soat-post1351661.vov",
+      "domain": "vov.vn",
+      "seendate": "20261119T233000Z"
     },
     {
-      "title": "Six killed in suspected gas explosion at Georgia apartment building",
-      "url": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 23:09:48 +0000"
+      "title": "Chi phí chiến tranh của Mỹ tại Iran vượt 48 tỷ USD",
+      "url": "https://baomoi.com/chi-phi-chien-tranh-cua-my-tai-iran-vuot-48-ty-usd-c56558232.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261120T033000Z"
     },
     {
-      "title": "Mosque torched in Israel sparks political backlash against Netanyahu",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 22:58:48 +0000"
+      "title": "সৌদি আরবের সর্বোচ্চ ভবনে হাউছি হামলা : Daily Naya Diganta ( দৈনিক নয়া দিগন্ত ) ",
+      "url": "https://www.dailynayadiganta.com/post/asia/1070986",
+      "domain": "dailynayadiganta.com",
+      "seendate": "20261120T004500Z"
     },
     {
-      "title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
-      "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 21:58:27 +0000"
+      "title": "Pentagon puts Iran war cost at $48 . 3 billion , excluding base damage",
+      "url": "https://www.ky3.com/2026/11/20/pentagon-puts-iran-war-cost-483-billion-excluding-base-damage/",
+      "domain": "ky3.com",
+      "seendate": "20261120T004500Z"
     },
     {
-      "title": "Haiti police say at least 34 suspected gang members killed in raid",
-      "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 21:39:39 +0000"
+      "title": "Riyadh Tallest Skyscraper Hit in Houthi Strike on Saudi Wealth Fund HQ",
+      "url": "https://www.algemeiner.com/2026/11/19/riyadhs-tallest-skyscraper-hit-houthi-strike-saudi-wealth-fund-hq/",
+      "domain": "algemeiner.com",
+      "seendate": "20261120T001500Z"
     },
     {
-      "title": "US appeals court lets Trump end TPS deportation protections for Venezuelans",
-      "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Thu, 19 Nov 2026 21:11:45 +0000"
+      "title": "Iran war costs surpass $48B as lawmakers demand details on base damage",
+      "url": "https://www.pilotonline.com/2026/11/19/iran-war-costs-billions/",
+      "domain": "pilotonline.com",
+      "seendate": "20261120T001500Z"
+    },
+    {
+      "title": "Володимир Зеленський – Росія програла 26 - й рік на полі бою Україні",
+      "url": "https://www.obozrevatel.com/ukr/section-politics-news/news-rosiya-prohrala-26-y-rik-na-poli-boyu-i-namahayetsya-peremohty-raketamy-tsyvilnykh-zelenskyy-19-11-2026.html",
+      "domain": "obozrevatel.com",
+      "seendate": "20261119T233000Z"
+    },
+    {
+      "title": "Iran war costs surpass USD 48 billion",
+      "url": "https://www.siasat.com/iran-war-costs-surpass-usd-48-billion-3581743/",
+      "domain": "siasat.com",
+      "seendate": "20261120T034500Z"
     }
   ]
 }
