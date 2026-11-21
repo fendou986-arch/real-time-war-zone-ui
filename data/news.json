@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-21T17:37:23.548471+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-21T22:21:44Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 21 Nov 2026 13:17:38 GMT"
+      "title": "Presiden Iran : Perang Ekonomi Senyap Lebih Sulit Dibandingkan Konflik Militer",
+      "url": "https://international.sindonews.com/read/1774681/43/presiden-iran-perang-ekonomi-senyap-lebih-sulit-dibandingkan-konflik-militer-1795255900",
+      "domain": "international.sindonews.com",
+      "seendate": "20261121T123000Z"
     },
     {
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 20 Nov 2026 22:42:47 GMT"
+      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
+      "url": "https://www.wboc.com/news/international/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_01da6b4b-0bb9-5d63-96fd-a41f63b4e2d6.html",
+      "domain": "wboc.com",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 21 Nov 2026 14:54:24 GMT"
+      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
+      "url": "http://www.idahopress.com/ap_news/us/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_d69706d0-0aa1-5a72-85d7-55f28dbbb892.html",
+      "domain": "idahopress.com",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 21 Nov 2026 16:35:15 GMT"
+      "title": "സെലൻസ്കിയുടെ ജന്മനാട്ടിൽ റഷ്യയുടെ മിസൈൽ ആക്രമണം ; ആരോഗ്യപ്രവർത്തകയും ഏഴ് വയസുകാരനും കൊല്ലപ്പെട്ടു | Deadly Russian Attack Hits Ukraine",
+      "url": "https://www.madhyamam.com/world/russian-missiles-strike-kryvyi-rih-1574543",
+      "domain": "madhyamam.com",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 21 Nov 2026 13:15:21 GMT"
+      "title": "Arap Koalisyonu : Husilerin Suudi Arabistan  ın başkenti Riyada fırlattığı 3 balistik füze imha edildi",
+      "url": "https://www.aa.com.tr/tr/dunya/arap-koalisyonu-husilerin-suudi-arabistanin-baskenti-riyada-firlattigi-3-balistik-fuze-imha-edildi/4132542",
+      "domain": "aa.com.tr",
+      "seendate": "20261121T003000Z"
     },
     {
-      "title": "Liverpool vs Manchester United: Premier League – teams, prediction, lineups",
-      "url": "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 21 Nov 2026 17:28:51 +0000"
+      "title": "İran ABDye ait F - 16 savaş uçağını füze ile vurduğunu iddia etti",
+      "url": "https://www.ahaber.com.tr/dunya/2026/11/21/iran-abdye-ait-f-16-savas-ucagini-fuze-ile-vurdugunu-iddia-etti",
+      "domain": "ahaber.com.tr",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "Chelsea beaten 4-1 by Leeds United in shock home Premier League defeat",
-      "url": "https://www.aljazeera.com/sports/2026/11/21/chelsea-beaten-4-1-by-leeds-united-at-home-in-the-premier-league?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 21 Nov 2026 17:21:37 +0000"
+      "title": "ভূগর্ভে ইরানের নতুন  মিসাইল নগরী , শত্রুকে চরম পরাজয়ের হুঁশিয়ারি",
+      "url": "https://www.mzamin.com/article/62116",
+      "domain": "mzamin.com",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
-      "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 21 Nov 2026 17:20:03 +0000"
+      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
+      "url": "http://www.rockymounttelegram.com/news/national/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_cf8214ba-1461-56d3-9213-344895893f91.html",
+      "domain": "rockymounttelegram.com",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "India’s opposition stages protests against Meta over account removals",
-      "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 21 Nov 2026 16:14:01 +0000"
+      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
+      "url": "http://www.bozemandailychronicle.com/wire/news/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_ccf9db54-917b-5716-ac6a-ccc60f72baa9.html",
+      "domain": "bozemandailychronicle.com",
+      "seendate": "20261121T163000Z"
     },
     {
-      "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
-      "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sat, 21 Nov 2026 16:03:16 +0000"
+      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
+      "url": "http://www.cecildaily.com/ap/nation/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_f349f73f-8b70-55f7-be84-d7ac14708fc6.html",
+      "domain": "cecildaily.com",
+      "seendate": "20261121T163000Z"
+    },
+    {
+      "title": "İran : ABDye ait F - 16  yı vurduk",
+      "url": "https://www.haber7.com/dunya/haber/3678744-iran-abdye-ait-f-16yi-vurduk",
+      "domain": "haber7.com",
+      "seendate": "20261121T143000Z"
+    },
+    {
+      "title": "Deux pétroliers frappés par des projectiles dans le détroit dOrmuz , aucun blessé signalé",
+      "url": "https://www.senenews.com/actualites/societe/deux-petroliers-touches-par-des-projectiles-dans-le-detroit-dormuz-agence-maritime_607155.html",
+      "domain": "senenews.com",
+      "seendate": "20261121T123000Z"
     }
   ]
 }
