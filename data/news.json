@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-21T10:13:51Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-21T17:37:23.548471+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Arap Koalisyonu : Husilerin Suudi Arabistan  ın başkenti Riyada fırlattığı 3 balistik füze imha edildi",
-      "url": "https://www.aa.com.tr/tr/dunya/arap-koalisyonu-husilerin-suudi-arabistanin-baskenti-riyada-firlattigi-3-balistik-fuze-imha-edildi/4132542",
-      "domain": "aa.com.tr",
-      "seendate": "20261121T003000Z"
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 21 Nov 2026 13:17:38 GMT"
     },
     {
-      "title": "Trump cites good talks with Putin on Ukraine , holds back on security guarantees",
-      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/20/trump-says-he-putin-had-very-good-talks-on-ukraine",
-      "domain": "internazionale.it",
-      "seendate": "20261120T214500Z"
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 20 Nov 2026 22:42:47 GMT"
     },
     {
-      "title": "Trump insists Iran wont make an  acceptable  deal as concerns grow about next steps",
-      "url": "https://www.wsls.com/news/politics/2026/11/20/trump-insists-iran-wont-make-an-acceptable-deal-as-concerns-grow-about-next-steps/",
-      "domain": "wsls.com",
-      "seendate": "20261121T003000Z"
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 21 Nov 2026 14:54:24 GMT"
     },
     {
-      "title": "Russian missile hits Poland as Ukraine allies hold military exercise",
-      "url": "https://www.the-star.co.ke/news/world/2026-11-21-russian-missile-hits-poland-as-ukraines-allies-hold-military-exercise-says-tusk",
-      "domain": "the-star.co.ke",
-      "seendate": "20261121T064500Z"
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 21 Nov 2026 16:35:15 GMT"
     },
     {
-      "title": "Vì sao Iran bất ngờ mở rộng tấn công tại vùng Vịnh ? ",
-      "url": "https://petrotimes.vn/vi-sao-iran-bat-ngo-mo-rong-tan-cong-tai-vung-vinh-748245.html",
-      "domain": "petrotimes.vn",
-      "seendate": "20261121T064500Z"
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 21 Nov 2026 13:15:21 GMT"
     },
     {
-      "title": "Saudi Forces Strike Hodeidah Port As Houthis Warn",
-      "url": "https://www.marinelink.com/news/saudi-forces-strike-hodeidah-port-houthis-544509",
-      "domain": "marinelink.com",
-      "seendate": "20261120T214500Z"
+      "title": "Liverpool vs Manchester United: Premier League – teams, prediction, lineups",
+      "url": "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 21 Nov 2026 17:28:51 +0000"
     },
     {
-      "title": "Houthis Order Ships to Leave Saudi Red Sea Ports After Hodeidah Airstrikes",
-      "url": "https://gcaptain.com/houthis-order-ships-to-leave-saudi-red-sea-ports-after-hodeidah-airstrikes/",
-      "domain": "gcaptain.com",
-      "seendate": "20261120T214500Z"
+      "title": "Chelsea beaten 4-1 by Leeds United in shock home Premier League defeat",
+      "url": "https://www.aljazeera.com/sports/2026/11/21/chelsea-beaten-4-1-by-leeds-united-at-home-in-the-premier-league?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 21 Nov 2026 17:21:37 +0000"
     },
     {
-      "title": "俄Kh - 101巡弋飛彈墜波蘭 ！ 歐洲軍演近在咫尺 北約痛批侵犯領土",
-      "url": "https://def.ltn.com.tw/article/breakingnews/5648562",
-      "domain": "def.ltn.com.tw",
-      "seendate": "20261121T064500Z"
+      "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+      "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 21 Nov 2026 17:20:03 +0000"
     },
     {
-      "title": "  He a killer : Zelensky reacts to Trump calling Putin a friend",
-      "url": "https://www.the-star.co.ke/news/world/2026-11-21-hes-a-killer-zelensky-reacts-to-trump-calling-putin-a-friend",
-      "domain": "the-star.co.ke",
-      "seendate": "20261121T064500Z"
+      "title": "India’s opposition stages protests against Meta over account removals",
+      "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 21 Nov 2026 16:14:01 +0000"
     },
     {
-      "title": "90分钟中俄美会晤 ， 摆了哪些事上桌 ？- 虎嗅网",
-      "url": "https://www.huxiu.com/article/4907261.html",
-      "domain": "huxiu.com",
-      "seendate": "20261120T214500Z"
-    },
-    {
-      "title": "ترامپ به دنبال طرح حذف رهبران جمهوری اسلامی است *، مرتضی اسماعیل‌پور",
-      "url": "https://news.gooya.com/2026/11/post-115206.php",
-      "domain": "news.gooya.com",
-      "seendate": "20261121T064500Z"
-    },
-    {
-      "title": "Missiles russes en Pologne  : Varsovie dénonce une  provocation , ses alliés font bloc",
-      "url": "https://www.linternaute.com/actualite/depeches/11315455-chute-de-missiles-russes-en-pologne-varsovie-denonce-une-provocation-ses-allies-font-bloc/",
-      "domain": "linternaute.com",
-      "seendate": "20261121T003000Z"
+      "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+      "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sat, 21 Nov 2026 16:03:16 +0000"
     }
   ]
 }
