@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T22:21:44Z",
+  "generatedAt": "2026-11-22T02:28:33Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
@@ -28,10 +28,10 @@
       "seendate": "20261121T163000Z"
     },
     {
-      "title": "Arap Koalisyonu : Husilerin Suudi Arabistan  ın başkenti Riyada fırlattığı 3 balistik füze imha edildi",
-      "url": "https://www.aa.com.tr/tr/dunya/arap-koalisyonu-husilerin-suudi-arabistanin-baskenti-riyada-firlattigi-3-balistik-fuze-imha-edildi/4132542",
-      "domain": "aa.com.tr",
-      "seendate": "20261121T003000Z"
+      "title": "Xung đột tại Trung Đông : Iran tấn công 2 căn cứ quân sự Mỹ tại Bahrain",
+      "url": "https://baomoi.com/xung-dot-tai-trung-dong-iran-tan-cong-2-can-cu-quan-su-my-tai-bahrain-c56572520.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261122T003000Z"
     },
     {
       "title": "İran ABDye ait F - 16 savaş uçağını füze ile vurduğunu iddia etti",
@@ -70,10 +70,10 @@
       "seendate": "20261121T143000Z"
     },
     {
-      "title": "Deux pétroliers frappés par des projectiles dans le détroit dOrmuz , aucun blessé signalé",
-      "url": "https://www.senenews.com/actualites/societe/deux-petroliers-touches-par-des-projectiles-dans-le-detroit-dormuz-agence-maritime_607155.html",
-      "domain": "senenews.com",
-      "seendate": "20261121T123000Z"
+      "title": "Bahreïn accuse lIran davoir mené une frappe contre un de ses sites industriels",
+      "url": "https://www.la-croix.com/deux-nouveaux-petroliers-touches-dans-le-detroit-d-ormuz-20261121",
+      "domain": "la-croix.com",
+      "seendate": "20261122T003000Z"
     }
   ]
 }
