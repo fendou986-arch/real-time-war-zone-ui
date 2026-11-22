@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T02:28:33Z",
+  "generatedAt": "2026-11-22T10:07:33Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
@@ -28,10 +28,10 @@
       "seendate": "20261121T163000Z"
     },
     {
-      "title": "Xung đột tại Trung Đông : Iran tấn công 2 căn cứ quân sự Mỹ tại Bahrain",
-      "url": "https://baomoi.com/xung-dot-tai-trung-dong-iran-tan-cong-2-can-cu-quan-su-my-tai-bahrain-c56572520.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261122T003000Z"
+      "title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
+      "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+      "domain": "enca.com",
+      "seendate": "20261122T073000Z"
     },
     {
       "title": "İran ABDye ait F - 16 savaş uçağını füze ile vurduğunu iddia etti",
@@ -44,6 +44,12 @@
       "url": "https://www.mzamin.com/article/62116",
       "domain": "mzamin.com",
       "seendate": "20261121T163000Z"
+    },
+    {
+      "title": "Xung đột tại Trung Đông : Iran tấn công 2 căn cứ quân sự Mỹ tại Bahrain",
+      "url": "https://baomoi.com/xung-dot-tai-trung-dong-iran-tan-cong-2-can-cu-quan-su-my-tai-bahrain-c56572520.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261122T003000Z"
     },
     {
       "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
@@ -68,12 +74,6 @@
       "url": "https://www.haber7.com/dunya/haber/3678744-iran-abdye-ait-f-16yi-vurduk",
       "domain": "haber7.com",
       "seendate": "20261121T143000Z"
-    },
-    {
-      "title": "Bahreïn accuse lIran davoir mené une frappe contre un de ses sites industriels",
-      "url": "https://www.la-croix.com/deux-nouveaux-petroliers-touches-dans-le-detroit-d-ormuz-20261121",
-      "domain": "la-croix.com",
-      "seendate": "20261122T003000Z"
     }
   ]
 }
