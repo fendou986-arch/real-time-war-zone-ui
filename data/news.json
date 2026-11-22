@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-22T10:07:33Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-22T17:47:51.672014+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Presiden Iran : Perang Ekonomi Senyap Lebih Sulit Dibandingkan Konflik Militer",
-      "url": "https://international.sindonews.com/read/1774681/43/presiden-iran-perang-ekonomi-senyap-lebih-sulit-dibandingkan-konflik-militer-1795255900",
-      "domain": "international.sindonews.com",
-      "seendate": "20261121T123000Z"
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 22 Nov 2026 17:16:47 GMT"
     },
     {
-      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
-      "url": "https://www.wboc.com/news/international/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_01da6b4b-0bb9-5d63-96fd-a41f63b4e2d6.html",
-      "domain": "wboc.com",
-      "seendate": "20261121T163000Z"
+      "title": "South Korea education minister resigns over exam cheating scandal",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 22 Nov 2026 09:20:45 GMT"
     },
     {
-      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
-      "url": "http://www.idahopress.com/ap_news/us/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_d69706d0-0aa1-5a72-85d7-55f28dbbb892.html",
-      "domain": "idahopress.com",
-      "seendate": "20261121T163000Z"
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 22 Nov 2026 17:18:26 GMT"
     },
     {
-      "title": "സെലൻസ്കിയുടെ ജന്മനാട്ടിൽ റഷ്യയുടെ മിസൈൽ ആക്രമണം ; ആരോഗ്യപ്രവർത്തകയും ഏഴ് വയസുകാരനും കൊല്ലപ്പെട്ടു | Deadly Russian Attack Hits Ukraine",
-      "url": "https://www.madhyamam.com/world/russian-missiles-strike-kryvyi-rih-1574543",
-      "domain": "madhyamam.com",
-      "seendate": "20261121T163000Z"
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 22 Nov 2026 01:25:03 GMT"
     },
     {
-      "title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
-      "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
-      "domain": "enca.com",
-      "seendate": "20261122T073000Z"
+      "title": "Three killed and dozens missing after fire at Indonesian factory",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sun, 22 Nov 2026 14:05:20 GMT"
     },
     {
-      "title": "İran ABDye ait F - 16 savaş uçağını füze ile vurduğunu iddia etti",
-      "url": "https://www.ahaber.com.tr/dunya/2026/11/21/iran-abdye-ait-f-16-savas-ucagini-fuze-ile-vurdugunu-iddia-etti",
-      "domain": "ahaber.com.tr",
-      "seendate": "20261121T163000Z"
+      "title": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base",
+      "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 22 Nov 2026 17:12:48 +0000"
     },
     {
-      "title": "ভূগর্ভে ইরানের নতুন  মিসাইল নগরী , শত্রুকে চরম পরাজয়ের হুঁশিয়ারি",
-      "url": "https://www.mzamin.com/article/62116",
-      "domain": "mzamin.com",
-      "seendate": "20261121T163000Z"
+      "title": "Israeli settlers attack multiple Palestinian villages as pogroms surge",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/israeli-settlers-attack-multiple-palestinian-villages-as-pogroms-surge?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 22 Nov 2026 16:50:48 +0000"
     },
     {
-      "title": "Xung đột tại Trung Đông : Iran tấn công 2 căn cứ quân sự Mỹ tại Bahrain",
-      "url": "https://baomoi.com/xung-dot-tai-trung-dong-iran-tan-cong-2-can-cu-quan-su-my-tai-bahrain-c56572520.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261122T003000Z"
+      "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+      "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 22 Nov 2026 16:33:26 +0000"
     },
     {
-      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
-      "url": "http://www.rockymounttelegram.com/news/national/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_cf8214ba-1461-56d3-9213-344895893f91.html",
-      "domain": "rockymounttelegram.com",
-      "seendate": "20261121T163000Z"
+      "title": "Canada’s PM appears next to Trump impersonator at press dinner",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/canadas-pm-appears-next-to-trump-impersonator-at-press-dinner?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 22 Nov 2026 16:06:46 +0000"
     },
     {
-      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
-      "url": "http://www.bozemandailychronicle.com/wire/news/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_ccf9db54-917b-5716-ac6a-ccc60f72baa9.html",
-      "domain": "bozemandailychronicle.com",
-      "seendate": "20261121T163000Z"
-    },
-    {
-      "title": "Iran strikes 3 tankers as it shows off missile launchers , and other Mideast news",
-      "url": "http://www.cecildaily.com/ap/nation/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_f349f73f-8b70-55f7-be84-d7ac14708fc6.html",
-      "domain": "cecildaily.com",
-      "seendate": "20261121T163000Z"
-    },
-    {
-      "title": "İran : ABDye ait F - 16  yı vurduk",
-      "url": "https://www.haber7.com/dunya/haber/3678744-iran-abdye-ait-f-16yi-vurduk",
-      "domain": "haber7.com",
-      "seendate": "20261121T143000Z"
+      "title": "Can we build a more ethical AI future?",
+      "url": "https://www.aljazeera.com/video/upfront/2026/11/22/can-we-build-a-more-ethical-ai-future?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Sun, 22 Nov 2026 15:30:09 +0000"
     }
   ]
 }
