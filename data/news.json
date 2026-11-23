@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-22T22:51:12.002872+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-23T03:27:54Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 22 Nov 2026 18:17:59 GMT"
+      "title": "НАТО захищатиме кожен сантиметр Польщі після атаки російських ракет , ",
+      "url": "https://uainfo.org/blognews/1795298346-nato-zahishchatime-kozhen-santimetr-polshchi-pislya-ataki-rosiyskih.html",
+      "domain": "uainfo.org",
+      "seendate": "20261122T103000Z"
     },
     {
-      "title": "What's next after no deal at COP31 climate talks?",
-      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 22 Nov 2026 18:57:24 GMT"
+      "title": "Λιβύη : Ισχυρή έκρηξη κατέστρεψε ρωσικό πολεμικό πλοίο στη Βεγγάζη – Υποψίες για ουκρανικό drone",
+      "url": "https://www.tanea.gr/2026/11/22/world/livyi-isxyri-ekriksi-katestrepse-rosiko-polemiko-ploio-sti-veggazi-ypopsies-gia-oukraniko-drone/",
+      "domain": "tanea.gr",
+      "seendate": "20261122T184500Z"
     },
     {
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 22 Nov 2026 20:28:09 GMT"
+      "title": "Libia : Statek handlowy zaatakowany przez drony morskie niedaleko Bengazi",
+      "url": "https://www.wnp.pl/rynki/libia-statek-handlowy-zaatakowany-przez-drony-morskie-niedaleko-bengazi,1122461.html",
+      "domain": "wnp.pl",
+      "seendate": "20261122T223000Z"
     },
     {
-      "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-      "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 22 Nov 2026 22:37:43 GMT"
+      "title": "Tổng thống Trump úp mở khả năng tấn công quân sự nhằm vào Iran , Tehran trình làng vũ khí mới",
+      "url": "https://baomoi.com/tong-thong-trump-up-mo-kha-nang-tan-cong-quan-su-nham-vao-iran-tehran-trinh-lang-vu-khi-moi-c56578906.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261123T023000Z"
     },
     {
-      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sun, 22 Nov 2026 17:18:26 GMT"
+      "title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
+      "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
+      "domain": "enca.com",
+      "seendate": "20261122T073000Z"
     },
     {
-      "title": "Democrats win largest House majority since 1992 with North Carolina seat",
-      "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sun, 22 Nov 2026 22:19:47 +0000"
+      "title": "Тръмп : Иран засили ракетните и дроновите атаки",
+      "url": "https://fakti.bg/world/1103594-tramp-iran-zasili-raketnite-i-dronovite-ataki",
+      "domain": "fakti.bg",
+      "seendate": "20261123T023000Z"
     },
     {
-      "title": "Second ship targeted in series of naval drone attacks off Libyan coast",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sun, 22 Nov 2026 22:01:48 +0000"
+      "title": "Iran strike injures two in Bahrain , Riyadh denounces  criminal  attacks",
+      "url": "https://www.nzherald.co.nz/world/iran-strike-injures-two-in-bahrain-riyadh-denounces-criminal-attacks/JOU6RQWWQVC2NJPM3LLQBIRJE4/",
+      "domain": "nzherald.co.nz",
+      "seendate": "20261122T184500Z"
     },
     {
-      "title": "Netanyahu’s Likud, Eisenkot’s Yashar end coalition talks without deal",
-      "url": "https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sun, 22 Nov 2026 21:33:11 +0000"
+      "title": "Le conflit Russie - Ukraine sinvite au Maghreb : un navire de guerre russe attaqué en Libye",
+      "url": "https://www.tsa-algerie.com/un-navire-de-guerre-russe-attaque-en-libye-le-conflit-russie-ukraine-sinvite-au-maghreb/",
+      "domain": "tsa-algerie.com",
+      "seendate": "20261122T223000Z"
     },
     {
-      "title": "Heartbreak in US capital as Washington Spirit lose women’s football final",
-      "url": "https://www.aljazeera.com/sports/2026/11/22/heartbreak-in-us-capital-as-washington-spirit-lose-womens-football-final?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sun, 22 Nov 2026 21:26:12 +0000"
+      "title": "Η Τεχεράνη παρουσιάζει έναν νέο εκτοξευτή πυραύλων",
+      "url": "https://www.inewsgr.com/182/i-techerani-parousiazei-enan-neo-ektoxefti-pyravlon.htm",
+      "domain": "inewsgr.com",
+      "seendate": "20261122T203000Z"
     },
     {
-      "title": "Fire breaks out at popular tourist hotspot in Zanzibar",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/fire-breaks-out-at-popular-tourist-hotspot-in-zanzibar?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Sun, 22 Nov 2026 20:29:01 +0000"
+      "title": "Ιράν : Η Τεχεράνη παρουσιάζει έναν νέο εκτοξευτή πυραύλων",
+      "url": "https://www.inewsgr.com/351/iran-i-techerani-parousiazei-enan-neo-ektoxefti-pyravlon.htm",
+      "domain": "inewsgr.com",
+      "seendate": "20261122T223000Z"
+    },
+    {
+      "title": "Η Τεχεράνη παρουσιάζει έναν νέο εκτοξευτή πυραύλων",
+      "url": "https://www.voria.gr/article/i-teherani-paroysiazei-enan-neo-ektoxeyti-pyraylon",
+      "domain": "voria.gr",
+      "seendate": "20261122T203000Z"
+    },
+    {
+      "title": "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
+      "url": "https://wnyc.org/npr/nx-s1-6048710",
+      "domain": "wnyc.org",
+      "seendate": "20261122T203000Z"
     }
   ]
 }
