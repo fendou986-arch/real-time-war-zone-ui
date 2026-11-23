@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-23T03:27:54Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-23T13:30:17.284084+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "НАТО захищатиме кожен сантиметр Польщі після атаки російських ракет , ",
-      "url": "https://uainfo.org/blognews/1795298346-nato-zahishchatime-kozhen-santimetr-polshchi-pislya-ataki-rosiyskih.html",
-      "domain": "uainfo.org",
-      "seendate": "20261122T103000Z"
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Mon, 23 Nov 2026 11:40:01 GMT"
     },
     {
-      "title": "Λιβύη : Ισχυρή έκρηξη κατέστρεψε ρωσικό πολεμικό πλοίο στη Βεγγάζη – Υποψίες για ουκρανικό drone",
-      "url": "https://www.tanea.gr/2026/11/22/world/livyi-isxyri-ekriksi-katestrepse-rosiko-polemiko-ploio-sti-veggazi-ypopsies-gia-oukraniko-drone/",
-      "domain": "tanea.gr",
-      "seendate": "20261122T184500Z"
+      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Mon, 23 Nov 2026 05:15:06 GMT"
     },
     {
-      "title": "Libia : Statek handlowy zaatakowany przez drony morskie niedaleko Bengazi",
-      "url": "https://www.wnp.pl/rynki/libia-statek-handlowy-zaatakowany-przez-drony-morskie-niedaleko-bengazi,1122461.html",
-      "domain": "wnp.pl",
-      "seendate": "20261122T223000Z"
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Mon, 23 Nov 2026 11:57:33 GMT"
     },
     {
-      "title": "Tổng thống Trump úp mở khả năng tấn công quân sự nhằm vào Iran , Tehran trình làng vũ khí mới",
-      "url": "https://baomoi.com/tong-thong-trump-up-mo-kha-nang-tan-cong-quan-su-nham-vao-iran-tehran-trinh-lang-vu-khi-moi-c56578906.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261123T023000Z"
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Mon, 23 Nov 2026 05:33:17 GMT"
     },
     {
-      "title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
-      "url": "https://www.enca.com/business/bahrain-says-iran-struck-industrial-site-tankers-hit-hormuz",
-      "domain": "enca.com",
-      "seendate": "20261122T073000Z"
+      "title": "Flights and train services cancelled in Belgium due to strike",
+      "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Mon, 23 Nov 2026 12:27:34 GMT"
     },
     {
-      "title": "Тръмп : Иран засили ракетните и дроновите атаки",
-      "url": "https://fakti.bg/world/1103594-tramp-iran-zasili-raketnite-i-dronovite-ataki",
-      "domain": "fakti.bg",
-      "seendate": "20261123T023000Z"
+      "title": "Iran says it will use ‘all available means’ to counter US blockade",
+      "url": "https://www.aljazeera.com/news/2026/11/23/iran-says-it-will-use-all-available-means-to-counter-us-blockade?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Mon, 23 Nov 2026 13:04:11 +0000"
     },
     {
-      "title": "Iran strike injures two in Bahrain , Riyadh denounces  criminal  attacks",
-      "url": "https://www.nzherald.co.nz/world/iran-strike-injures-two-in-bahrain-riyadh-denounces-criminal-attacks/JOU6RQWWQVC2NJPM3LLQBIRJE4/",
-      "domain": "nzherald.co.nz",
-      "seendate": "20261122T184500Z"
+      "title": "Argentina footballer Paredes collapses during post-match interview",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/argentina-footballer-paredes-collapses-during-post-match-interview?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Mon, 23 Nov 2026 12:40:21 +0000"
     },
     {
-      "title": "Le conflit Russie - Ukraine sinvite au Maghreb : un navire de guerre russe attaqué en Libye",
-      "url": "https://www.tsa-algerie.com/un-navire-de-guerre-russe-attaque-en-libye-le-conflit-russie-ukraine-sinvite-au-maghreb/",
-      "domain": "tsa-algerie.com",
-      "seendate": "20261122T223000Z"
+      "title": "How the US, China and Russia are competing for Africa’s mineral wealth",
+      "url": "https://www.aljazeera.com/news/2026/11/23/how-the-us-china-and-russia-are-competing-for-africas-mineral-wealth?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Mon, 23 Nov 2026 12:34:54 +0000"
     },
     {
-      "title": "Η Τεχεράνη παρουσιάζει έναν νέο εκτοξευτή πυραύλων",
-      "url": "https://www.inewsgr.com/182/i-techerani-parousiazei-enan-neo-ektoxefti-pyravlon.htm",
-      "domain": "inewsgr.com",
-      "seendate": "20261122T203000Z"
+      "title": "Iran threatens response to any attack amid naval blockade",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Mon, 23 Nov 2026 12:25:24 +0000"
     },
     {
-      "title": "Ιράν : Η Τεχεράνη παρουσιάζει έναν νέο εκτοξευτή πυραύλων",
-      "url": "https://www.inewsgr.com/351/iran-i-techerani-parousiazei-enan-neo-ektoxefti-pyravlon.htm",
-      "domain": "inewsgr.com",
-      "seendate": "20261122T223000Z"
-    },
-    {
-      "title": "Η Τεχεράνη παρουσιάζει έναν νέο εκτοξευτή πυραύλων",
-      "url": "https://www.voria.gr/article/i-teherani-paroysiazei-enan-neo-ektoxeyti-pyraylon",
-      "domain": "voria.gr",
-      "seendate": "20261122T203000Z"
-    },
-    {
-      "title": "Lebanese villagers return to wrecked homes as the Israeli army pulls back",
-      "url": "https://wnyc.org/npr/nx-s1-6048710",
-      "domain": "wnyc.org",
-      "seendate": "20261122T203000Z"
+      "title": "Search continues for dozens missing after Indonesia candy factory fire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/search-continues-for-dozens-missing-after-indonesia-candy-factory-fire?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Mon, 23 Nov 2026 12:23:19 +0000"
     }
   ]
 }
