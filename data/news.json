@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-24T10:54:14.128655+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-24T20:58:21Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 24 Nov 2026 10:53:37 GMT"
+      "title": "Ливия считает атаку Украины по корвету  Меркурий  РФ в Бенгази равносильной объявлению войны",
+      "url": "https://www.dialog.ua/world/liviya-schitaet-ataku-ukrainy-po-korvetu-merkuriy-rf-v-bengazi.html",
+      "domain": "dialog.ua",
+      "seendate": "20261124T061500Z"
     },
     {
-      "title": "What Jensen Huang's return teaches China's Xi about Trump",
-      "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 24 Nov 2026 07:26:27 GMT"
+      "title": "Viện trợ quân sự Đức dành cho Ukraine tăng đều đặn trong gần 5 năm xung đột",
+      "url": "https://baomoi.com/vien-tro-quan-su-duc-danh-cho-ukraine-tang-deu-dan-trong-gan-5-nam-xung-dot-c56587167.epi",
+      "domain": "baomoi.com",
+      "seendate": "20261124T024500Z"
     },
     {
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 24 Nov 2026 02:15:59 GMT"
+      "title": "Kaliningrad nguy cơ trở thành điểm nóng mới giữa Nga và NATO",
+      "url": "https://tienphong.vn/kaliningrad-nguy-co-tro-thanh-diem-nong-moi-giua-nga-va-nato-post1896924.tpo",
+      "domain": "tienphong.vn",
+      "seendate": "20261124T013000Z"
     },
     {
-      "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Tue, 24 Nov 2026 05:33:07 GMT"
+      "title": "Неожиданное заявление о войне с Россией сделали в Германии : мнение депутата ЕП",
+      "url": "https://ura.news/news/1053147085",
+      "domain": "ura.news",
+      "seendate": "20261124T201500Z"
     },
     {
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Mon, 23 Nov 2026 20:48:35 GMT"
+      "title": "Путин сказал , что блокирует Балтийское море , как Ормузский пролив . Удары по российским кораблям ( Geopolitika . news , Хорватия ) ",
+      "url": "https://inosmi.ru/20261124/baltiyskoe_more-281353528.html",
+      "domain": "inosmi.ru",
+      "seendate": "20261124T074500Z"
     },
     {
-      "title": "Why S Korea issued air raid alert after Russian jets flew near its airspace",
-      "url": "https://www.aljazeera.com/news/2026/11/24/why-s-korea-issued-air-raid-alert-after-russian-jets-flew-near-its-airspace?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 24 Nov 2026 09:53:55 +0000"
+      "title": "Война США и Ирана после выборов 2026 : подземные ракетные города , блокада и уран",
+      "url": "https://vestikavkaza.ru/analytics/vojna-ssa-i-irana-posle-vyborov-2026-podzemnye-raketnye-goroda-blokada-i-uran.html",
+      "domain": "vestikavkaza.ru",
+      "seendate": "20261124T051500Z"
     },
     {
-      "title": "Russian strike kills two in Ukraine, days after ship attack off Libya",
-      "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 24 Nov 2026 09:51:26 +0000"
+      "title": "Iranian Courts Order US to Pay $290bn in Damages",
+      "url": "https://dailyk2.com/iranian-courts-order-us-to-pay-290bn-in-damages/",
+      "domain": "dailyk2.com",
+      "seendate": "20261123T223000Z"
     },
     {
-      "title": "US army says detonation of lead explosives in Iowa will proceed",
-      "url": "https://www.aljazeera.com/news/2026/11/24/us-army-says-detonation-of-lead-explosives-in-iowa-will-proceed?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 24 Nov 2026 08:24:08 +0000"
+      "title": "Συναγερμός στην Πολωνία , κοντά στα σύνορα με την Ουκρανία Ο πολωνικός στρατός κάνει λόγο για παραβίαση του εναέριου χώρου από drone της Ρωσίας",
+      "url": "https://www.inewsgr.com/182/synagermos-stin-polonia-konta-sta-synora-me-tin-oukrania--o-polonikos-stratos-kanei-logo-gia-paraviasi-tou-enaeriou-chorou-apo-drone-tis-rosias.htm",
+      "domain": "inewsgr.com",
+      "seendate": "20261124T061500Z"
     },
     {
-      "title": "Malaysia set to return thousands of Rohingya refugees to Myanmar",
-      "url": "https://www.aljazeera.com/news/2026/11/24/malaysia-set-to-return-thousands-of-rohingya-refugees-to-myanmar-2?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 24 Nov 2026 08:21:41 +0000"
+      "title": "Πολωνία : « Αναζητήστε καταφύγιο » - Ηχησαν σειρήνες λόγω παραβίασης του εναέριου χώρου από ρωσικό drone",
+      "url": "https://www.in.gr/2026/11/24/world/polonia-anazitiste-katafygio-ixisan-seirines-logo-paraviasis-tou-enaeriou-xorou-apo-rosiko-drone/",
+      "domain": "in.gr",
+      "seendate": "20261124T031500Z"
     },
     {
-      "title": "Moment Mexican troops captured cartel leader ‘El Chapo Isidro’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/moment-mexican-troops-captured-cartel-leader-el-chapo?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Tue, 24 Nov 2026 08:17:26 +0000"
+      "title": "Γάζα : Τουλάχιστον τρεις νεκροί σε νέα αεροπορική επιδρομή του Ισραήλ",
+      "url": "https://www.news247.gr/kosmos/gaza-toulaxiston-treis-nekroi-se-nea-aeroporiki-epidromi-tou-israil/",
+      "domain": "news247.gr",
+      "seendate": "20261124T071500Z"
+    },
+    {
+      "title": "5 Alasan Iran Pamer Senjata Baru Peluncur Rudal Ganda di Kota Rudal Baru",
+      "url": "https://international.sindonews.com/read/1775075/43/5-alasan-iran-pamer-senjata-baru-peluncur-rudal-ganda-di-kota-rudal-baru-1795385503",
+      "domain": "international.sindonews.com",
+      "seendate": "20261124T033000Z"
+    },
+    {
+      "title": "FT : Ο Χέγκσεθ « καθυστερεί » την παράδοση 60 πυραύλων για συστήματα Patriot στην Ουκρανία",
+      "url": "https://www.protothema.gr/world/article/1915980/ft-o-hegseth-kathusterei-tin-paradosi-60-puraulon-gia-sustimata-patriot-stin-oukrania/",
+      "domain": "protothema.gr",
+      "seendate": "20261124T074500Z"
     }
   ]
 }
