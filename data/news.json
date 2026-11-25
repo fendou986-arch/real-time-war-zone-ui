@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:06:20Z",
+  "generatedAt": "2026-11-25T23:03:43Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
@@ -40,12 +40,6 @@
       "seendate": "20261125T054500Z"
     },
     {
-      "title": "Неожиданное заявление о войне с Россией сделали в Германии : мнение депутата ЕП",
-      "url": "https://ura.news/news/1053147085",
-      "domain": "ura.news",
-      "seendate": "20261124T201500Z"
-    },
-    {
       "title": "Suudi Arabistan Yemenin en kritik limanını vurdu",
       "url": "https://www.haberler.com/haberler/suudi-arabistan-yemenin-en-kritik-limanini-vurdu-20459773-haberi/",
       "domain": "haberler.com",
@@ -64,16 +58,22 @@
       "seendate": "20261125T044500Z"
     },
     {
+      "title": "Cephede 122 milyon dolarlık  şişme  aldatmaca : Rusyadan Çin yapımı balon ordusu",
+      "url": "https://www.milliyet.com.tr/dunya/cephede-122-milyon-dolarlik-sisme-aldatmaca-rusyadan-cin-yapimi-balon-ordusu-7707825",
+      "domain": "milliyet.com.tr",
+      "seendate": "20261125T141500Z"
+    },
+    {
       "title": "克里米亚大桥遭到迄今最严重袭击 ， 俄乌袭桥战或愈演愈烈 _ 军事频道 _ 中华网",
       "url": "https://military.china.com/important/64/20261125/49904227.html",
       "domain": "military.china.com",
       "seendate": "20261125T024500Z"
     },
     {
-      "title": "Na Uy lo ngại , Libya chỉ trích Ukraine tấn công tàu Nga",
-      "url": "https://tienphong.vn/na-uy-lo-ngai-libya-chi-trich-ukraine-tan-cong-tau-nga-post1897265.tpo",
-      "domain": "tienphong.vn",
-      "seendate": "20261125T014500Z"
+      "title": "Втрати ворога станом на 25 листопада 2026 : свіжі дані Генштабу та ціна розбитої техніки",
+      "url": "https://glavcom.ua/country/incidents/vtrati-voroha-stanom-na-25-listopada-2026-svizhi-dani-henshtabu-ta-tsina-rozbitoji-tekhniki-1157683.html",
+      "domain": "glavcom.ua",
+      "seendate": "20261125T054500Z"
     }
   ]
 }
