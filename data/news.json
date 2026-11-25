@@ -1,13 +1,25 @@
 {
-  "generatedAt": "2026-11-25T04:00:17Z",
+  "generatedAt": "2026-11-25T14:06:20Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "Ливия считает атаку Украины по корвету  Меркурий  РФ в Бенгази равносильной объявлению войны",
-      "url": "https://www.dialog.ua/world/liviya-schitaet-ataku-ukrainy-po-korvetu-merkuriy-rf-v-bengazi.html",
-      "domain": "dialog.ua",
-      "seendate": "20261124T061500Z"
+      "title": "Tổng thống Zelensky không muốn chỉ Ukraine phải nhượng bộ để có hòa bình",
+      "url": "https://dantri.com.vn/the-gioi/tong-thong-zelensky-khong-muon-chi-ukraine-phai-nhuong-bo-de-co-hoa-binh-20261125093022998.htm",
+      "domain": "dantri.com.vn",
+      "seendate": "20261125T041500Z"
+    },
+    {
+      "title": "ABDye meydan okuyan görüntüler : Füze kentinde sürpriz !  Yeni saldırı ilkinden daha pahalıya mal olacak  ",
+      "url": "https://www.hurriyet.com.tr/dunya/abdye-meydan-okuyan-goruntuler-fuze-kentinde-surpriz-yeni-saldiri-ilkinden-daha-pahaliya-mal-olacak-43389060",
+      "domain": "hurriyet.com.tr",
+      "seendate": "20261125T044500Z"
+    },
+    {
+      "title": "Toàn bộ căn cứ Mỹ ở Trung Đông trong tầm hỏa lực Iran",
+      "url": "http://vov.vn/the-gioi/toan-bo-can-cu-my-o-trung-dong-deu-trong-tam-hoa-luc-cua-iran-post1353075.vov",
+      "domain": "vov.vn",
+      "seendate": "20261125T041500Z"
     },
     {
       "title": "Tổng thống Ukraine tìm kiếm sự hỗ trợ từ Quốc hội Mỹ do đảng Dân chủ kiểm soát",
@@ -22,22 +34,34 @@
       "seendate": "20261125T031500Z"
     },
     {
+      "title": "Suudi Arabistan Yemenin en kritik limanını vurdu",
+      "url": "https://www.sondakika.com/haber/haber-suudi-arabistan-yemenin-en-kritik-limanini-vurdu-20459774/",
+      "domain": "sondakika.com",
+      "seendate": "20261125T054500Z"
+    },
+    {
       "title": "Неожиданное заявление о войне с Россией сделали в Германии : мнение депутата ЕП",
       "url": "https://ura.news/news/1053147085",
       "domain": "ura.news",
       "seendate": "20261124T201500Z"
     },
     {
-      "title": "Путин сказал , что блокирует Балтийское море , как Ормузский пролив . Удары по российским кораблям ( Geopolitika . news , Хорватия ) ",
-      "url": "https://inosmi.ru/20261124/baltiyskoe_more-281353528.html",
-      "domain": "inosmi.ru",
-      "seendate": "20261124T074500Z"
+      "title": "Suudi Arabistan Yemenin en kritik limanını vurdu",
+      "url": "https://www.haberler.com/haberler/suudi-arabistan-yemenin-en-kritik-limanini-vurdu-20459773-haberi/",
+      "domain": "haberler.com",
+      "seendate": "20261125T044500Z"
     },
     {
       "title": "俄军舰在利比亚遭乌无人艇袭击 ， 战火外溢对俄乌冲突有何影响 ？_ 军事频道 _ 中华网",
       "url": "https://military.china.com/important/64/20261125/49904064.html",
       "domain": "military.china.com",
       "seendate": "20261125T024500Z"
+    },
+    {
+      "title": "Ukraine bất ngờ với tốc độ sản xuất tên lửa đạn đạo Nga",
+      "url": "http://vov.vn/quan-su-quoc-phong/ukraine-bat-ngo-truoc-toc-do-san-xuat-ten-lua-dan-dao-nga-5-gio-them-mot-qua-post1353099.vov",
+      "domain": "vov.vn",
+      "seendate": "20261125T044500Z"
     },
     {
       "title": "克里米亚大桥遭到迄今最严重袭击 ， 俄乌袭桥战或愈演愈烈 _ 军事频道 _ 中华网",
@@ -49,30 +73,6 @@
       "title": "Na Uy lo ngại , Libya chỉ trích Ukraine tấn công tàu Nga",
       "url": "https://tienphong.vn/na-uy-lo-ngai-libya-chi-trich-ukraine-tan-cong-tau-nga-post1897265.tpo",
       "domain": "tienphong.vn",
-      "seendate": "20261125T014500Z"
-    },
-    {
-      "title": "Война США и Ирана после выборов 2026 : подземные ракетные города , блокада и уран",
-      "url": "https://vestikavkaza.ru/analytics/vojna-ssa-i-irana-posle-vyborov-2026-podzemnye-raketnye-goroda-blokada-i-uran.html",
-      "domain": "vestikavkaza.ru",
-      "seendate": "20261124T051500Z"
-    },
-    {
-      "title": "Iran nắm ba lợi thế chiến lược , Israel lo phải trả giá",
-      "url": "https://tienphong.vn/iran-nam-ba-loi-the-chien-luoc-israel-lo-phai-tra-gia-post1897237.tpo",
-      "domain": "tienphong.vn",
-      "seendate": "20261125T014500Z"
-    },
-    {
-      "title": "Συναγερμός στην Πολωνία , κοντά στα σύνορα με την Ουκρανία Ο πολωνικός στρατός κάνει λόγο για παραβίαση του εναέριου χώρου από drone της Ρωσίας",
-      "url": "https://www.inewsgr.com/182/synagermos-stin-polonia-konta-sta-synora-me-tin-oukrania--o-polonikos-stratos-kanei-logo-gia-paraviasi-tou-enaeriou-chorou-apo-drone-tis-rosias.htm",
-      "domain": "inewsgr.com",
-      "seendate": "20261124T061500Z"
-    },
-    {
-      "title": "Iconic Reporter Bob Woodward Claims Trump Is  Worse Than Nixon  ",
-      "url": "https://radaronline.com/p/bob-woodward-claims-trump-worse-than-nixon-white-house-responds/",
-      "domain": "radaronline.com",
       "seendate": "20261125T014500Z"
     }
   ]
