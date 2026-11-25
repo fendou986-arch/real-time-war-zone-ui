@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:58:21Z",
+  "generatedAt": "2026-11-25T04:00:17Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
@@ -10,16 +10,16 @@
       "seendate": "20261124T061500Z"
     },
     {
-      "title": "Viện trợ quân sự Đức dành cho Ukraine tăng đều đặn trong gần 5 năm xung đột",
-      "url": "https://baomoi.com/vien-tro-quan-su-duc-danh-cho-ukraine-tang-deu-dan-trong-gan-5-nam-xung-dot-c56587167.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261124T024500Z"
+      "title": "Tổng thống Ukraine tìm kiếm sự hỗ trợ từ Quốc hội Mỹ do đảng Dân chủ kiểm soát",
+      "url": "https://tienphong.vn/tong-thong-ukraine-tim-kiem-su-ho-tro-tu-quoc-hoi-my-do-dang-dan-chu-kiem-soat-post1897246.tpo",
+      "domain": "tienphong.vn",
+      "seendate": "20261125T031500Z"
     },
     {
-      "title": "Kaliningrad nguy cơ trở thành điểm nóng mới giữa Nga và NATO",
-      "url": "https://tienphong.vn/kaliningrad-nguy-co-tro-thanh-diem-nong-moi-giua-nga-va-nato-post1896924.tpo",
-      "domain": "tienphong.vn",
-      "seendate": "20261124T013000Z"
+      "title": "Trump : Israel regime change goal in Iran  probably doable , but not my goal",
+      "url": "https://www.israelnationalnews.com/news/437060",
+      "domain": "israelnationalnews.com",
+      "seendate": "20261125T031500Z"
     },
     {
       "title": "Неожиданное заявление о войне с Россией сделали в Германии : мнение депутата ЕП",
@@ -34,16 +34,34 @@
       "seendate": "20261124T074500Z"
     },
     {
+      "title": "俄军舰在利比亚遭乌无人艇袭击 ， 战火外溢对俄乌冲突有何影响 ？_ 军事频道 _ 中华网",
+      "url": "https://military.china.com/important/64/20261125/49904064.html",
+      "domain": "military.china.com",
+      "seendate": "20261125T024500Z"
+    },
+    {
+      "title": "克里米亚大桥遭到迄今最严重袭击 ， 俄乌袭桥战或愈演愈烈 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/important/64/20261125/49904227.html",
+      "domain": "military.china.com",
+      "seendate": "20261125T024500Z"
+    },
+    {
+      "title": "Na Uy lo ngại , Libya chỉ trích Ukraine tấn công tàu Nga",
+      "url": "https://tienphong.vn/na-uy-lo-ngai-libya-chi-trich-ukraine-tan-cong-tau-nga-post1897265.tpo",
+      "domain": "tienphong.vn",
+      "seendate": "20261125T014500Z"
+    },
+    {
       "title": "Война США и Ирана после выборов 2026 : подземные ракетные города , блокада и уран",
       "url": "https://vestikavkaza.ru/analytics/vojna-ssa-i-irana-posle-vyborov-2026-podzemnye-raketnye-goroda-blokada-i-uran.html",
       "domain": "vestikavkaza.ru",
       "seendate": "20261124T051500Z"
     },
     {
-      "title": "Iranian Courts Order US to Pay $290bn in Damages",
-      "url": "https://dailyk2.com/iranian-courts-order-us-to-pay-290bn-in-damages/",
-      "domain": "dailyk2.com",
-      "seendate": "20261123T223000Z"
+      "title": "Iran nắm ba lợi thế chiến lược , Israel lo phải trả giá",
+      "url": "https://tienphong.vn/iran-nam-ba-loi-the-chien-luoc-israel-lo-phai-tra-gia-post1897237.tpo",
+      "domain": "tienphong.vn",
+      "seendate": "20261125T014500Z"
     },
     {
       "title": "Συναγερμός στην Πολωνία , κοντά στα σύνορα με την Ουκρανία Ο πολωνικός στρατός κάνει λόγο για παραβίαση του εναέριου χώρου από drone της Ρωσίας",
@@ -52,28 +70,10 @@
       "seendate": "20261124T061500Z"
     },
     {
-      "title": "Πολωνία : « Αναζητήστε καταφύγιο » - Ηχησαν σειρήνες λόγω παραβίασης του εναέριου χώρου από ρωσικό drone",
-      "url": "https://www.in.gr/2026/11/24/world/polonia-anazitiste-katafygio-ixisan-seirines-logo-paraviasis-tou-enaeriou-xorou-apo-rosiko-drone/",
-      "domain": "in.gr",
-      "seendate": "20261124T031500Z"
-    },
-    {
-      "title": "Γάζα : Τουλάχιστον τρεις νεκροί σε νέα αεροπορική επιδρομή του Ισραήλ",
-      "url": "https://www.news247.gr/kosmos/gaza-toulaxiston-treis-nekroi-se-nea-aeroporiki-epidromi-tou-israil/",
-      "domain": "news247.gr",
-      "seendate": "20261124T071500Z"
-    },
-    {
-      "title": "5 Alasan Iran Pamer Senjata Baru Peluncur Rudal Ganda di Kota Rudal Baru",
-      "url": "https://international.sindonews.com/read/1775075/43/5-alasan-iran-pamer-senjata-baru-peluncur-rudal-ganda-di-kota-rudal-baru-1795385503",
-      "domain": "international.sindonews.com",
-      "seendate": "20261124T033000Z"
-    },
-    {
-      "title": "FT : Ο Χέγκσεθ « καθυστερεί » την παράδοση 60 πυραύλων για συστήματα Patriot στην Ουκρανία",
-      "url": "https://www.protothema.gr/world/article/1915980/ft-o-hegseth-kathusterei-tin-paradosi-60-puraulon-gia-sustimata-patriot-stin-oukrania/",
-      "domain": "protothema.gr",
-      "seendate": "20261124T074500Z"
+      "title": "Iconic Reporter Bob Woodward Claims Trump Is  Worse Than Nixon  ",
+      "url": "https://radaronline.com/p/bob-woodward-claims-trump-worse-than-nixon-white-house-responds/",
+      "domain": "radaronline.com",
+      "seendate": "20261125T014500Z"
     }
   ]
 }
