@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:46:56Z",
+  "generatedAt": "2026-11-26T23:22:24Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
@@ -46,6 +46,12 @@
       "seendate": "20261126T041500Z"
     },
     {
+      "title": "Trump :  Very impactful  talks with NATO chief on Ukraine war , U . S . defense production",
+      "url": "https://www.oann.com/newsroom/trump-very-impactful-talks-with-nato-chief-on-ukraine-war-u-s-defense-production/",
+      "domain": "oann.com",
+      "seendate": "20261126T194500Z"
+    },
+    {
       "title": "Iran cảnh báo sử dụng vũ khí mới nếu Mỹ và Israel tiếp tục tấn công",
       "url": "https://baomoi.com/iran-canh-bao-su-dung-vu-khi-moi-neu-my-va-israel-tiep-tuc-tan-cong-c56602438.epi",
       "domain": "baomoi.com",
@@ -64,16 +70,10 @@
       "seendate": "20261126T041500Z"
     },
     {
-      "title": "战火烧到沙特本土影响几何 改革大计受挫 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20261126/49911056.html",
-      "domain": "military.china.com",
-      "seendate": "20261126T124500Z"
-    },
-    {
-      "title": "Guerre en Ukraine : avions de chasse gonflables , lance - missiles en caoutchouc , fausses signatures thermiques ... La Russie intensifie son recours aux répliques chinoises bon marché",
-      "url": "https://www.lindependant.fr/2026/11/26/guerre-en-ukraine-avions-de-chasse-gonflables-lance-missiles-en-caoutchouc-fausses-signatures-thermiques-la-russie-intensifie-son-recours-aux-13671166.php",
-      "domain": "lindependant.fr",
-      "seendate": "20261126T061500Z"
+      "title": "America Weapons  Cupboard  Will Soon Be Full , Trump Says",
+      "url": "http://www.zerohedge.com/military/americas-weapons-cupboard-will-soon-be-full-trump-says-buy-beaten-down-missile-stocks",
+      "domain": "zerohedge.com",
+      "seendate": "20261126T194500Z"
     }
   ]
 }
