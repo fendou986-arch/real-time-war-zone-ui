@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T04:57:42Z",
+  "generatedAt": "2026-11-26T14:46:56Z",
   "source": "gdelt",
   "stale": false,
   "articles": [
@@ -22,16 +22,16 @@
       "seendate": "20261126T021500Z"
     },
     {
-      "title": "Suudi Arabistan Yemenin en kritik limanını vurdu",
-      "url": "https://www.sondakika.com/haber/haber-suudi-arabistan-yemenin-en-kritik-limanini-vurdu-20459774/",
-      "domain": "sondakika.com",
-      "seendate": "20261125T054500Z"
-    },
-    {
       "title": "波兰防长 ： 波军可适时对俄无人机开火 新规应对边境威胁 _ 军事频道 _ 中华网",
       "url": "https://military.china.com/news/13004177/20261126/49908970.html",
       "domain": "military.china.com",
       "seendate": "20261126T043000Z"
+    },
+    {
+      "title": "波蘭籲在烏攔截飛彈 呂特 ： 準備 「 直接軍事對抗 」 北約 「 這2國 」 秘通俄 | 國際",
+      "url": "https://newtalk.tw/news/view/2026-11-26/1073811",
+      "domain": "newtalk.tw",
+      "seendate": "20261126T051500Z"
     },
     {
       "title": "Houthis claim strikes on Saudi refinery , Riyadh district",
@@ -40,22 +40,10 @@
       "seendate": "20261126T021500Z"
     },
     {
-      "title": "Cephede 122 milyon dolarlık  şişme  aldatmaca : Rusyadan Çin yapımı balon ordusu",
-      "url": "https://www.milliyet.com.tr/dunya/cephede-122-milyon-dolarlik-sisme-aldatmaca-rusyadan-cin-yapimi-balon-ordusu-7707825",
-      "domain": "milliyet.com.tr",
-      "seendate": "20261125T141500Z"
-    },
-    {
       "title": "Nhà chiêm tinh Israel dự báo xung đột với Iran có thể bùng phát",
       "url": "https://baotintuc.vn/nha-chiem-tinh-israel-du-bao-xung-dot-voi-iran-co-the-bung-phat-post1405970.html",
       "domain": "baotintuc.vn",
       "seendate": "20261126T041500Z"
-    },
-    {
-      "title": "Втрати ворога станом на 25 листопада 2026 : свіжі дані Генштабу та ціна розбитої техніки",
-      "url": "https://glavcom.ua/country/incidents/vtrati-voroha-stanom-na-25-listopada-2026-svizhi-dani-henshtabu-ta-tsina-rozbitoji-tekhniki-1157683.html",
-      "domain": "glavcom.ua",
-      "seendate": "20261125T054500Z"
     },
     {
       "title": "Iran cảnh báo sử dụng vũ khí mới nếu Mỹ và Israel tiếp tục tấn công",
@@ -74,6 +62,18 @@
       "url": "https://baomoi.com/ukraine-tap-kich-san-bay-quan-su-nga-tuyen-bo-ban-ha-5-may-bay-c56603346.epi",
       "domain": "baomoi.com",
       "seendate": "20261126T041500Z"
+    },
+    {
+      "title": "战火烧到沙特本土影响几何 改革大计受挫 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261126/49911056.html",
+      "domain": "military.china.com",
+      "seendate": "20261126T124500Z"
+    },
+    {
+      "title": "Guerre en Ukraine : avions de chasse gonflables , lance - missiles en caoutchouc , fausses signatures thermiques ... La Russie intensifie son recours aux répliques chinoises bon marché",
+      "url": "https://www.lindependant.fr/2026/11/26/guerre-en-ukraine-avions-de-chasse-gonflables-lance-missiles-en-caoutchouc-fausses-signatures-thermiques-la-russie-intensifie-son-recours-aux-13671166.php",
+      "domain": "lindependant.fr",
+      "seendate": "20261126T061500Z"
     }
   ]
 }
