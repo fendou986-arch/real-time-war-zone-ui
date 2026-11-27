@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-27T15:11:19Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-27T23:30:24.992575+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "Tổng thống Donald Trump hé lộ thông điệp gửi trực tiếp tới Tổng thống Putin",
-      "url": "https://dantri.com.vn/the-gioi/tong-thong-donald-trump-he-lo-thong-diep-gui-truc-tiep-toi-tong-thong-putin-20261127010535017.htm",
-      "domain": "dantri.com.vn",
-      "seendate": "20261127T003000Z"
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 21:55:53 GMT"
     },
     {
-      "title": "Kod nizozemske ambasade u Moskvi oslikan mural s raketama i tulipanima",
-      "url": "https://www.klix.ba/vijesti/svijet/kod-nizozemske-ambasade-u-moskvi-oslikan-mural-s-raketama-i-tulipanima/261126329",
-      "domain": "klix.ba",
-      "seendate": "20261127T011500Z"
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 18:00:40 GMT"
     },
     {
-      "title": "Dua Teknisi Italia Tewas dalam Serangan Drone di Kuwait , Iran Bantah Terlibat",
-      "url": "https://news.republika.co.id/berita/tp4uke393/dua-teknisi-italia-tewas-dalam-serangan-drone-di-kuwait-iran-bantah-terlibat",
-      "domain": "news.republika.co.id",
-      "seendate": "20261126T234500Z"
+      "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 18:42:50 GMT"
     },
     {
-      "title": "Trump :  Very impactful  talks with NATO chief on Ukraine war , U . S . defense production",
-      "url": "https://www.oann.com/newsroom/trump-very-impactful-talks-with-nato-chief-on-ukraine-war-u-s-defense-production/",
-      "domain": "oann.com",
-      "seendate": "20261126T194500Z"
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 20:06:31 GMT"
     },
     {
-      "title": "Втрати ворога станом на 27 листопада 2026 : свіжі дані Генштабу та ціна розбитої техніки",
-      "url": "https://glavcom.ua/country/incidents/vtrati-voroha-stanom-na-27-listopada-2026-svizhi-dani-henshtabu-ta-tsina-rozbitoji-tekhniki-1158177.html",
-      "domain": "glavcom.ua",
-      "seendate": "20261127T063000Z"
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 15:54:15 GMT"
     },
     {
-      "title": "Russia  preparing new mass strike soon : Zelenskiy",
-      "url": "https://www.canberratimes.com.au/story/9399142/russia-preparing-new-mass-strike-soon-zelenskiy/",
-      "domain": "canberratimes.com.au",
-      "seendate": "20261127T003000Z"
+      "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
+      "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 22:33:17 +0000"
     },
     {
-      "title": "Russia  preparing new mass strike soon : Zelenskiy",
-      "url": "https://www.illawarramercury.com.au/story/9399142/russia-preparing-new-mass-strike-soon-zelenskiy/",
-      "domain": "illawarramercury.com.au",
-      "seendate": "20261126T234500Z"
+      "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 22:22:02 +0000"
     },
     {
-      "title": "Russia  preparing new mass strike soon : Zelenskiy",
-      "url": "https://www.standard.net.au/story/9399142/russia-preparing-new-mass-strike-soon-zelenskiy/",
-      "domain": "standard.net.au",
-      "seendate": "20261127T004500Z"
+      "title": "‘Activists of rhythm’: Fighting Spain’s far-right through art",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 21:59:11 +0000"
     },
     {
-      "title": "America Weapons  Cupboard  Will Soon Be Full , Trump Says",
-      "url": "http://www.zerohedge.com/military/americas-weapons-cupboard-will-soon-be-full-trump-says-buy-beaten-down-missile-stocks",
-      "domain": "zerohedge.com",
-      "seendate": "20261126T194500Z"
+      "title": "Why are families going hungry in northern Yemen even where food is on sale?",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/why-are-families-going-hungry-in-northern-yemen-even-where-food-is-on-sale?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 21:11:27 +0000"
     },
     {
-      "title": "America Weapons  Cupboard  Will Soon Be Full , Trump Says",
-      "url": "https://www.zerohedge.com/military/americas-weapons-cupboard-will-soon-be-full-trump-says-buy-beaten-down-missile-stocks",
-      "domain": "zerohedge.com",
-      "seendate": "20261126T224500Z"
-    },
-    {
-      "title": "Russia - Ucraina , il lungo conflitto senza via duscita . Leditoriale di Umberto Ranieri",
-      "url": "https://www.ilmattino.it/primopiano/esteri/russia_ucraina_lungo_conflitto_senza_via_d_uscita-9915270.html",
-      "domain": "ilmattino.it",
-      "seendate": "20261126T234500Z"
-    },
-    {
-      "title": "Châu Âu nỗ lực ngăn nguy cơ xung đột với Nga ở biển Baltic",
-      "url": "https://vietgiaitri.com/chau-au-no-luc-ngan-nguy-co-xung-dot-voi-nga-o-bien-baltic-20261127i7822740/",
-      "domain": "vietgiaitri.com",
-      "seendate": "20261127T021500Z"
+      "title": "Venezuela to repeal law that bans opposition figures from office",
+      "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 20:44:03 +0000"
     }
   ]
 }
