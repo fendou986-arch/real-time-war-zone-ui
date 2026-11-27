@@ -1,79 +1,67 @@
 {
-  "generatedAt": "2026-11-26T23:22:24Z",
-  "source": "gdelt",
+  "generatedAt": "2026-11-27T05:14:14.760467+00:00",
+  "source": "rss",
   "stale": false,
   "articles": [
     {
-      "title": "加沙遇害战地记者达加获追授罗里 · 佩克自由视频记者奖",
-      "url": "https://www.zaobao.com.sg/news/world/story20261126-10059795",
-      "domain": "zaobao.com.sg",
-      "seendate": "20261126T031500Z"
+      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 26 Nov 2026 22:49:27 GMT"
     },
     {
-      "title": "MISSILE REBUILD : Iran Turns To North Korean Experts After Losing Up To 80 % Of Launchers , Report Says",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2628249/missile-rebuild-iran-turns-to-north-korean-experts-after-losing-up-to-80-of-launchers-report-says.html",
-      "domain": "theyeshivaworld.com",
-      "seendate": "20261126T011500Z"
+      "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 00:52:11 GMT"
     },
     {
-      "title": "TST : Báo động sát biên giới , Nga hành động ngay dưới mũi NATO – Ba Lan  chuẩn bị sơ tán  ",
-      "url": "https://soha.vn/tst-bao-dong-sat-bien-gioi-nga-hanh-dong-ngay-duoi-mui-nato-ba-lan-chuan-bi-so-tan-198261125231651844.htm",
-      "domain": "soha.vn",
-      "seendate": "20261126T021500Z"
+      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+      "url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 26 Nov 2026 19:26:16 GMT"
     },
     {
-      "title": "波兰防长 ： 波军可适时对俄无人机开火 新规应对边境威胁 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20261126/49908970.html",
-      "domain": "military.china.com",
-      "seendate": "20261126T043000Z"
+      "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+      "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Fri, 27 Nov 2026 03:28:15 GMT"
     },
     {
-      "title": "波蘭籲在烏攔截飛彈 呂特 ： 準備 「 直接軍事對抗 」 北約 「 這2國 」 秘通俄 | 國際",
-      "url": "https://newtalk.tw/news/view/2026-11-26/1073811",
-      "domain": "newtalk.tw",
-      "seendate": "20261126T051500Z"
+      "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+      "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Thu, 26 Nov 2026 05:00:24 GMT"
     },
     {
-      "title": "Houthis claim strikes on Saudi refinery , Riyadh district",
-      "url": "https://dailypioneer.com/world/houthis-claim-strikes-on-saudi-refinery-riyadh-district",
-      "domain": "dailypioneer.com",
-      "seendate": "20261126T021500Z"
+      "title": "Estonia closing land borders with Russia to keep out spies",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/estonia-closing-land-borders-with-russia-to-keep-out-spies?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 04:46:15 +0000"
     },
     {
-      "title": "Nhà chiêm tinh Israel dự báo xung đột với Iran có thể bùng phát",
-      "url": "https://baotintuc.vn/nha-chiem-tinh-israel-du-bao-xung-dot-voi-iran-co-the-bung-phat-post1405970.html",
-      "domain": "baotintuc.vn",
-      "seendate": "20261126T041500Z"
+      "title": "Thanksgiving storms leave nearly a million without power across the US",
+      "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 04:34:43 +0000"
     },
     {
-      "title": "Trump :  Very impactful  talks with NATO chief on Ukraine war , U . S . defense production",
-      "url": "https://www.oann.com/newsroom/trump-very-impactful-talks-with-nato-chief-on-ukraine-war-u-s-defense-production/",
-      "domain": "oann.com",
-      "seendate": "20261126T194500Z"
+      "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+      "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 04:06:52 +0000"
     },
     {
-      "title": "Iran cảnh báo sử dụng vũ khí mới nếu Mỹ và Israel tiếp tục tấn công",
-      "url": "https://baomoi.com/iran-canh-bao-su-dung-vu-khi-moi-neu-my-va-israel-tiep-tuc-tan-cong-c56602438.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261126T023000Z"
+      "title": "Trump downplays Russia, China support for Iran during talks with US troops",
+      "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 03:49:08 +0000"
     },
     {
-      "title": "Ukraine attacks Russian military base , says five planes struck",
-      "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
-      "domain": "aljazeera.com",
-      "seendate": "20261126T023000Z"
-    },
-    {
-      "title": "Ukraine tập kích sân bay quân sự Nga , tuyên bố bắn hạ 5 máy bay",
-      "url": "https://baomoi.com/ukraine-tap-kich-san-bay-quan-su-nga-tuyen-bo-ban-ha-5-may-bay-c56603346.epi",
-      "domain": "baomoi.com",
-      "seendate": "20261126T041500Z"
-    },
-    {
-      "title": "America Weapons  Cupboard  Will Soon Be Full , Trump Says",
-      "url": "http://www.zerohedge.com/military/americas-weapons-cupboard-will-soon-be-full-trump-says-buy-beaten-down-missile-stocks",
-      "domain": "zerohedge.com",
-      "seendate": "20261126T194500Z"
+      "title": "Asian stock markets rise after earlier tech rout",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+      "domain": "Al Jazeera",
+      "seendate": "Fri, 27 Nov 2026 03:42:16 +0000"
     }
   ]
 }
