@@ -1,67 +1,79 @@
 {
-  "generatedAt": "2026-11-27T05:14:14.760467+00:00",
-  "source": "rss",
+  "generatedAt": "2026-11-27T15:11:19Z",
+  "source": "gdelt",
   "stale": false,
   "articles": [
     {
-      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 26 Nov 2026 22:49:27 GMT"
+      "title": "Tổng thống Donald Trump hé lộ thông điệp gửi trực tiếp tới Tổng thống Putin",
+      "url": "https://dantri.com.vn/the-gioi/tong-thong-donald-trump-he-lo-thong-diep-gui-truc-tiep-toi-tong-thong-putin-20261127010535017.htm",
+      "domain": "dantri.com.vn",
+      "seendate": "20261127T003000Z"
     },
     {
-      "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 27 Nov 2026 00:52:11 GMT"
+      "title": "Kod nizozemske ambasade u Moskvi oslikan mural s raketama i tulipanima",
+      "url": "https://www.klix.ba/vijesti/svijet/kod-nizozemske-ambasade-u-moskvi-oslikan-mural-s-raketama-i-tulipanima/261126329",
+      "domain": "klix.ba",
+      "seendate": "20261127T011500Z"
     },
     {
-      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
-      "url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 26 Nov 2026 19:26:16 GMT"
+      "title": "Dua Teknisi Italia Tewas dalam Serangan Drone di Kuwait , Iran Bantah Terlibat",
+      "url": "https://news.republika.co.id/berita/tp4uke393/dua-teknisi-italia-tewas-dalam-serangan-drone-di-kuwait-iran-bantah-terlibat",
+      "domain": "news.republika.co.id",
+      "seendate": "20261126T234500Z"
     },
     {
-      "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-      "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 27 Nov 2026 03:28:15 GMT"
+      "title": "Trump :  Very impactful  talks with NATO chief on Ukraine war , U . S . defense production",
+      "url": "https://www.oann.com/newsroom/trump-very-impactful-talks-with-nato-chief-on-ukraine-war-u-s-defense-production/",
+      "domain": "oann.com",
+      "seendate": "20261126T194500Z"
     },
     {
-      "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-      "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Thu, 26 Nov 2026 05:00:24 GMT"
+      "title": "Втрати ворога станом на 27 листопада 2026 : свіжі дані Генштабу та ціна розбитої техніки",
+      "url": "https://glavcom.ua/country/incidents/vtrati-voroha-stanom-na-27-listopada-2026-svizhi-dani-henshtabu-ta-tsina-rozbitoji-tekhniki-1158177.html",
+      "domain": "glavcom.ua",
+      "seendate": "20261127T063000Z"
     },
     {
-      "title": "Estonia closing land borders with Russia to keep out spies",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/estonia-closing-land-borders-with-russia-to-keep-out-spies?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 27 Nov 2026 04:46:15 +0000"
+      "title": "Russia  preparing new mass strike soon : Zelenskiy",
+      "url": "https://www.canberratimes.com.au/story/9399142/russia-preparing-new-mass-strike-soon-zelenskiy/",
+      "domain": "canberratimes.com.au",
+      "seendate": "20261127T003000Z"
     },
     {
-      "title": "Thanksgiving storms leave nearly a million without power across the US",
-      "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 27 Nov 2026 04:34:43 +0000"
+      "title": "Russia  preparing new mass strike soon : Zelenskiy",
+      "url": "https://www.illawarramercury.com.au/story/9399142/russia-preparing-new-mass-strike-soon-zelenskiy/",
+      "domain": "illawarramercury.com.au",
+      "seendate": "20261126T234500Z"
     },
     {
-      "title": "At least 13 Niger soldiers killed in Sanam armed attack",
-      "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 27 Nov 2026 04:06:52 +0000"
+      "title": "Russia  preparing new mass strike soon : Zelenskiy",
+      "url": "https://www.standard.net.au/story/9399142/russia-preparing-new-mass-strike-soon-zelenskiy/",
+      "domain": "standard.net.au",
+      "seendate": "20261127T004500Z"
     },
     {
-      "title": "Trump downplays Russia, China support for Iran during talks with US troops",
-      "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 27 Nov 2026 03:49:08 +0000"
+      "title": "America Weapons  Cupboard  Will Soon Be Full , Trump Says",
+      "url": "http://www.zerohedge.com/military/americas-weapons-cupboard-will-soon-be-full-trump-says-buy-beaten-down-missile-stocks",
+      "domain": "zerohedge.com",
+      "seendate": "20261126T194500Z"
     },
     {
-      "title": "Asian stock markets rise after earlier tech rout",
-      "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
-      "domain": "Al Jazeera",
-      "seendate": "Fri, 27 Nov 2026 03:42:16 +0000"
+      "title": "America Weapons  Cupboard  Will Soon Be Full , Trump Says",
+      "url": "https://www.zerohedge.com/military/americas-weapons-cupboard-will-soon-be-full-trump-says-buy-beaten-down-missile-stocks",
+      "domain": "zerohedge.com",
+      "seendate": "20261126T224500Z"
+    },
+    {
+      "title": "Russia - Ucraina , il lungo conflitto senza via duscita . Leditoriale di Umberto Ranieri",
+      "url": "https://www.ilmattino.it/primopiano/esteri/russia_ucraina_lungo_conflitto_senza_via_d_uscita-9915270.html",
+      "domain": "ilmattino.it",
+      "seendate": "20261126T234500Z"
+    },
+    {
+      "title": "Châu Âu nỗ lực ngăn nguy cơ xung đột với Nga ở biển Baltic",
+      "url": "https://vietgiaitri.com/chau-au-no-luc-ngan-nguy-co-xung-dot-voi-nga-o-bien-baltic-20261127i7822740/",
+      "domain": "vietgiaitri.com",
+      "seendate": "20261127T021500Z"
     }
   ]
 }
