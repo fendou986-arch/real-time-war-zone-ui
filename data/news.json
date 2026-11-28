@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-11-28T04:55:33.327172+00:00",
+  "generatedAt": "2026-11-28T13:50:04.577922+00:00",
   "source": "rss",
   "stale": false,
   "articles": [
+    {
+      "title": "Argentina's bid to stop Falklands oil drilling rejected",
+      "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 28 Nov 2026 13:36:36 GMT"
+    },
+    {
+      "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 28 Nov 2026 10:34:58 GMT"
+    },
+    {
+      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+      "domain": "BBC",
+      "seendate": "Sat, 28 Nov 2026 12:49:44 GMT"
+    },
     {
       "title": "Spanish PM and rivals rally supporters in final pitch for votes",
       "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
@@ -10,58 +28,40 @@
       "seendate": "Fri, 27 Nov 2026 21:55:53 GMT"
     },
     {
-      "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+      "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
       "domain": "BBC",
-      "seendate": "Sat, 28 Nov 2026 04:13:45 GMT"
+      "seendate": "Sat, 28 Nov 2026 11:35:34 GMT"
     },
     {
-      "title": "Eight killed in Peruvian military helicopter crash",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 28 Nov 2026 04:19:16 GMT"
-    },
-    {
-      "title": "'Poison seller' Kenneth Law apologises in court to the families of his victims",
-      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Sat, 28 Nov 2026 00:56:55 GMT"
-    },
-    {
-      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
-      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-      "domain": "BBC",
-      "seendate": "Fri, 27 Nov 2026 18:00:40 GMT"
-    },
-    {
-      "title": "‘Last local militant’: India declares victory but Kashmir’s rebels adapt",
-      "url": "https://www.aljazeera.com/news/2026/11/28/last-local-militant-india-declares-victory-but-kashmirs-rebels-adapt?traffic_source=rss",
+      "title": "Court rejects Argentina’s request to stop UK oil activity near Falklands",
+      "url": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 28 Nov 2026 04:30:16 +0000"
+      "seendate": "Sat, 28 Nov 2026 13:24:24 +0000"
     },
     {
-      "title": "The split-second teamwork behind an F1 pit stop",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/the-split-second-teamwork-behind-an-f1-pit-stop?traffic_source=rss",
+      "title": "Bootleg alcohol poisonings in Iran see dozens dead and badly injured",
+      "url": "https://www.aljazeera.com/news/2026/11/28/bootleg-alcohol-poisonings-in-iran-see-dozens-dead-and-badly-injured?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 28 Nov 2026 04:01:24 +0000"
+      "seendate": "Sat, 28 Nov 2026 13:12:56 +0000"
     },
     {
-      "title": "Israeli strike on Doctors Without Borders clinic in Gaza kills two staff",
-      "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
+      "title": "Norse Atlantic ends flights: How Iran war continues to batter aviation",
+      "url": "https://www.aljazeera.com/news/2026/11/28/norse-atlantic-ends-flights-how-iran-war-continues-to-batter-aviation?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 28 Nov 2026 03:45:58 +0000"
+      "seendate": "Sat, 28 Nov 2026 12:56:53 +0000"
     },
     {
-      "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
-      "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+      "title": "Taiwan opposition party wins re-election in Taipei mayoral race",
+      "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-opposition-party-wins-re-election-in-taipei-mayoral-race?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 28 Nov 2026 03:00:00 +0000"
+      "seendate": "Sat, 28 Nov 2026 12:36:19 +0000"
     },
     {
-      "title": "Bulgarians demand action by French after Marseille match violence",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
+      "title": "Tarantulas, scorpions and more found in luggage at Peru airport",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/tarantulas-scorpions-and-more-found-in-luggage-at-peru-airport?traffic_source=rss",
       "domain": "Al Jazeera",
-      "seendate": "Sat, 28 Nov 2026 02:30:27 +0000"
+      "seendate": "Sat, 28 Nov 2026 12:21:52 +0000"
     }
   ]
 }
